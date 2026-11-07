@@ -24,17 +24,20 @@ function cardHTML(sig, inSaved){
   const badge = st && st !== "saved" ? '<span class="status-badge ' + esc(st) + '">' + (st === "drafted" ? "✍️ Drafted" : "✅ Posted") + "</span>" : "";
   const statusBtns = st ? '<div class="status-btns">' +
     ["saved","drafted","posted"].map(s => '<button data-status="' + s + '" data-id="' + esc(sig.id) + '" class="status-btn' + (st === s ? " on" : "") + '">' + s[0].toUpperCase() + s.slice(1) + "</button>").join("") + "</div>" : "";
-  return '<article class="card">' +
-    '<div class="card-top"><span class="tag ' + esc((sig.category || "").split(" ")[0]) + '">' + esc(sig.category || "Web3") + " · " + esc(sig.type || "Update") + '</span><span class="score">⚡ ' + esc(sig.score != null ? sig.score : "") + "</span></div>" +
+  return '<article class="sig">' +
+    '<div class="sig-meta"><a class="src-link" href="' + esc(sig.url) + '" target="_blank" rel="noopener">' + esc(sig.source || "Source") + " ↗</a>" +
+      (sig.published_at ? "<span>· " + esc(timeLabel(sig.published_at)) + "</span>" : "") +
+      '<span class="score">⚡ ' + esc(sig.score != null ? sig.score : "") + "</span></div>" +
     '<h3><a href="' + esc(sig.url) + '" target="_blank" rel="noopener">' + esc(sig.title) + "</a></h3>" +
     "<p>" + esc(sig.summary) + "</p>" +
     (sig.angle ? '<div class="angle"><strong>Post angle:</strong> ' + esc(sig.angle) + "</div>" : "") +
-    '<div class="card-meta"><span>' + esc(sig.project || "") + '</span><a class="src-link" href="' + esc(sig.url) + '" target="_blank" rel="noopener">' + esc(sig.source || "Source") + " ↗</a>" + '<span>' + esc(timeLabel(sig.published_at)) + "</span>" + badge + "</div>" +
-    '<div class="card-actions">' +
-      '<button class="draft-btn primary" data-id="' + esc(sig.id) + '">🤖 Draft with Muse</button>' +
-      '<button class="save-btn" data-id="' + esc(sig.id) + '">' + (st ? "🔖 Saved" : "🔖 Save") + "</button>" +
+    '<div class="sig-foot"><span class="tag ' + esc((sig.category || "").split(" ")[0]) + '">' + esc(sig.category || "Web3") + " · " + esc(sig.type || "Update") + "</span>" +
+      (sig.project ? '<span class="sig-meta">' + esc(sig.project) + "</span>" : "") + badge +
+      '<span class="card-actions">' +
+      '<button class="draft-btn primary" data-id="' + esc(sig.id) + '">Draft with Muse</button>' +
+      '<button class="save-btn" data-id="' + esc(sig.id) + '">' + (st ? "Saved ✓" : "Save") + "</button>" +
       '<a class="button-link" href="' + esc(sig.url) + '" target="_blank" rel="noopener">Original ↗</a>' +
-    "</div>" + statusBtns + "</article>";
+      "</span></div>" + statusBtns + "</article>";
 }
 
 function currentFilters(){

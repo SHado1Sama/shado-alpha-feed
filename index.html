@@ -5,7 +5,7 @@
 <meta name="description" content="SHado's Garden alpha feed: early Privacy, AI and Web3 signals for @dak_shado, gathered from X, GitHub, CoinMarketCap, Binance and project sources everywhere.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHado's Garden, Alpha Feed for @dak_shado</title>
-<link rel="stylesheet" href="styles.css?v=20261107-5">
+<link rel="stylesheet" href="styles.css?v=20261107-6">
 </head>
 <body>
 <header class="topbar">
@@ -17,7 +17,7 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="index.html">📡 Alpha Board</a>
+    <a href="index.html" class="active">📡 Alpha Board</a>
     <a href="money.html">💰 Money Tracker</a>
     <a href="saved.html">🔖 Saved</a>
     <a href="sources.html">🌐 Sources</a>
@@ -31,6 +31,7 @@
     <span id="stat-count">Loading signals…</span>
     <span id="stat-updated"></span>
   </div>
+  <div class="toolbar">
   <div class="search-row">
     <input id="search" type="search" placeholder="Search signals, projects, tags…" aria-label="Search signals">
     <select id="type-filter" aria-label="Filter by type">
@@ -46,6 +47,7 @@
     <label class="saved-toggle"><input type="checkbox" id="saved-only"> Saved only</label>
   </div>
   <div class="chips" id="category-chips"></div>
+  </div>
 </section>
 
 <main>
@@ -87,6 +89,6 @@
   </div>
 </div>
 
-<script src="app.js?v=20261107-6"></script>
+<script src="app.js?v=20261107-7"></script>
 </body>
 </html>
