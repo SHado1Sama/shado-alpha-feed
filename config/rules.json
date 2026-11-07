@@ -25,7 +25,8 @@
     "No price predictions, no buy or sell calls, no guaranteed-return language. The board feeds content, not financial advice.",
     "Dedupe by normalised URL plus title together, because distinct stories legitimately share one source report URL. Manual (Muse sweep) entries are never overwritten by the auto updater.",
     "Freshness matters: auto signals older than 14 days drop off the board. Manual signals stay until a sweep retires them.",
-    "Scams, unverified giveaway accounts and too-good-to-be-true airdrops are rejected, not listed as warnings, unless a warning itself is the content."
+    "Scams, unverified giveaway accounts and too-good-to-be-true airdrops are rejected, not listed as warnings, unless a warning itself is the content.",
+    "Privacy Project Watch: projects building privacy tek (Zama, Arcium, Miden, Aztec, Midnight, Nillion, Fhenix, Aleo and peers) are tracked beyond news, GitHub releases and dev activity, docs and changelogs, testnet and mainnet milestones, integrations and governance. A watchlist project named in a title classifies as Privacy and scores high."
   ],
   "strong_keywords": [
     "privacy",
@@ -78,6 +79,56 @@
     "Secret Network",
     "Oasis",
     "Fhenix",
-    "Zama"
+    "Zama",
+    "Arcium",
+    "Miden",
+    "Inco",
+    "Penumbra",
+    "Namada",
+    "Aleo",
+    "Mina",
+    "Light Protocol"
+  ],
+  "privacy_watchlist": [
+    {
+      "project": "Zama",
+      "github_org": "zama-ai",
+      "tech": "FHE, confidential contracts and tokens on public chains"
+    },
+    {
+      "project": "Arcium",
+      "github_org": "arcium-hq",
+      "tech": "MPC encrypted compute network, Solana"
+    },
+    {
+      "project": "Miden",
+      "github_org": "0xMiden",
+      "tech": "Client-side ZK proving privacy chain, ex Polygon"
+    },
+    {
+      "project": "Aztec",
+      "github_org": "AztecProtocol",
+      "tech": "ZK privacy rollup and Noir language, Ethereum"
+    },
+    {
+      "project": "Midnight",
+      "github_org": "midnightntwrk",
+      "tech": "Data-protection chain, Cardano ecosystem"
+    },
+    {
+      "project": "Nillion",
+      "github_org": "NillionNetwork",
+      "tech": "Blind compute, private data and AI"
+    },
+    {
+      "project": "Fhenix",
+      "github_org": "FhenixProtocol",
+      "tech": "FHE coprocessor for Ethereum"
+    },
+    {
+      "project": "Aleo",
+      "github_org": "ProvableHQ",
+      "tech": "ZK Layer 1 for private applications"
+    }
   ]
 }

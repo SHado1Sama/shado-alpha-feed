@@ -41,6 +41,9 @@ def word_hit(text, kw):
 
 def classify(title, rules):
     t = title.lower()
+    for proj in rules.get("watched_projects") or []:
+        if word_hit(t, proj):
+            return "Privacy"
     cats = [
         ("Privacy", ["privacy", "private", "zero-knowledge", "zero knowledge", "zk", "confidential", "mixer", "shielded", "anonymous"]),
         ("Agentic Wallet", ["agentic", "agent wallet", "agent id", "know your agent"]),
@@ -58,6 +61,10 @@ def classify(title, rules):
 def score(title, summary, category, rules):
     text = (title + " " + (summary or "")).lower()
     s = 40
+    for proj in rules.get("watched_projects") or []:
+        if word_hit(title, proj):
+            s += 18
+            break
     for kw, boost in (rules.get("priority_boost") or {}).items():
         if word_hit(text, kw):
             s += int(boost)
@@ -154,6 +161,54 @@ def github_search(rules, out):
             sig["category"] = cat; sig["type"] = "Release"; sig["project"] = repo.get("full_name") or ""
             out.append(sig)
 
+def github_watch(rules, out):
+    """Privacy Project Watch: releases and dev activity from the GitHub orgs
+    of projects building privacy tek. Not news, direct builder signal."""
+    now = datetime.now(timezone.utc).date()
+    for entry in rules.get("privacy_watchlist") or []:
+        proj = entry.get("project") or ""
+        org = entry.get("github_org") or ""
+        if not proj or not org:
+            continue
+        try:
+            repos = json.loads(fetch(f"https://api.github.com/orgs/{org}/repos?sort=pushed&direction=desc&per_page=3", accept="application/vnd.github+json"))
+        except Exception as e:
+            print(f"GitHub watch failed ({org}): {e}", file=sys.stderr); continue
+        if not repos:
+            continue
+        repo = repos[0]
+        full = repo.get("full_name") or ""
+        pushed = (repo.get("pushed_at") or "")[:10]
+        made = False
+        try:
+            rels = json.loads(fetch(f"https://api.github.com/repos/{full}/releases?per_page=1", accept="application/vnd.github+json"))
+        except Exception:
+            rels = []
+        if rels:
+            rel = rels[0]
+            rdate = (rel.get("published_at") or "")[:10]
+            try:
+                fresh_rel = (now - datetime.fromisoformat(rdate).date()).days <= 60
+            except Exception:
+                fresh_rel = False
+            if fresh_rel:
+                title = f"{proj} release: {repo.get('name')} {rel.get('tag_name') or rel.get('name') or ''}".strip()
+                sig = make_signal(title, rel.get("html_url") or repo.get("html_url") or "", "GitHub Project Watch", "github", ((rel.get("name") or "") + ". " + (rel.get("body") or ""))[:380], rdate, rules)
+                sig["category"] = "Privacy"; sig["type"] = "Project Watch"; sig["project"] = proj
+                sig["score"] = max(sig["score"], 78); sig["tags"] = [proj.lower(), "release"]
+                out.append(sig); made = True
+        if not made and pushed:
+            try:
+                fresh_push = (now - datetime.fromisoformat(pushed).date()).days <= 21
+            except Exception:
+                fresh_push = False
+            if fresh_push:
+                title = f"{proj} dev activity: {repo.get('name')}"
+                sig = make_signal(title, repo.get("html_url") or "", "GitHub Project Watch", "github", (repo.get("description") or f"Active development in the {org} GitHub organisation.")[:380], pushed, rules)
+                sig["category"] = "Privacy"; sig["type"] = "Project Watch"; sig["project"] = proj
+                sig["score"] = max(sig["score"], 70); sig["tags"] = [proj.lower(), "development"]
+                out.append(sig)
+
 def cmc(rules, out):
     try:
         url = "https://pro-api.coinmarketcap.com/public-api/v1/cryptocurrency/listings/latest?" + urllib.parse.urlencode({"start": 1, "limit": 20, "cryptocurrency_type": "coins", "sort": "market_cap", "sort_dir": "desc", "convert": "USD"})
@@ -174,6 +229,7 @@ def main():
         parse_rss(name, url, st, rules, fresh)
     coingecko(rules, fresh)
     github_search(rules, fresh)
+    github_watch(rules, fresh)
     cmc(rules, fresh)
     # freshness window for auto items
     cutoff = datetime.now(timezone.utc).date() - timedelta(days=14)

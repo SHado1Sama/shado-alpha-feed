@@ -142,6 +142,18 @@ function init(){
   }
   ["search", "type-filter", "saved-only"].forEach(id => { const el = $(id); if(el){ el.addEventListener("input", render); el.addEventListener("change", render); } });
   const sm = $("show-more"); if(sm) sm.addEventListener("click", () => { boardVisible += 18; render(); });
+  const watch = $("watch-chips");
+  if(watch){
+    const projects = ["Zama", "Arcium", "Miden", "Aztec", "Midnight", "Nillion", "Aleo", "Fhenix", "Inco", "Secret Network", "Oasis", "Railgun", "Penumbra", "Namada", "Zcash", "Mina", "Light Protocol"];
+    watch.innerHTML = projects.map(p => '<button class="chip" data-proj="' + esc(p) + '">🔒 ' + esc(p) + "</button>").join("");
+    watch.querySelectorAll(".chip").forEach(ch => {
+      ch.onclick = () => {
+        const s = $("search");
+        if(s){ s.value = ch.getAttribute("data-proj"); s.dispatchEvent(new Event("input", { bubbles: true })); }
+        const b = $("board"); if(b) b.scrollIntoView({ behavior: "smooth" });
+      };
+    });
+  }
   const close = $("draft-close"); if(close) close.onclick = () => { const m = $("draft-modal"); if(m) m.hidden = true; };
   const modal = $("draft-modal"); if(modal) modal.addEventListener("click", e => { if(e.target === modal) modal.hidden = true; });
   const copy = $("draft-copy"); if(copy) copy.onclick = () => { const ta = $("draft-text"); if(ta){ ta.select(); try { navigator.clipboard.writeText(ta.value); } catch(e){ document.execCommand("copy"); } copy.textContent = "Copied ✓"; setTimeout(() => copy.textContent = "Copy brief", 1500); } };

@@ -1,6 +1,72 @@
 {
   "signals": [
     {
+      "id": "watch-arcium-blackthorn",
+      "title": "Arcium opens Blackthorn, private AI inference, to selected users",
+      "project": "Arcium",
+      "source": "Solana Compass",
+      "source_type": "research",
+      "url": "https://solanacompass.com/projects/arcium",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "Arcium, Solana's encrypted compute network (MPC: data split across nodes so no single node ever sees it), opened Blackthorn on Oct 21, its private AI inference service running on NVIDIA GPUs, to selected users in private alpha. The network has run Mainnet Alpha since February 2026, passed 1 million confidential computations in June, and its ARX token launched June 22. Umbra, its first app, does shielded transfers and encrypted swaps. Next on the roadmap: Confidential SPL, wrapping normal Solana tokens into encrypted balances.",
+      "angle": "Privacy meets AI, your two pillars in one project: explain MPC like a group project where nobody sees the full answer sheet, then Blackthorn's pitch, AI that computes on data it cannot read.",
+      "score": 90,
+      "published_at": "2026-10-21",
+      "discovered_at": "2026-11-07",
+      "manual": true,
+      "tags": [
+        "arcium",
+        "mpc",
+        "private ai",
+        "solana"
+      ]
+    },
+    {
+      "id": "watch-zama-confidential-defi-expansion",
+      "title": "Zama expands confidential DeFi: 16 Morpho vaults, confidential swaps, $100M+ shielded",
+      "project": "Zama",
+      "source": "DefiLlama Research",
+      "source_type": "research",
+      "url": "https://defillama.com/research/report/zama-a-look-into-confidential-defi",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "Zama's FHE confidentiality protocol is scaling fast: it crossed $100M shielded within 25 days of mainnet, the fastest of any privacy protocol, and September 2026 turned its single vault into a 16 vault suite on Morpho across 5 institutional curators (Steakhouse, Wintermute's Armitage, Flowdesk, RockawayX, Bitwise) alongside a live Confidential Swap Protocol. Its Q3 Shielded report dropped Nov 2. The confidential token standard ERC-7984, co-developed with OpenZeppelin, is becoming the category standard.",
+      "angle": "Break down FHE for beginners: computing on encrypted data without decrypting it, then walk the numbers, $100M in 25 days versus 860+ days for the older privacy coins, and ask what confidential DeFi means for normal users, not just institutions.",
+      "score": 92,
+      "published_at": "2026-11-02",
+      "discovered_at": "2026-11-07",
+      "manual": true,
+      "tags": [
+        "zama",
+        "fhe",
+        "confidential defi",
+        "morpho"
+      ]
+    },
+    {
+      "id": "watch-miden-partner-mainnet",
+      "title": "Miden opens invite-only partner mainnet, private accounts with real funds",
+      "project": "Miden",
+      "source": "Bankless",
+      "source_type": "news",
+      "url": "https://www.bankless.com/read/news/miden-opens-its-invite-only-partner-mainnet-privacy-guardrails-included",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "Miden, the privacy chain that spun out of Polygon in 2025, opened its partner mainnet on Oct 26: invited partners now transact with real funds. Your device executes each transaction and proves it locally with STARKs in under 3 seconds on a phone, the chain stores only commitments of private account data. Guardian, co-built with OpenZeppelin, coordinates shared private accounts without a custodian. Honest caveat from the team itself: in this phase validators can still see private inputs and swaps are public, the guardrails come off after public mainnet, which is a few months out.",
+      "angle": "Explainer thread: how client-side proving works (your phone proves, the chain only checks), why that is a different privacy model from Zcash or Aztec, and what the guardrails phase honestly does and does not hide yet.",
+      "score": 93,
+      "published_at": "2026-10-26",
+      "discovered_at": "2026-11-07",
+      "manual": true,
+      "tags": [
+        "miden",
+        "zk",
+        "mainnet",
+        "privacy chain"
+      ]
+    },
+    {
       "angle": "Explainer: what the Alpha upgrade pause actually means for hunters, and why no-claim airdrops are the safest kind. End by asking followers if they made the 200 point cut.",
       "category": "Launches & Airdrops",
       "discovered_at": "2026-11-07",

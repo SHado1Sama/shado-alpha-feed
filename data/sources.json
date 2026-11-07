@@ -1,1 +1,104 @@
-{"sources":[{"cadence":"every 3 hours (GitHub Actions)","fetch":"api","id":"coingecko-trending","name":"CoinGecko Trending (keyless API)","notes":"Trending coins, NFTs and categories in the last 24h. No key needed, shared rate limits, so the updater calls it once per run.","url":"https://api.coingecko.com/api/v3/search/trending"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"api","id":"coinmarketcap-keyless","name":"CoinMarketCap Keyless API","notes":"Latest listings, trending, gainers and global metrics from the public keyless routes. Full news and community posts are sweep-only.","url":"https://pro-api.coinmarketcap.com/public-api"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"api","id":"github-search","name":"GitHub Search API","notes":"Repository search for privacy, ZK, AI agent and agentic wallet projects, sorted by recently updated. Unauthenticated limit is 10 requests per minute, the updater uses 3 queries per run.","url":"https://api.github.com/search/repositories"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"rss","id":"cointelegraph-rss","name":"CoinTelegraph RSS","url":"https://cointelegraph.com/rss"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"rss","id":"coindesk-rss","name":"CoinDesk RSS","url":"https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"rss","id":"decrypt-rss","name":"Decrypt RSS","url":"https://decrypt.co/feed"},{"cadence":"every 3 hours (GitHub Actions)","fetch":"rss","id":"theblock-rss","name":"The Block RSS","url":"https://www.theblock.co/rss.xml"},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"x-twitter","name":"X / Twitter (project accounts, alpha callers, Binance Wallet, privacy and AI projects)","notes":"No usable public API and a login wall, so X is covered by Muse sweeps, not the auto updater. This is where the earliest signals live, so sweeps prioritise it."},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"binance-announcements","name":"Binance Announcements, Binance Alpha and Binance Square","notes":"No official RSS. Listings, HODLer Airdrops, Alpha points events and wallet updates are sweep-only."},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"cmc-community","name":"CoinMarketCap Community and Headlines pages","notes":"Beyond the keyless API data, trending narratives and community alpha are sweep-only."},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"nft-marketplaces","name":"NFT marketplaces and mint calendars (OpenSea, Blur, Magic Eden, Elysium and mint indexes)","notes":"New mints, trending collections and notable sales. Sales data has no free keyless API, so this is sweep-only."},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"project-blogs","name":"Project blogs, Medium, Mirror, governance forums and GitHub releases for watched projects","notes":"Watched list lives in config/rules.json: Zcash, Aztec, Midnight, Venice, Sentient, Binance Agentic Wallet / Agent ID ecosystem, Starknet and others as the brand evolves."},{"cadence":"Muse sweep, twice daily","fetch":"sweep","id":"telegram-discord","name":"Telegram and Discord announcement channels (including DakSHado Telegram)","notes":"Read-only monitoring of public announcement channels only."}]}
+{
+  "sources": [
+    {
+      "name": "Privacy Project Watch, GitHub orgs",
+      "fetch": "Auto (GitHub API)",
+      "cadence": "Every 3 hours with the updater",
+      "notes": "Releases and dev activity straight from the GitHub organisations of Zama, Arcium, Miden, Aztec, Midnight, Nillion, Fhenix and Aleo, plus sweep coverage of their blogs, docs and X accounts. Builder signal, not news."
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "api",
+      "id": "coingecko-trending",
+      "name": "CoinGecko Trending (keyless API)",
+      "notes": "Trending coins, NFTs and categories in the last 24h. No key needed, shared rate limits, so the updater calls it once per run.",
+      "url": "https://api.coingecko.com/api/v3/search/trending"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "api",
+      "id": "coinmarketcap-keyless",
+      "name": "CoinMarketCap Keyless API",
+      "notes": "Latest listings, trending, gainers and global metrics from the public keyless routes. Full news and community posts are sweep-only.",
+      "url": "https://pro-api.coinmarketcap.com/public-api"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "api",
+      "id": "github-search",
+      "name": "GitHub Search API",
+      "notes": "Repository search for privacy, ZK, AI agent and agentic wallet projects, sorted by recently updated. Unauthenticated limit is 10 requests per minute, the updater uses 3 queries per run.",
+      "url": "https://api.github.com/search/repositories"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "rss",
+      "id": "cointelegraph-rss",
+      "name": "CoinTelegraph RSS",
+      "url": "https://cointelegraph.com/rss"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "rss",
+      "id": "coindesk-rss",
+      "name": "CoinDesk RSS",
+      "url": "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "rss",
+      "id": "decrypt-rss",
+      "name": "Decrypt RSS",
+      "url": "https://decrypt.co/feed"
+    },
+    {
+      "cadence": "every 3 hours (GitHub Actions)",
+      "fetch": "rss",
+      "id": "theblock-rss",
+      "name": "The Block RSS",
+      "url": "https://www.theblock.co/rss.xml"
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "x-twitter",
+      "name": "X / Twitter (project accounts, alpha callers, Binance Wallet, privacy and AI projects)",
+      "notes": "No usable public API and a login wall, so X is covered by Muse sweeps, not the auto updater. This is where the earliest signals live, so sweeps prioritise it."
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "binance-announcements",
+      "name": "Binance Announcements, Binance Alpha and Binance Square",
+      "notes": "No official RSS. Listings, HODLer Airdrops, Alpha points events and wallet updates are sweep-only."
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "cmc-community",
+      "name": "CoinMarketCap Community and Headlines pages",
+      "notes": "Beyond the keyless API data, trending narratives and community alpha are sweep-only."
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "nft-marketplaces",
+      "name": "NFT marketplaces and mint calendars (OpenSea, Blur, Magic Eden, Elysium and mint indexes)",
+      "notes": "New mints, trending collections and notable sales. Sales data has no free keyless API, so this is sweep-only."
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "project-blogs",
+      "name": "Project blogs, Medium, Mirror, governance forums and GitHub releases for watched projects",
+      "notes": "Watched list lives in config/rules.json: Zcash, Aztec, Midnight, Venice, Sentient, Binance Agentic Wallet / Agent ID ecosystem, Starknet and others as the brand evolves."
+    },
+    {
+      "cadence": "Muse sweep, twice daily",
+      "fetch": "sweep",
+      "id": "telegram-discord",
+      "name": "Telegram and Discord announcement channels (including DakSHado Telegram)",
+      "notes": "Read-only monitoring of public announcement channels only."
+    }
+  ]
+}
