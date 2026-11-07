@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="SHado's Garden alpha feed: early Privacy, AI and Web3 signals for @dak_shado, gathered from X, GitHub, CoinMarketCap, Binance and project sources everywhere.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHado's Garden, Alpha Feed for @dak_shado</title>
+<link rel="stylesheet" href="styles.css?v=20261107-1">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">☂️</div>
+    <div>
+      <div class="brand-name">SHadō's Garden</div>
+      <div class="brand-sub">Alpha feed for <a href="https://x.com/dak_shado" target="_blank" rel="noopener">@dak_shado</a> · Privacy × AI × Web3</div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="#top-signals">Top Signals</a>
+    <a href="#board">Board</a>
+    <a href="#saved">Saved</a>
+    <a href="#sources">Sources</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Early signals, before they are everywhere.</h1>
+  <p>One board that watches X, GitHub, CoinMarketCap, Binance, news wires and project channels for Privacy, AI, agentic wallet, NFT and launch updates, ranked for content. Every card carries a post angle, so a signal becomes a post in minutes.</p>
+  <div class="hero-meta">
+    <span id="stat-count">Loading signals…</span>
+    <span id="stat-updated"></span>
+  </div>
+  <div class="search-row">
+    <input id="search" type="search" placeholder="Search signals, projects, tags…" aria-label="Search signals">
+    <select id="type-filter" aria-label="Filter by type">
+      <option value="">All types</option>
+      <option>Early Alpha</option>
+      <option>Launch</option>
+      <option>Update</option>
+      <option>Listing</option>
+      <option>News</option>
+      <option>Release</option>
+    </select>
+    <label class="saved-toggle"><input type="checkbox" id="saved-only"> Saved only</label>
+  </div>
+  <div class="chips" id="category-chips"></div>
+</section>
+
+<main>
+  <section id="top-signals">
+    <h2>🔥 Top Signals</h2>
+    <div class="grid" id="top-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+  </section>
+
+  <section id="board">
+    <h2>📡 The Board</h2>
+    <div class="grid" id="board-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+    <p class="empty" id="board-empty" hidden>No signals match that yet. Clear the search or pick another category.</p>
+  </section>
+
+  <section id="saved">
+    <h2>🔖 Saved &amp; Content Tracker</h2>
+    <p class="section-sub">Saved in your browser only. Move each signal along: Saved → Drafted → Posted. The board card shows the same status while you browse.</p>
+    <div class="grid" id="saved-grid"></div>
+    <p class="empty" id="saved-empty">Nothing saved yet. Tap the bookmark on any signal to keep it here.</p>
+  </section>
+
+  <section id="sources">
+    <h2>🌐 Where this watches</h2>
+    <div id="sources-list" class="sources-list"></div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>SHadō's Garden</strong> · Built for @dak_shado · <a href="https://x.com/dak_shado" target="_blank" rel="noopener">X</a> · <a href="https://t.me/DakSHado" target="_blank" rel="noopener">Telegram</a></p>
+  <p class="fine">Signals link to their original sources. Always check the original before posting. Nothing here is financial advice.</p>
+</footer>
+
+<div class="modal-backdrop" id="draft-modal" hidden>
+  <div class="modal">
+    <button class="modal-close" id="draft-close" aria-label="Close">×</button>
+    <h3>Draft with Muse</h3>
+    <p class="section-sub">Copy this brief into your own Muse agent. It will verify the original source first, then draft your post and a thread version in the SHadō style, no hype, no financial advice.</p>
+    <textarea id="draft-text" rows="14" readonly></textarea>
+    <div class="modal-actions">
+      <button id="draft-copy">Copy brief</button>
+      <a class="button-link" href="https://muse.ai" target="_blank" rel="noopener">Open Muse</a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js?v=20261107-1"></script>
+</body>
+</html>
