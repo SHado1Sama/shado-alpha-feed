@@ -9,3 +9,11 @@
 7. Dedupe: by normalised URL plus title together. One story, one card, best source wins, but distinct stories that share one source report URL all stay.
 8. Freshness: auto signals older than 14 days drop off. Manual sweep signals stay until a sweep retires them.
 9. Rejections stay off the board: scams, fake giveaway accounts and unverified airdrop bait are excluded silently. A warning post is Muse sweep work, not a board card.
+
+## Money board rules
+
+1. **Pays the creator.** Only opportunities where a page like @dak_shado earns: campaigns, ambassador programs, creator bounties, paid posts, quest platforms with USDC or token rewards.
+2. **Never pay to apply.** Any entry fee, deposit or required token purchase kills the listing.
+3. **Reward must be stated by the source.** No invented amounts. If the structure is unclear, say so in the reward text instead of guessing.
+4. **Honest fit.** Fit scores are written for a focused page of about 2,500 followers. Aspirational programs are allowed but scored low and flagged as long shots.
+5. **Actionable link.** Every card links to the official program, listing or platform page where the user applies.

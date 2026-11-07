@@ -15,3 +15,13 @@ Full machine-readable list: data/sources.json
 - NFT marketplaces and mint calendars: OpenSea, Blur, Magic Eden, project mint pages and mint indexes. No free keyless sales API.
 - Project blogs, Medium, Mirror, governance forums, GitHub releases for watched projects (see config/rules.json watched_projects).
 - Public Telegram and Discord announcement channels, read-only.
+
+## Money sources (sweep only)
+
+| Source | What Muse looks for | Layer |
+| --- | --- | --- |
+| Superteam Earn | New content bounties and gigs, threads and deep dives in the Privacy and AI niche | Sweep |
+| Zealy | Creator Quests paying USDC for X content, community sprints | Sweep |
+| Galxe and Layer3 | Campaigns with token rewards open to creators | Sweep |
+| Ambassador program pages and roundups | New or reopened ambassador intakes from Privacy, AI and major ecosystem projects | Sweep |
+| X campaign announcements | Paid post campaigns and KOL calls from projects in the SHado niche | Sweep |

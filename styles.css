@@ -68,4 +68,12 @@ footer{border-top:1px solid var(--line);padding:20px;max-width:1100px;margin:0 a
 .modal textarea{width:100%;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:12px;font-family:ui-monospace,monospace;font-size:13px}
 .modal-close{position:absolute;right:10px;top:10px;min-height:36px}
 .modal-actions{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.money-stats{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 18px;display:flex;flex-direction:column}
+.stat-num{font-size:22px;font-weight:800;color:var(--accent)}
+.stat-label{font-size:12px;color:var(--muted)}
+.reward{font-size:15px;font-weight:700;color:var(--accent);background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px}
+.pipe-head{margin:18px 0 8px;font-size:15px}
+.pipe-row{display:flex;justify-content:space-between;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap;font-size:14px}
+
 @media (max-width:640px){.grid{grid-template-columns:1fr}.hero h1{font-size:24px}.topbar{flex-direction:column;align-items:flex-start}}

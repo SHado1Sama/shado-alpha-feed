@@ -27,6 +27,10 @@ Two layers, because not every source allows automation:
    - Project blogs, governance forums and GitHub releases for watched projects
    Sweep findings are added as manual entries and are never overwritten by the auto layer.
 
+## Money Tracker
+
+`money.html` is the paid work board: campaigns, ambassador programs, creator bounties and paid content gigs that fit the @dak_shado page, stored in `data/money.json`. Each card shows the reward, what it takes, effort and an honest fit score for a focused page of about 2,500 followers. A browser-local pipeline tracker (localStorage `sg_money_v1`) moves each opportunity Interested, Applied, Doing, Submitted, Paid, with pipeline and earned estimate totals. The money board is sweep-fed only (no keyless API lists live paid gigs reliably); the Muse sweep hunts Superteam Earn, Zealy, Galxe, Layer3, ambassador program pages and X campaign announcements, and rejects anything that charges a fee to apply.
+
 ## Rules
 See RULES.md and config/rules.json. Short version: Privacy weighted first so the brand does not drift, original source link required, dedupe by URL then title, auto items expire after 14 days, no price predictions or buy/sell language anywhere.
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Tracker, SHado's Garden</title>
+<meta name="description" content="Campaigns, ambassador programs, creator bounties and paid content opportunities for the @dak_shado page, with a pipeline tracker from interested to paid.">
+<link rel="stylesheet" href="styles.css?v=20261107-3">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">☂️</span>
+    <div>
+      <div class="brand-name">SHado's Garden</div>
+      <div class="brand-sub">Money Tracker for <a href="https://x.com/dak_shado" target="_blank" rel="noopener">@dak_shado</a></div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="index.html">📡 Alpha Board</a>
+    <a href="money.html">💰 Money Tracker</a>
+    <a href="index.html#sources">Sources</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Work that pays the page.</h1>
+  <p>Campaigns, ambassador programs, creator bounties and paid content gigs that a Privacy and AI creator page can actually take. Track each one from interested to paid, and watch the pipeline value grow.</p>
+  <div class="money-stats">
+    <div class="stat"><span class="stat-num" id="stat-open">...</span><span class="stat-label">Open opportunities</span></div>
+    <div class="stat"><span class="stat-num" id="stat-pipeline">$0</span><span class="stat-label">In pipeline (est.)</span></div>
+    <div class="stat"><span class="stat-num" id="stat-earned">$0</span><span class="stat-label">Earned (est.)</span></div>
+  </div>
+  <div class="search-row">
+    <input type="search" id="q" placeholder="Search opportunities, projects, rewards...">
+    <label class="saved-toggle"><input type="checkbox" id="tracked-only"> Tracked only</label>
+  </div>
+  <div class="chips" id="type-chips"></div>
+</section>
+
+<main>
+  <section>
+    <h2>💰 Open Opportunities</h2>
+    <p class="section-sub">Fit scores are honest for a focused page of about 2,500 followers: niche ambassador programs and content bounties outrank giant programs you are unlikely to land yet. Always confirm the reward and deadline on the official page before doing any work.</p>
+    <div class="grid" id="money-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
+    <p class="empty" id="money-empty" hidden>Nothing matches. Clear the search or pick another type.</p>
+  </section>
+
+  <section>
+    <h2>📈 My Pipeline</h2>
+    <p class="section-sub">Stored in your browser only. Move each opportunity along: Interested, Applied, Doing the work, Submitted, Paid. Pipeline and earned totals use the listed estimate, contests pay only if you place, so treat the numbers as targets, not promises.</p>
+    <div id="pipeline-list"></div>
+    <p class="empty" id="pipeline-empty">Nothing tracked yet. Tap Track on any opportunity to start your pipeline.</p>
+  </section>
+
+  <section>
+    <h2>🛡️ Money rules</h2>
+    <div class="sources-list">
+      <div class="source-card"><h4>Never pay to apply</h4><p>Any program asking for an entry fee, a deposit, or a token purchase before you can earn is rejected from this board on sight.</p></div>
+      <div class="source-card"><h4>Verify on the official page</h4><p>Rewards and deadlines here come from the listing or program page at check time. Programs change terms quietly, confirm before you invest hours.</p></div>
+      <div class="source-card"><h4>Disclose paid work</h4><p>Paid posts and ambassador content should be disclosed as paid or partnered. It protects the page's trust, which is the asset everything else is built on.</p></div>
+      <div class="source-card"><h4>Contests pay winners only</h4><p>Bounties are competitions. Enter ones where your niche gives you a real edge, and reuse the research as regular content either way, so the work is never wasted.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Built for @dak_shado. Opportunities are information only, not a guarantee of income. Confirm every reward on the official page before working.</p>
+  <p class="fine">Money board is curated by Muse sweeps from Superteam Earn, Zealy, Galxe, Layer3, ambassador program pages and X campaign announcements.</p>
+</footer>
+
+<script src="money.js?v=20261107-1"></script>
+</body>
+</html>
