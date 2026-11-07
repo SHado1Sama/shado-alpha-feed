@@ -158,17 +158,17 @@ function init(){
   const modal = $("draft-modal"); if(modal) modal.addEventListener("click", e => { if(e.target === modal) modal.hidden = true; });
   const copy = $("draft-copy"); if(copy) copy.onclick = () => { const ta = $("draft-text"); if(ta){ ta.select(); try { navigator.clipboard.writeText(ta.value); } catch(e){ document.execCommand("copy"); } copy.textContent = "Copied ✓"; setTimeout(() => copy.textContent = "Copy brief", 1500); } };
 
-  fetch("data/signals.json").then(r => r.json()).then(data => {
+  fetch("data/signals.json", { cache: "no-store" }).then(r => r.json()).then(data => {
     SIGNALS = (data.signals || []).slice().sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
     const c = $("stat-count"); if(c) c.textContent = SIGNALS.length + " signals on the board";
     render();
   }).catch(() => {
     const b = $("board-grid"); if(b) b.innerHTML = '<p class="empty">Could not load signals. Refresh in a moment.</p>';
   });
-  fetch("data/last_update.json").then(r => r.json()).then(u => {
+  fetch("data/last_update.json", { cache: "no-store" }).then(r => r.json()).then(u => {
     const el = $("stat-updated"); if(el && u.updated_at) el.textContent = "Last sweep: " + u.updated_at;
   }).catch(() => {});
-  fetch("data/sources.json").then(r => r.json()).then(data => {
+  fetch("data/sources.json", { cache: "no-store" }).then(r => r.json()).then(data => {
     const el = $("sources-list"); if(!el) return;
     el.innerHTML = (data.sources || []).map(s => '<div class="source-card"><h4>' + esc(s.name) + ' <span class="pill">' + esc(s.fetch) + '</span></h4><p>' + esc(s.cadence || "") + "</p>" + (s.notes ? "<p>" + esc(s.notes) + "</p>" : "") + "</div>").join("");
   }).catch(() => {});
