@@ -58,6 +58,9 @@ let lastFilterKey = "";
 function render(){
   const list = currentFilters();
   const topEl = $("top-grid"), boardEl = $("board-grid"), savedEl = $("saved-grid");
+  const filtering = activeCategory !== "All" || !!(($("type-filter") && $("type-filter").value)) || !!((($("search") && $("search").value) || "").trim()) || !!(($("saved-only") && $("saved-only").checked));
+  const topSection = $("top-signals");
+  if(topSection) topSection.style.display = filtering ? "none" : "";
   if(topEl){
     const tops = SIGNALS.filter(s => (s.score || 0) >= 88).slice(0, 6);
     topEl.innerHTML = tops.map(s => cardHTML(s, false)).join("") || '<p class="empty">No top signals right now.</p>';
