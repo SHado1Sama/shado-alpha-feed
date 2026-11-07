@@ -92,7 +92,7 @@ function render() {
       (o.effort ? "<span>Effort: " + esc(o.effort) + "</span>" : "") +
       (o.deadline ? "<span>⏰ " + esc(o.deadline) + "</span>" : "<span>Rolling / no fixed deadline</span>") +
       "</div>" +
-      '<div class="card-meta"><span>Source: ' + esc(o.source) + "</span></div>" +
+      '<div class="card-meta"><a class="src-link" href="' + esc(o.url) + '" target="_blank" rel="noopener">Source: ' + esc(o.source) + " ↗</a></div>" +
       '<div class="card-actions">' +
       '<a class="button-link primary" href="' + esc(o.url) + '" target="_blank" rel="noopener">Open / Apply</a>' +
       statusButtons(o) +

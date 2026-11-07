@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Saved signals and content tracker for @dak_shado: Saved, Drafted, Posted.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saved &amp; Content Tracker, SHado's Garden</title>
+<link rel="stylesheet" href="styles.css?v=20261107-4">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark">☂️</div>
+    <div>
+      <div class="brand-name">SHadō's Garden</div>
+      <div class="brand-sub">Content tracker for <a href="https://x.com/dak_shado" target="_blank" rel="noopener">@dak_shado</a></div>
+    </div>
+  </div>
+  <nav class="nav">
+    <a href="index.html">📡 Alpha Board</a>
+    <a href="money.html">💰 Money Tracker</a>
+    <a href="saved.html">🔖 Saved</a>
+    <a href="sources.html">🌐 Sources</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Your content pipeline.</h1>
+  <p>Every signal you saved from the board lives here. Move each one along: Saved, Drafted, Posted. It is stored in your browser only, and the board cards show the same status while you browse.</p>
+</section>
+
+<main>
+  <section>
+    <h2>🔖 Saved &amp; Content Tracker</h2>
+    <div class="grid" id="saved-grid"><div class="skeleton"></div><div class="skeleton"></div></div>
+    <p class="empty" id="saved-empty">Nothing saved yet. Tap the bookmark on any signal on the board to keep it here.</p>
+  </section>
+</main>
+
+<footer>
+  <p><strong>SHadō's Garden</strong> · Built for @dak_shado · <a href="https://x.com/dak_shado" target="_blank" rel="noopener">X</a> · <a href="https://t.me/DakSHado" target="_blank" rel="noopener">Telegram</a></p>
+  <p class="fine">Signals link to their original sources. Always check the original before posting. Nothing here is financial advice.</p>
+</footer>
+
+<div class="modal-backdrop" id="draft-modal" hidden>
+  <div class="modal">
+    <button class="modal-close" id="draft-close" aria-label="Close">×</button>
+    <h3>Draft with Muse</h3>
+    <p class="section-sub">Copy this brief into your own Muse agent. It will verify the original source first, then draft your post and a thread version in the SHadō style, no hype, no financial advice.</p>
+    <textarea id="draft-text" rows="14" readonly></textarea>
+    <div class="modal-actions">
+      <button id="draft-copy">Copy brief</button>
+      <a class="button-link" href="https://muse.ai" target="_blank" rel="noopener">Open Muse</a>
+    </div>
+  </div>
+</div>
+
+<script src="app.js?v=20261107-2"></script>
+</body>
+</html>

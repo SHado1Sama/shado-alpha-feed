@@ -29,7 +29,7 @@ function cardHTML(sig, inSaved){
     '<h3><a href="' + esc(sig.url) + '" target="_blank" rel="noopener">' + esc(sig.title) + "</a></h3>" +
     "<p>" + esc(sig.summary) + "</p>" +
     (sig.angle ? '<div class="angle"><strong>Post angle:</strong> ' + esc(sig.angle) + "</div>" : "") +
-    '<div class="card-meta"><span>' + esc(sig.project || "") + '</span><span>' + esc(sig.source || "") + '</span><span>' + esc(timeLabel(sig.published_at)) + "</span>" + badge + "</div>" +
+    '<div class="card-meta"><span>' + esc(sig.project || "") + '</span><a class="src-link" href="' + esc(sig.url) + '" target="_blank" rel="noopener">' + esc(sig.source || "Source") + " ↗</a>" + '<span>' + esc(timeLabel(sig.published_at)) + "</span>" + badge + "</div>" +
     '<div class="card-actions">' +
       '<button class="draft-btn primary" data-id="' + esc(sig.id) + '">🤖 Draft with Muse</button>' +
       '<button class="save-btn" data-id="' + esc(sig.id) + '">' + (st ? "🔖 Saved" : "🔖 Save") + "</button>" +
@@ -53,6 +53,8 @@ function currentFilters(){
   });
 }
 
+let boardVisible = 18;
+let lastFilterKey = "";
 function render(){
   const list = currentFilters();
   const topEl = $("top-grid"), boardEl = $("board-grid"), savedEl = $("saved-grid");
@@ -61,8 +63,16 @@ function render(){
     topEl.innerHTML = tops.map(s => cardHTML(s, false)).join("") || '<p class="empty">No top signals right now.</p>';
   }
   if(boardEl){
-    boardEl.innerHTML = list.map(s => cardHTML(s, false)).join("");
+    const key = [activeCategory, ($("search") && $("search").value) || "", ($("type-filter") && $("type-filter").value) || "", ($("saved-only") && $("saved-only").checked) || ""].join("|");
+    if(key !== lastFilterKey){ lastFilterKey = key; boardVisible = 18; }
+    const shown = list.slice(0, boardVisible);
+    boardEl.innerHTML = shown.map(s => cardHTML(s, false)).join("");
     const empty = $("board-empty"); if(empty) empty.hidden = list.length > 0;
+    const more = $("show-more");
+    if(more){
+      if(list.length > shown.length){ more.hidden = false; more.textContent = "Show more signals (" + (list.length - shown.length) + " more)"; }
+      else more.hidden = true;
+    }
   }
   if(savedEl){
     const store = loadStore();
@@ -128,6 +138,7 @@ function init(){
     });
   }
   ["search", "type-filter", "saved-only"].forEach(id => { const el = $(id); if(el){ el.addEventListener("input", render); el.addEventListener("change", render); } });
+  const sm = $("show-more"); if(sm) sm.addEventListener("click", () => { boardVisible += 18; render(); });
   const close = $("draft-close"); if(close) close.onclick = () => { const m = $("draft-modal"); if(m) m.hidden = true; };
   const modal = $("draft-modal"); if(modal) modal.addEventListener("click", e => { if(e.target === modal) modal.hidden = true; });
   const copy = $("draft-copy"); if(copy) copy.onclick = () => { const ta = $("draft-text"); if(ta){ ta.select(); try { navigator.clipboard.writeText(ta.value); } catch(e){ document.execCommand("copy"); } copy.textContent = "Copied ✓"; setTimeout(() => copy.textContent = "Copy brief", 1500); } };

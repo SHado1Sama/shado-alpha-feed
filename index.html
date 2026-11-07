@@ -5,7 +5,7 @@
 <meta name="description" content="SHado's Garden alpha feed: early Privacy, AI and Web3 signals for @dak_shado, gathered from X, GitHub, CoinMarketCap, Binance and project sources everywhere.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SHado's Garden, Alpha Feed for @dak_shado</title>
-<link rel="stylesheet" href="styles.css?v=20261107-3">
+<link rel="stylesheet" href="styles.css?v=20261107-4">
 </head>
 <body>
 <header class="topbar">
@@ -17,11 +17,10 @@
     </div>
   </div>
   <nav class="nav">
-    <a href="#top-signals">Top Signals</a>
+    <a href="index.html">📡 Alpha Board</a>
     <a href="money.html">💰 Money Tracker</a>
-    <a href="#board">Board</a>
-    <a href="#saved">Saved</a>
-    <a href="#sources">Sources</a>
+    <a href="saved.html">🔖 Saved</a>
+    <a href="sources.html">🌐 Sources</a>
   </nav>
 </header>
 
@@ -56,20 +55,10 @@
 
   <section id="board">
     <h2>📡 The Board</h2>
+    <p class="section-sub">Everything fresh, ranked. Eighteen at a time, tap Show more when you are ready for the next batch.</p>
     <div class="grid" id="board-grid"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></div>
     <p class="empty" id="board-empty" hidden>No signals match that yet. Clear the search or pick another category.</p>
-  </section>
-
-  <section id="saved">
-    <h2>🔖 Saved &amp; Content Tracker</h2>
-    <p class="section-sub">Saved in your browser only. Move each signal along: Saved → Drafted → Posted. The board card shows the same status while you browse.</p>
-    <div class="grid" id="saved-grid"></div>
-    <p class="empty" id="saved-empty">Nothing saved yet. Tap the bookmark on any signal to keep it here.</p>
-  </section>
-
-  <section id="sources">
-    <h2>🌐 Where this watches</h2>
-    <div id="sources-list" class="sources-list"></div>
+    <div class="show-more-wrap"><button id="show-more" hidden>Show more signals</button></div>
   </section>
 </main>
 
@@ -91,6 +80,6 @@
   </div>
 </div>
 
-<script src="app.js?v=20261107-1"></script>
+<script src="app.js?v=20261107-2"></script>
 </body>
 </html>
