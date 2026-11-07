@@ -26,7 +26,7 @@
     "Dedupe by normalised URL plus title together, because distinct stories legitimately share one source report URL. Manual (Muse sweep) entries are never overwritten by the auto updater.",
     "Freshness matters: auto signals older than 14 days drop off the board. Manual signals stay until a sweep retires them.",
     "Scams, unverified giveaway accounts and too-good-to-be-true airdrops are rejected, not listed as warnings, unless a warning itself is the content.",
-    "Privacy Project Watch: projects building privacy tek (Zama, Arcium, Miden, Aztec, Midnight, Nillion, Fhenix, Aleo and peers) are tracked beyond news, GitHub releases and dev activity, docs and changelogs, testnet and mainnet milestones, integrations and governance. A watchlist project named in a title classifies as Privacy and scores high."
+    "Project Watch (all niches): projects building in the Garden's niches, Privacy, AI and Agentic Wallet first among them, are tracked beyond news, GitHub releases and dev activity, docs and changelogs, testnet and mainnet milestones, integrations and governance. A watched project named in a title classifies into its niche category and scores high."
   ],
   "strong_keywords": [
     "privacy",
@@ -87,48 +87,174 @@
     "Namada",
     "Aleo",
     "Mina",
-    "Light Protocol"
+    "Light Protocol",
+    "Virtuals",
+    "Sahara AI",
+    "Autonolas",
+    "Skyfire",
+    "Wayfinder",
+    "Giza"
   ],
-  "privacy_watchlist": [
-    {
-      "project": "Zama",
-      "github_org": "zama-ai",
-      "tech": "FHE, confidential contracts and tokens on public chains"
-    },
-    {
-      "project": "Arcium",
-      "github_org": "arcium-hq",
-      "tech": "MPC encrypted compute network, Solana"
-    },
-    {
-      "project": "Miden",
-      "github_org": "0xMiden",
-      "tech": "Client-side ZK proving privacy chain, ex Polygon"
-    },
-    {
-      "project": "Aztec",
-      "github_org": "AztecProtocol",
-      "tech": "ZK privacy rollup and Noir language, Ethereum"
-    },
-    {
-      "project": "Midnight",
-      "github_org": "midnightntwrk",
-      "tech": "Data-protection chain, Cardano ecosystem"
-    },
-    {
-      "project": "Nillion",
-      "github_org": "NillionNetwork",
-      "tech": "Blind compute, private data and AI"
-    },
-    {
-      "project": "Fhenix",
-      "github_org": "FhenixProtocol",
-      "tech": "FHE coprocessor for Ethereum"
-    },
-    {
-      "project": "Aleo",
-      "github_org": "ProvableHQ",
-      "tech": "ZK Layer 1 for private applications"
-    }
-  ]
+  "project_watchlists": {
+    "Privacy": [
+      {
+        "project": "Zama",
+        "github_org": "zama-ai",
+        "tech": "FHE, confidential contracts and tokens on public chains"
+      },
+      {
+        "project": "Arcium",
+        "github_org": "arcium-hq",
+        "tech": "MPC encrypted compute network, Solana"
+      },
+      {
+        "project": "Miden",
+        "github_org": "0xMiden",
+        "tech": "Client-side ZK proving privacy chain, ex Polygon"
+      },
+      {
+        "project": "Aztec",
+        "github_org": "AztecProtocol",
+        "tech": "ZK privacy rollup and Noir language, Ethereum"
+      },
+      {
+        "project": "Midnight",
+        "github_org": "midnightntwrk",
+        "tech": "Data-protection chain, Cardano ecosystem"
+      },
+      {
+        "project": "Nillion",
+        "github_org": "NillionNetwork",
+        "tech": "Blind compute, private data and AI"
+      },
+      {
+        "project": "Fhenix",
+        "github_org": "FhenixProtocol",
+        "tech": "FHE coprocessor for Ethereum"
+      },
+      {
+        "project": "Aleo",
+        "github_org": "ProvableHQ",
+        "tech": "ZK Layer 1 for private applications"
+      }
+    ],
+    "AI": [
+      {
+        "project": "Sentient",
+        "github_org": "sentient-agi",
+        "tech": "Open AGI network, GRID"
+      },
+      {
+        "project": "Gensyn",
+        "github_org": "gensyn-ai",
+        "tech": "Decentralised ML compute network"
+      },
+      {
+        "project": "Prime Intellect",
+        "github_org": "PrimeIntellect-ai",
+        "tech": "Decentralised AI training and compute"
+      },
+      {
+        "project": "ElizaOS",
+        "github_org": "elizaOS",
+        "tech": "Open source AI agent framework"
+      },
+      {
+        "project": "Bittensor",
+        "github_org": "opentensor",
+        "tech": "Decentralised AI network, TAO"
+      },
+      {
+        "project": "Fetch.ai (ASI)",
+        "github_org": "fetchai",
+        "tech": "Agent economy, ASI alliance"
+      },
+      {
+        "project": "NEAR AI",
+        "github_org": "nearai",
+        "tech": "User-owned AI, NEAR ecosystem"
+      },
+      {
+        "project": "Venice AI",
+        "github_org": "Venice-AI",
+        "tech": "Private, uncensored AI inference"
+      },
+      {
+        "project": "Ritual",
+        "github_org": "Ritual-Net",
+        "tech": "Decentralised AI coprocessor"
+      }
+    ],
+    "Agentic Wallet": [
+      {
+        "project": "Binance Agentic Wallet",
+        "github_repos": [
+          "binance/binance-skills-hub"
+        ],
+        "tech": "Binance agent skills and Agent ID ecosystem"
+      },
+      {
+        "project": "Coinbase AgentKit",
+        "github_repos": [
+          "coinbase/agentkit"
+        ],
+        "tech": "Coinbase toolkit for onchain AI agents"
+      },
+      {
+        "project": "Solana Agent Kit",
+        "github_repos": [
+          "sendaifun/solana-agent-kit"
+        ],
+        "tech": "SendAI agent toolkit for Solana"
+      },
+      {
+        "project": "Crossmint",
+        "github_org": "crossmint",
+        "tech": "Wallets and payments for agents and apps"
+      }
+    ]
+  },
+  "project_categories": {
+    "Zama": "Privacy",
+    "Arcium": "Privacy",
+    "Miden": "Privacy",
+    "Aztec": "Privacy",
+    "Midnight": "Privacy",
+    "Nillion": "Privacy",
+    "Fhenix": "Privacy",
+    "Aleo": "Privacy",
+    "Inco": "Privacy",
+    "Secret Network": "Privacy",
+    "Oasis": "Privacy",
+    "Railgun": "Privacy",
+    "Penumbra": "Privacy",
+    "Namada": "Privacy",
+    "Zcash": "Privacy",
+    "Mina": "Privacy",
+    "Light Protocol": "Privacy",
+    "Aleph Zero": "Privacy",
+    "Sentient": "AI",
+    "Gensyn": "AI",
+    "Prime Intellect": "AI",
+    "ElizaOS": "AI",
+    "Bittensor": "AI",
+    "Fetch.ai (ASI)": "AI",
+    "NEAR AI": "AI",
+    "Venice AI": "AI",
+    "Ritual": "AI",
+    "Virtuals": "AI",
+    "Sahara AI": "AI",
+    "Autonolas": "AI",
+    "Venice": "AI",
+    "Binance Agentic Wallet": "Agentic Wallet",
+    "Coinbase AgentKit": "Agentic Wallet",
+    "Solana Agent Kit": "Agentic Wallet",
+    "Crossmint": "Agentic Wallet",
+    "Agent ID": "Agentic Wallet",
+    "Skyfire": "Agentic Wallet",
+    "Wayfinder": "Agentic Wallet",
+    "Giza": "Agentic Wallet",
+    "Almanak": "Agentic Wallet",
+    "BNB Chain agents": "Agentic Wallet"
+  }
 }

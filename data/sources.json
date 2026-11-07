@@ -1,10 +1,10 @@
 {
   "sources": [
     {
-      "name": "Privacy Project Watch, GitHub orgs",
+      "name": "Project Watch, GitHub orgs and repos, all niches",
       "fetch": "Auto (GitHub API)",
       "cadence": "Every 3 hours with the updater",
-      "notes": "Releases and dev activity straight from the GitHub organisations of Zama, Arcium, Miden, Aztec, Midnight, Nillion, Fhenix and Aleo, plus sweep coverage of their blogs, docs and X accounts. Builder signal, not news."
+      "notes": "Releases and dev activity straight from the GitHub organisations and flagship repos of watched projects across every niche: Privacy (Zama, Arcium, Miden, Aztec, Midnight, Nillion, Fhenix, Aleo), AI (Sentient, Gensyn, Prime Intellect, ElizaOS, Bittensor, Fetch.ai, NEAR AI, Venice, Ritual) and Agentic Wallet (Binance skills hub, Coinbase AgentKit, Solana Agent Kit, Crossmint), plus sweep coverage of their blogs, docs and X accounts. Builder signal, not news."
     },
     {
       "cadence": "every 3 hours (GitHub Actions)",

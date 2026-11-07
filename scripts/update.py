@@ -41,6 +41,10 @@ def word_hit(text, kw):
 
 def classify(title, rules):
     t = title.lower()
+    pcats = rules.get("project_categories") or {}
+    for proj, pcat in pcats.items():
+        if word_hit(t, proj):
+            return pcat
     for proj in rules.get("watched_projects") or []:
         if word_hit(t, proj):
             return "Privacy"
@@ -161,53 +165,70 @@ def github_search(rules, out):
             sig["category"] = cat; sig["type"] = "Release"; sig["project"] = repo.get("full_name") or ""
             out.append(sig)
 
-def github_watch(rules, out):
-    """Privacy Project Watch: releases and dev activity from the GitHub orgs
-    of projects building privacy tek. Not news, direct builder signal."""
+def _watch_repo(proj, category, repo, rules, out):
+    """One signal per repo: a fresh release beats plain dev activity."""
     now = datetime.now(timezone.utc).date()
-    for entry in rules.get("privacy_watchlist") or []:
-        proj = entry.get("project") or ""
-        org = entry.get("github_org") or ""
-        if not proj or not org:
-            continue
+    full = repo.get("full_name") or ""
+    if not full:
+        return
+    pushed = (repo.get("pushed_at") or "")[:10]
+    try:
+        rels = json.loads(fetch(f"https://api.github.com/repos/{full}/releases?per_page=1", accept="application/vnd.github+json"))
+    except Exception:
+        rels = []
+    if rels:
+        rel = rels[0]
+        rdate = (rel.get("published_at") or "")[:10]
         try:
-            repos = json.loads(fetch(f"https://api.github.com/orgs/{org}/repos?sort=pushed&direction=desc&per_page=3", accept="application/vnd.github+json"))
-        except Exception as e:
-            print(f"GitHub watch failed ({org}): {e}", file=sys.stderr); continue
-        if not repos:
-            continue
-        repo = repos[0]
-        full = repo.get("full_name") or ""
-        pushed = (repo.get("pushed_at") or "")[:10]
-        made = False
-        try:
-            rels = json.loads(fetch(f"https://api.github.com/repos/{full}/releases?per_page=1", accept="application/vnd.github+json"))
+            fresh_rel = (now - datetime.fromisoformat(rdate).date()).days <= 60
         except Exception:
-            rels = []
-        if rels:
-            rel = rels[0]
-            rdate = (rel.get("published_at") or "")[:10]
+            fresh_rel = False
+        if fresh_rel:
+            title = f"{proj} release: {repo.get('name')} {rel.get('tag_name') or rel.get('name') or ''}".strip()
+            sig = make_signal(title, rel.get("html_url") or repo.get("html_url") or "", "GitHub Project Watch", "github", ((rel.get("name") or "") + ". " + (rel.get("body") or ""))[:380], rdate, rules)
+            sig["category"] = category; sig["type"] = "Project Watch"; sig["project"] = proj
+            sig["score"] = max(sig["score"], 78); sig["tags"] = [proj.lower(), "release"]
+            out.append(sig); return
+    if pushed:
+        try:
+            fresh_push = (now - datetime.fromisoformat(pushed).date()).days <= 21
+        except Exception:
+            fresh_push = False
+        if fresh_push:
+            title = f"{proj} dev activity: {repo.get('name')}"
+            sig = make_signal(title, repo.get("html_url") or "", "GitHub Project Watch", "github", (repo.get("description") or f"Active development from {proj}.")[:380], pushed, rules)
+            sig["category"] = category; sig["type"] = "Project Watch"; sig["project"] = proj
+            sig["score"] = max(sig["score"], 70); sig["tags"] = [proj.lower(), "development"]
+            out.append(sig)
+
+def github_watch(rules, out):
+    """Project Watch, all niches: releases and dev activity from the GitHub
+    orgs and flagship repos of watched projects (Privacy, AI, Agentic Wallet).
+    Not news, direct builder signal."""
+    groups = rules.get("project_watchlists") or {}
+    for category, entries in groups.items():
+        for entry in entries or []:
+            proj = entry.get("project") or ""
+            if not proj:
+                continue
+            repos = entry.get("github_repos") or []
+            if repos:
+                for full in repos:
+                    try:
+                        repo = json.loads(fetch(f"https://api.github.com/repos/{full}", accept="application/vnd.github+json"))
+                    except Exception as e:
+                        print(f"GitHub watch failed ({full}): {e}", file=sys.stderr); continue
+                    _watch_repo(proj, category, repo, rules, out)
+                continue
+            org = entry.get("github_org") or ""
+            if not org:
+                continue
             try:
-                fresh_rel = (now - datetime.fromisoformat(rdate).date()).days <= 60
-            except Exception:
-                fresh_rel = False
-            if fresh_rel:
-                title = f"{proj} release: {repo.get('name')} {rel.get('tag_name') or rel.get('name') or ''}".strip()
-                sig = make_signal(title, rel.get("html_url") or repo.get("html_url") or "", "GitHub Project Watch", "github", ((rel.get("name") or "") + ". " + (rel.get("body") or ""))[:380], rdate, rules)
-                sig["category"] = "Privacy"; sig["type"] = "Project Watch"; sig["project"] = proj
-                sig["score"] = max(sig["score"], 78); sig["tags"] = [proj.lower(), "release"]
-                out.append(sig); made = True
-        if not made and pushed:
-            try:
-                fresh_push = (now - datetime.fromisoformat(pushed).date()).days <= 21
-            except Exception:
-                fresh_push = False
-            if fresh_push:
-                title = f"{proj} dev activity: {repo.get('name')}"
-                sig = make_signal(title, repo.get("html_url") or "", "GitHub Project Watch", "github", (repo.get("description") or f"Active development in the {org} GitHub organisation.")[:380], pushed, rules)
-                sig["category"] = "Privacy"; sig["type"] = "Project Watch"; sig["project"] = proj
-                sig["score"] = max(sig["score"], 70); sig["tags"] = [proj.lower(), "development"]
-                out.append(sig)
+                org_repos = json.loads(fetch(f"https://api.github.com/orgs/{org}/repos?sort=pushed&direction=desc&per_page=3", accept="application/vnd.github+json"))
+            except Exception as e:
+                print(f"GitHub watch failed ({org}): {e}", file=sys.stderr); continue
+            if org_repos:
+                _watch_repo(proj, category, org_repos[0], rules, out)
 
 def cmc(rules, out):
     try:

@@ -144,8 +144,16 @@ function init(){
   const sm = $("show-more"); if(sm) sm.addEventListener("click", () => { boardVisible += 18; render(); });
   const watch = $("watch-chips");
   if(watch){
-    const projects = ["Zama", "Arcium", "Miden", "Aztec", "Midnight", "Nillion", "Aleo", "Fhenix", "Inco", "Secret Network", "Oasis", "Railgun", "Penumbra", "Namada", "Zcash", "Mina", "Light Protocol"];
-    watch.innerHTML = projects.map(p => '<button class="chip" data-proj="' + esc(p) + '">🔒 ' + esc(p) + "</button>").join("");
+    const groups = [
+      ["🔒 Privacy", ["Zama", "Arcium", "Miden", "Aztec", "Midnight", "Nillion", "Aleo", "Fhenix", "Inco", "Secret Network", "Oasis", "Railgun", "Penumbra", "Namada", "Zcash", "Mina", "Light Protocol"]],
+      ["🤖 AI", ["Sentient", "Gensyn", "Prime Intellect", "ElizaOS", "Bittensor", "Virtuals", "Venice AI", "NEAR AI", "Fetch.ai", "Ritual", "Sahara AI"]],
+      ["👛 Agentic Wallet", ["Binance Agentic Wallet", "Agent ID", "Coinbase AgentKit", "Solana Agent Kit", "Crossmint", "Skyfire", "Wayfinder", "Giza"]]
+    ];
+    watch.innerHTML = groups.map(g =>
+      '<div class="watch-group"><span class="watch-label">' + esc(g[0]) + '</span><span class="chips">' +
+      g[1].map(p => '<button class="chip" data-proj="' + esc(p) + '">' + esc(p) + "</button>").join("") +
+      "</span></div>"
+    ).join("");
     watch.querySelectorAll(".chip").forEach(ch => {
       ch.onclick = () => {
         const s = $("search");

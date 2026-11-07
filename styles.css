@@ -82,3 +82,5 @@ footer{border-top:1px solid var(--line);padding:28px 20px;max-width:1000px;margi
 .src-link:hover{text-decoration:underline}
 .show-more-wrap{text-align:center;margin-top:32px}
 .show-more-wrap button{padding:13px 28px;font-size:14.5px}
+.watch-group{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;flex-wrap:wrap}
+.watch-label{font-weight:700;font-size:14px;padding-top:9px;min-width:130px}
