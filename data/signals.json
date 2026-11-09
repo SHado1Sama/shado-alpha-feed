@@ -1620,18 +1620,18 @@
       ]
     },
     {
-      "id": "auto-miden-release-node-v0-18-2",
-      "title": "Miden release: node v0.18.2",
+      "id": "auto-miden-release-miden-vm-v0-36-4",
+      "title": "Miden release: miden-vm v0.36.4",
       "project": "Miden",
       "source": "GitHub Project Watch",
       "source_type": "github",
-      "url": "https://github.com/0xMiden/node/releases/tag/v0.18.2",
+      "url": "https://github.com/0xMiden/miden-vm/releases/tag/v0.36.4",
       "category": "Privacy",
       "type": "Project Watch",
-      "summary": "v0.18.2. Release v0.18.2\n\n## Changes by Scope\n\n### General\n\n- **Changed:** Update compatible Rust dependencies used by the node binaries. (#2842)\n\n### Node\n\n- **Changed:** gRPC request spans record `rpc.grpc.status_code`, and failed requests caused by the client are logged at `INFO` instead of `ERROR`. (#2508)\n- **Fixed:** Retry transient validator connection failures during tr",
+      "summary": "v0.36.4. #### Changes\r\n\r\n- Allow core MASM package patch versions to differ from the `miden-core-lib` crate for stable releases with matching major/minor versions. Require full version equality when either version is a prerelease. Keep the core MASM package at 0.36.3 ([#4100](https://github.com/0xMiden/miden-vm/pull/4100)).\r\n\r\n#### Fixes\r\n\r\n- [BREAKING] Made `PartialSmt::add_pa",
       "angle": "",
       "score": 78,
-      "published_at": "2026-11-02",
+      "published_at": "2026-11-06",
       "discovered_at": "2026-11-09",
       "manual": false,
       "tags": [
