@@ -4,7 +4,7 @@
 
 var STATUSES = ["Interested", "Applied", "Doing", "Submitted", "Paid"];
 var STORE_KEY = "sg_money_v1";
-var TYPES = ["All", "Campaign", "Ambassador", "Bounty", "Bounty Platform", "Creator Platform", "Paid Post", "Quest"];
+var TYPES = ["All", "Campaign", "Ambassador Program", "Bounty", "Bounty Platform", "Creator Platform", "Paid Post", "Quest"];
 
 var OPPS = [];
 var tracked = loadTracked();
