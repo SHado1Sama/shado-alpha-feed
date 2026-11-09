@@ -195,3 +195,4 @@ footer strong{color:var(--muted)}
 .error-block strong{color:var(--text)}
 .clear-btn{min-height:32px;padding:5px 12px;font-size:13px;background:transparent}
 button:disabled{opacity:.45;cursor:not-allowed}
+[hidden]{display:none !important}
