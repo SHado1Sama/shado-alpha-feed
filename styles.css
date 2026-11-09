@@ -188,3 +188,10 @@ footer strong{color:var(--muted)}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
+
+/* Error state and filter utilities (round 2) */
+.error-block{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:18px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:12px 0}
+.error-block p{margin:0;color:var(--muted);font-size:14px}
+.error-block strong{color:var(--text)}
+.clear-btn{min-height:32px;padding:5px 12px;font-size:13px;background:transparent}
+button:disabled{opacity:.45;cursor:not-allowed}

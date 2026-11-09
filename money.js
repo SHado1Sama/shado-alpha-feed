@@ -163,11 +163,7 @@ function wireActions(root) {
   }
 }
 
-function init() {
-  var q = document.getElementById("q");
-  if (q) q.addEventListener("input", render);
-  var t = document.getElementById("tracked-only");
-  if (t) t.addEventListener("change", render);
+function loadMoney() {
   fetch("data/money.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
     .then(function (data) {
@@ -176,8 +172,20 @@ function init() {
     })
     .catch(function () {
       var g = document.getElementById("money-grid");
-      if (g) g.innerHTML = '<p class="empty">Could not load the money board. Check your connection and refresh.</p>';
+      if (g) {
+        g.innerHTML = '<div class="error-block"><p><strong>Could not load the money board.</strong> Check your connection, then try again.</p><button class="retry-btn" type="button">Retry</button></div>';
+        var rb = g.querySelector(".retry-btn");
+        if (rb) rb.onclick = loadMoney;
+      }
     });
+}
+
+function init() {
+  var q = document.getElementById("q");
+  if (q) q.addEventListener("input", render);
+  var t = document.getElementById("tracked-only");
+  if (t) t.addEventListener("change", render);
+  loadMoney();
 }
 
 if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

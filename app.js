@@ -3,6 +3,7 @@ const STORE_KEY = "sg_saved_v1";
 const CATEGORIES = ["All", "Privacy", "AI", "Agentic Wallet", "NFTs", "Launches & Airdrops", "Listings & Markets", "Protocol Updates", "Web3"];
 let SIGNALS = [];
 let activeCategory = "All";
+let sortMode = "score";
 
 function $(id){ return document.getElementById(id); }
 function loadStore(){ try { return JSON.parse(localStorage.getItem(STORE_KEY) || "{}"); } catch(e){ return {}; } }
@@ -44,7 +45,7 @@ function currentFilters(){
   const q = ($("search") && $("search").value || "").toLowerCase().trim();
   const type = $("type-filter") && $("type-filter").value || "";
   const savedOnly = $("saved-only") && $("saved-only").checked;
-  return SIGNALS.filter(sig => {
+  const out = SIGNALS.filter(sig => {
     if(activeCategory !== "All" && sig.category !== activeCategory) return false;
     if(type && sig.type !== type) return false;
     if(savedOnly && !statusOf(sig.id)) return false;
@@ -54,6 +55,9 @@ function currentFilters(){
     }
     return true;
   });
+  if(sortMode === "new") out.sort((a, b) => String(b.published_at).localeCompare(String(a.published_at)) || (b.score || 0) - (a.score || 0));
+  else out.sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
+  return out;
 }
 
 let boardVisible = 18;
@@ -62,6 +66,7 @@ function render(){
   const list = currentFilters();
   const topEl = $("top-grid"), boardEl = $("board-grid"), savedEl = $("saved-grid");
   const filtering = activeCategory !== "All" || !!(($("type-filter") && $("type-filter").value)) || !!((($("search") && $("search").value) || "").trim()) || !!(($("saved-only") && $("saved-only").checked));
+  const cfBtn = $("clear-filters"); if(cfBtn) cfBtn.hidden = !filtering;
   const topSection = $("top-signals");
   if(topSection) topSection.style.display = filtering ? "none" : "";
   if(topEl){
@@ -69,7 +74,7 @@ function render(){
     topEl.innerHTML = tops.map(s => cardHTML(s, false)).join("") || '<p class="empty">No top signals right now.</p>';
   }
   if(boardEl){
-    const key = [activeCategory, ($("search") && $("search").value) || "", ($("type-filter") && $("type-filter").value) || "", ($("saved-only") && $("saved-only").checked) || ""].join("|");
+    const key = [activeCategory, sortMode, ($("search") && $("search").value) || "", ($("type-filter") && $("type-filter").value) || "", ($("saved-only") && $("saved-only").checked) || ""].join("|");
     if(key !== lastFilterKey){ lastFilterKey = key; boardVisible = 18; }
     const shown = list.slice(0, boardVisible);
     boardEl.innerHTML = shown.map(s => cardHTML(s, false)).join("");
@@ -135,6 +140,19 @@ function wireCards(){
   });
 }
 
+function loadSignals(){
+  fetch("data/signals.json", { cache: "no-store" }).then(r => r.json()).then(data => {
+    SIGNALS = (data.signals || []).slice().sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
+    const c = $("stat-count"); if(c) c.textContent = SIGNALS.length + " signals on the board";
+    render();
+  }).catch(() => {
+    const html = '<div class="error-block"><p><strong>Could not load signals.</strong> Check your connection, then try again.</p><button class="retry-btn" type="button">Retry</button></div>';
+    const b = $("board-grid"); if(b){ b.innerHTML = html; const rb = b.querySelector(".retry-btn"); if(rb) rb.onclick = loadSignals; }
+    const t = $("top-grid"); if(t) t.innerHTML = "";
+    const c2 = $("stat-count"); if(c2) c2.textContent = "Could not load signals";
+  });
+}
+
 function init(){
   const chips = $("category-chips");
   if(chips){
@@ -144,6 +162,15 @@ function init(){
     });
   }
   ["search", "type-filter", "saved-only"].forEach(id => { const el = $(id); if(el){ el.addEventListener("input", render); el.addEventListener("change", render); } });
+  const sortSel = $("sort-filter"); if(sortSel) sortSel.addEventListener("change", () => { sortMode = sortSel.value; render(); });
+  const cfBtn = $("clear-filters"); if(cfBtn) cfBtn.onclick = () => {
+    activeCategory = "All";
+    const s = $("search"); if(s) s.value = "";
+    const tf = $("type-filter"); if(tf) tf.value = "";
+    const so = $("saved-only"); if(so) so.checked = false;
+    const ch = $("category-chips"); if(ch) ch.querySelectorAll(".chip").forEach(x => x.classList.toggle("active", x.getAttribute("data-cat") === "All"));
+    render();
+  };
   const sm = $("show-more"); if(sm) sm.addEventListener("click", () => { boardVisible += 18; render(); });
   const watch = $("watch-chips");
   if(watch){
@@ -169,13 +196,7 @@ function init(){
   const modal = $("draft-modal"); if(modal) modal.addEventListener("click", e => { if(e.target === modal) modal.hidden = true; });
   const copy = $("draft-copy"); if(copy) copy.onclick = () => { const ta = $("draft-text"); if(ta){ ta.select(); try { navigator.clipboard.writeText(ta.value); } catch(e){ document.execCommand("copy"); } copy.textContent = "Copied ✓"; setTimeout(() => copy.textContent = "Copy brief", 1500); } };
 
-  fetch("data/signals.json", { cache: "no-store" }).then(r => r.json()).then(data => {
-    SIGNALS = (data.signals || []).slice().sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
-    const c = $("stat-count"); if(c) c.textContent = SIGNALS.length + " signals on the board";
-    render();
-  }).catch(() => {
-    const b = $("board-grid"); if(b) b.innerHTML = '<p class="empty">Could not load signals. Refresh in a moment.</p>';
-  });
+  loadSignals();
   fetch("data/last_update.json", { cache: "no-store" }).then(r => r.json()).then(u => {
     const el = $("stat-updated"); if(el && u.updated_at) el.textContent = "Last sweep: " + u.updated_at;
   }).catch(() => {});
