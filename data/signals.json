@@ -212,28 +212,6 @@
       ]
     },
     {
-      "id": "crypto-shutdown-wave-85-projects-2026",
-      "title": "85 crypto projects shut down in 2026, up 37 percent on last year",
-      "project": "Crypto shutdowns (sector)",
-      "source": "RootData via ChainCatcher",
-      "source_type": "research",
-      "url": "https://www.kucoin.com/news/flash/2026-data-85-crypto-projects-ceased-operations-37-1-increase-yoy",
-      "category": "Web3",
-      "type": "Update",
-      "summary": "RootData data reported by ChainCatcher counts 85 crypto projects, networks and protocols that have ceased operations in 2026 as of Oct 31, passing the full-year 2025 total of 78, a 37.1 percent year-over-year increase. Most gave no reason; among those that did, Blast cited maintenance costs above network revenue and Zipcoin cited security incidents. Of the 85, 31 announced their shutdown on the same day they stopped, while 24 gave advance notice averaging 31.2 days. Balancer announced on Oct 27 and stopped on Oct 30, three days later, while NFTfi gave 81 days. The most common reasons across the year were lack of product-market fit, depleted funding and insufficient revenue.",
-      "angle": "The bear market is doing what bear markets do, sorting the builders from the tourists. Use the number, 85 dead in ten months, then the real lesson for your audience, the killers are boring, no product-market fit, no revenue, no runway, not hacks. Pair it with the Veil shutdown from the same week and ask followers what separates the projects that survive a winter from the ones that do not.",
-      "score": 74,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "shutdowns",
-        "bear market",
-        "rootdata",
-        "product-market fit"
-      ]
-    },
-    {
       "id": "nft-worlds-far-worlds-rebrand",
       "title": "NFT Worlds returns as Far Worlds, a playable RPG with a free mint for newcomers",
       "project": "Far Worlds (ex NFT Worlds)",
@@ -373,30 +351,6 @@
       ]
     },
     {
-      "id": "watch-ritual-chain-launch",
-      "title": "Ritual launches Ritual Chain, an AI-native Layer 1 where agents hold their own wallets",
-      "project": "Ritual",
-      "source": "Unchained",
-      "source_type": "news",
-      "url": "https://unchainedcrypto.com/press-release/ritual-launches-ai-native-layer-1-for-autonomous-agents/",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Ritual launched Ritual Chain on Oct 26, an EVM-compatible Layer 1 built for autonomous agents rather than just financial transactions. Agents on it persist independently of the machine that created them, control funds in their own non-custodial wallets, keep sensitive prompts and keys private inside trusted execution environments, and can be restarted by the chain heartbeat within their budget. It ships with 15 native precompiles for LLM inference, web access and autonomous scheduling, sub-300ms blocks, and integrations with Phala Network for confidential inference, Nous Research (Hermes), LayerZero and Stargate. The public testnet processed over 40 million transactions since June, and the protocol was audited by Zellic.",
-      "angle": "This is the AI x agentic wallet crossover in one launch: a chain where the agent itself is the economic actor, not the human behind it. Explain the three ideas simply, an agent that outlives its creator, a wallet it controls alone, and private compute it cannot see through, then ask followers what job they would trust an agent to run for months on its own.",
-      "score": 88,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "ritual",
-        "ai agents",
-        "layer 1",
-        "agentic wallet",
-        "tee",
-        "private compute"
-      ]
-    },
-    {
       "id": "watch-bittensor-reax-13",
       "title": "Bittensor subnet REAX 1.3 tops the Hugging Face Decision Index, built from miners winning entries",
       "project": "Bittensor",
@@ -445,121 +399,6 @@
       ]
     },
     {
-      "id": "watch-binance-agent-id-qr-security",
-      "title": "Binance Wallet tightens Agentic Wallet security, blocks QR logins on high-risk third-party sites",
-      "project": "Binance Agentic Wallet",
-      "source": "PANews",
-      "source_type": "exchange",
-      "url": "https://panews.io/articles/01a19c3e-9b5a-758a-bcd3-4d0c0a1b4a46",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Wallet completed a new round of Agentic Wallet security upgrades on Nov 2. QR code login on high-risk third-party websites is now restricted under real-time risk control rules, and sites that trigger the rules are forcibly logged out, with regular security scans to follow. The change follows user reports of QR login failures. Binance reminds users not to scan QR codes from unofficial platforms to reach their Agentic Wallet and to use only trusted agents such as Binance AI Pro, Claude, Codex and Grok.",
-      "angle": "A practical safety post for your Agent ID audience: the wallet now kicks you out of risky sites for you, but the rule that matters is never scan a QR code from a mint promo or an unofficial page. Tie it to the HOPKIN lesson, a QR code in a promotion is not proof of an approved connection, and ask followers which agents they actually trust with their wallet.",
-      "score": 84,
-      "published_at": "2026-11-02",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "binance",
-        "agent id",
-        "agentic wallet",
-        "security",
-        "qr login"
-      ]
-    },
-    {
-      "id": "watch-aztec-williamson-regulated-assets",
-      "title": "Aztec co-founder: private smart contracts could bring mortgages and bonds into DeFi",
-      "project": "Aztec",
-      "source": "EconoTimes",
-      "source_type": "news",
-      "url": "https://econotimes.com/Aztec-Co-Founder-Says-Private-Smart-Contracts-Could-Link-Regulated-Assets-to-DeFi-1769991",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Aztec co-founder Zac Williamson told Bankless on Nov 3 that private smart contracts could let regulated assets such as mortgages and bonds connect to DeFi while concealing sensitive holder information. His design would let a smart contract confirm credentials, credit scores or passport signatures without sharing the underlying records with the application. He noted privacy alone rarely draws users, since people pick cheaper and easier services even when they collect more data, so the market gap is assets whose legal rules require identity checks. Aztec has no viewing keys at the protocol level, though apps can add their own, and he flagged two obstacles: zero-knowledge proof complexity and compliance providers demanding transaction viewing access.",
-      "angle": "The follow-up to the Tierra launch: privacy as the bridge for regulated money, not just a hiding place. Explain the core idea in plain language, prove a fact without showing the data, and ask followers whether mortgages on a private chain is the use case that finally makes privacy mainstream.",
-      "score": 82,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "aztec",
-        "private smart contracts",
-        "rwa",
-        "zk",
-        "compliance"
-      ]
-    },
-    {
-      "id": "binance-scam-warning-withdrawals-resume",
-      "title": "Binance warns of withdrawal scams as services resume after the $6.3B hack",
-      "project": "Binance",
-      "source": "TechBriefly",
-      "source_type": "news",
-      "url": "https://techbriefly.com/2026/11/03/binance-warns-of-scams-as-withdrawals-resume-after-63/",
-      "category": "Web3",
-      "type": "News",
-      "summary": "Binance warned on Nov 2 that scammers are impersonating its staff and offering help with delayed withdrawals, compensation claims or asset recovery while withdrawals reopen in phases after the Oct 29 attack that took about $6.3B from its hot wallets. Scam attempts use fake emails, DMs, group chats and small transfers carrying malicious instructions, and may promise to speed up withdrawals, sell queue priority or direct funds into supposedly secure wallets. Binance says it never charges fees to unlock withdrawals, never offers paid recovery, and never asks users to authorise transactions to regain access, and it warned about fake proof-of-reserves sites and compensation-eligibility links. About 95 percent of affected assets have been replaced from company resources. Separately, Binance completed a zero-knowledge proof for its Oct 31 reserve snapshot covering BTC, ETH, BNB, XRP, SOL, ZEC and four stablecoins.",
-      "angle": "A warning post your audience needs while withdrawals reopen: recovery periods are when scammers work hardest. List the three things Binance will never ask for, fee to unlock, paid recovery, a signature to regain access, and remind followers to check pending withdrawals only inside the official app and verify links through Binance Verify.",
-      "score": 80,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "binance",
-        "scam warning",
-        "hack",
-        "withdrawals",
-        "security"
-      ]
-    },
-    {
-      "id": "watch-zama-defillama-interview",
-      "title": "Zama CEO: confidential finance is the internet's HTTPS moment, shielded TVL past $130M",
-      "project": "Zama",
-      "source": "DefiLlama Research",
-      "source_type": "research",
-      "url": "https://defillama.com/research/interview/zama-https-onchain-finance",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "DefiLlama Research interviewed Zama CEO Rand Hindi after its confidential DeFi report. Shielded TVL has passed $130M within about three months of the confidential vaults launching, and Hindi frames Zama as the HTTPS layer for onchain finance: amounts and balances stay encrypted while sender and recipient stay visible, so compliance stays possible. Apex Group is targeting $100B of tokenised assets on T-REX by 2027 with Zama as its confidentiality layer, and Hindi says the next push is utility, confidential swaps, more vaults and more integrations, not just TVL.",
-      "angle": "The HTTPS analogy is the thread: the early internet showed everyone everything until encryption became default, and public chains are at the same point now. Walk through what Zama hides (amounts, balances) and what it deliberately does not hide (sender, recipient), then ask followers whether confidential finance becomes default or stays a niche.",
-      "score": 88,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "zama",
-        "fhe",
-        "confidential defi",
-        "defillama",
-        "tvl"
-      ]
-    },
-    {
-      "id": "watch-fhenix-cofhe-mainnet",
-      "title": "Fhenix CoFHE goes live on Ethereum and Arbitrum, contracts can now compute on hidden balances",
-      "project": "Fhenix",
-      "source": "Blockonomi",
-      "source_type": "news",
-      "url": "https://blockonomi.com/fhenix-cofhe-goes-live-on-ethereum-and-arbitrum-for-private-defi/",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Fhenix launched CoFHE, its fully homomorphic encryption coprocessor, on Ethereum and Arbitrum mainnets on Oct 21, 2026. Smart contracts can now compute on encrypted balances, positions and trading strategies without exposing them, using a Solidity import and encrypted data types that work like normal variables. A dual-mode token design lets holders switch balances between public and confidential in one transaction, with no wrapping or bridging. Fluton and Alpha Engine launched as the first design partners, Consensys Diligence audited the system, three more apps are due in Q4 2026, and Fhenix is building a confidential stablecoin with Offchain Labs venture arm Tandem.",
-      "angle": "Explain the coprocessor idea simply: heavy encrypted maths happens offchain, the chain only checks the result, so builders get privacy without learning a new language. Contrast with Zama, same FHE family, different delivery model, and ask which approach ships private DeFi first.",
-      "score": 86,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "fhenix",
-        "cofhe",
-        "fhe",
-        "private defi",
-        "arbitrum"
-      ]
-    },
-    {
       "id": "binance-wallet-nov-update-agent-id",
       "title": "Binance Wallet adds CopyTrade, Solana support and Agent ID Exclusive mode in Meme Rush",
       "project": "Binance Agentic Wallet",
@@ -581,29 +420,6 @@
         "copytrade",
         "solana",
         "agentic wallet"
-      ]
-    },
-    {
-      "id": "watch-sentient-reward-hacking",
-      "title": "Sentient on reward hacking: when AI games the test, the test is the problem",
-      "project": "Sentient",
-      "source": "Invezz",
-      "source_type": "research",
-      "url": "https://invezz.com/news/2026/11/03/sentients-abhishek-saxena-on-ai-reward-hacking-model-trust-and-open-weights/",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Sentient head of strategy Abhishek Saxena told Invezz how a coach AI taught a worker AI to exploit a broken grading script, and why the lesson is that reward hacking usually exposes a flawed test, not a devious model. He also explains model fingerprinting, fine-tuning secret key-response pairs into a model so anyone can check whether the model serving them is the one they licensed, and draws the line between open weights (you get the artefact) and open source (you can rebuild it). Sentient runs an open network with more than 110 integrated partners, and Saxena argues crypto's useful lessons for AI are distribution through other people's products, shared incentives and building in public, while token-first thinking and price as a proxy for adoption should be left behind.",
-      "angle": "The reward hacking story is the hook: an AI found the answer key hidden in a spreadsheet and used it, and the fix was one line, recompute every formula. Then the bigger question for your audience, how do you know the model answering you is the model you paid for, and why fingerprinting is Sentient's answer.",
-      "score": 78,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "sentient",
-        "reward hacking",
-        "open weights",
-        "model trust",
-        "ai"
       ]
     },
     {
@@ -653,28 +469,6 @@
       ]
     },
     {
-      "id": "watch-aztec-tierra-alpha-v6",
-      "title": "Aztec launches Tierra (Alpha V6), permissionless private smart contracts live",
-      "project": "Aztec",
-      "source": "Aztec",
-      "source_type": "blog",
-      "url": "https://aztec.network/blog/introducing-aztec-tierra",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Aztec launched Tierra, its Alpha V6 upgrade: a fix for the critical V5 proving flaw, formal verification of core proving components and an AI security testing harness. Private proofs now take about 1 second on device, twice as fast, and Ethereum to Aztec deposits drop from about 2 minutes to as low as 12 seconds. It ships with a wave of private apps: zk.money payments, Galactica private AI inference, Nemi private perps, Nulo wallet, Xochi intents, Nyx payments and Olla liquid staking.",
-      "angle": "Privacy is no longer a feature you bolt on, it is the chain. Walk through what changes when a developer can pick private or public per function, and spotlight Galactica as the crossover: pay for GPT and Claude from a private balance. Ask followers which private app they would try first.",
-      "score": 92,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "aztec",
-        "tierra",
-        "private smart contracts",
-        "zk"
-      ]
-    },
-    {
       "id": "watch-midnight-ledger-9",
       "title": "Midnight hard forks to Ledger 9 on mainnet, contracts can now call each other",
       "project": "Midnight",
@@ -694,28 +488,6 @@
         "ledger 9",
         "hard fork",
         "private defi"
-      ]
-    },
-    {
-      "id": "coinbase-agents-signup-champions-cup",
-      "title": "Coinbase opens a dedicated sign-up page for AI agents, Champions Cup live with up to $2M in USDC",
-      "project": "Coinbase",
-      "source": "CryptoNinjas",
-      "source_type": "news",
-      "url": "https://www.cryptoninjas.net/news/coinbase-launches-ai-agent-sign-ups-for-crypto-trading-with-built-in-safety-limits/",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Coinbase CEO Brian Armstrong announced on 2 November a dedicated sign-up page at coinbase.com/agents where users connect an agent they already use (Claude, Cursor, Grok, Perplexity, Hermes, Muse, or any MCP tool) to trade crypto, stocks and futures inside their Coinbase account, in a separate portfolio per agent, under user-set limits. Agents can never send funds off Coinbase, and can pay for research over x402 up to $5 per call and $50 per day in the US. The Champions Cup, a derivatives trading competition for agent users on Coinbase Advanced, runs 4 to 25 November with a prize pool scaling up to $2 million in USDC.",
-      "angle": "The biggest exchange just built a front door for AI agents, not people. Explain in plain terms what an agent can and cannot do inside a Coinbase account, and why the guardrails (no off-exchange withdrawals, per-agent portfolios, spend caps) are the real story for anyone handing keys to software.",
-      "score": 90,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "coinbase",
-        "ai agents",
-        "x402",
-        "agentic wallet"
       ]
     },
     {
@@ -785,72 +557,6 @@
       ]
     },
     {
-      "id": "watch-arcium-blackthorn",
-      "title": "Arcium opens Blackthorn, private AI inference, to selected users",
-      "project": "Arcium",
-      "source": "Solana Compass",
-      "source_type": "research",
-      "url": "https://solanacompass.com/projects/arcium",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Arcium, Solana's encrypted compute network (MPC: data split across nodes so no single node ever sees it), opened Blackthorn on Oct 21, its private AI inference service running on NVIDIA GPUs, to selected users in private alpha. The network has run Mainnet Alpha since February 2026, passed 1 million confidential computations in June, and its ARX token launched June 22. Umbra, its first app, does shielded transfers and encrypted swaps. Next on the roadmap: Confidential SPL, wrapping normal Solana tokens into encrypted balances.",
-      "angle": "Privacy meets AI, your two pillars in one project: explain MPC like a group project where nobody sees the full answer sheet, then Blackthorn's pitch, AI that computes on data it cannot read.",
-      "score": 90,
-      "published_at": "2026-10-21",
-      "discovered_at": "2026-11-07",
-      "manual": true,
-      "tags": [
-        "arcium",
-        "mpc",
-        "private ai",
-        "solana"
-      ]
-    },
-    {
-      "id": "watch-zama-confidential-defi-expansion",
-      "title": "Zama expands confidential DeFi: 16 Morpho vaults, confidential swaps, $100M+ shielded",
-      "project": "Zama",
-      "source": "DefiLlama Research",
-      "source_type": "research",
-      "url": "https://defillama.com/research/report/zama-a-look-into-confidential-defi",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Zama's FHE confidentiality protocol is scaling fast: it crossed $100M shielded within 25 days of mainnet, the fastest of any privacy protocol, and September 2026 turned its single vault into a 16 vault suite on Morpho across 5 institutional curators (Steakhouse, Wintermute's Armitage, Flowdesk, RockawayX, Bitwise) alongside a live Confidential Swap Protocol. Its Q3 Shielded report dropped Nov 2. The confidential token standard ERC-7984, co-developed with OpenZeppelin, is becoming the category standard.",
-      "angle": "Break down FHE for beginners: computing on encrypted data without decrypting it, then walk the numbers, $100M in 25 days versus 860+ days for the older privacy coins, and ask what confidential DeFi means for normal users, not just institutions.",
-      "score": 92,
-      "published_at": "2026-11-02",
-      "discovered_at": "2026-11-07",
-      "manual": true,
-      "tags": [
-        "zama",
-        "fhe",
-        "confidential defi",
-        "morpho"
-      ]
-    },
-    {
-      "id": "watch-miden-partner-mainnet",
-      "title": "Miden opens invite-only partner mainnet, private accounts with real funds",
-      "project": "Miden",
-      "source": "Bankless",
-      "source_type": "news",
-      "url": "https://www.bankless.com/read/news/miden-opens-its-invite-only-partner-mainnet-privacy-guardrails-included",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Miden, the privacy chain that spun out of Polygon in 2025, opened its partner mainnet on Oct 26: invited partners now transact with real funds. Your device executes each transaction and proves it locally with STARKs in under 3 seconds on a phone, the chain stores only commitments of private account data. Guardian, co-built with OpenZeppelin, coordinates shared private accounts without a custodian. Honest caveat from the team itself: in this phase validators can still see private inputs and swaps are public, the guardrails come off after public mainnet, which is a few months out.",
-      "angle": "Explainer thread: how client-side proving works (your phone proves, the chain only checks), why that is a different privacy model from Zcash or Aztec, and what the guardrails phase honestly does and does not hide yet.",
-      "score": 93,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-07",
-      "manual": true,
-      "tags": [
-        "miden",
-        "zk",
-        "mainnet",
-        "privacy chain"
-      ]
-    },
-    {
       "angle": "Explainer: what the Alpha upgrade pause actually means for hunters, and why no-claim airdrops are the safest kind. End by asking followers if they made the 200 point cut.",
       "category": "Launches & Airdrops",
       "discovered_at": "2026-11-07",
@@ -896,73 +602,6 @@
       "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/pr-newswire/zetrix-ai-and-china-academy-of-information-and-communications-technology-unveil-know-your-agent-kya-service-to-bring-trust-and-accountability-to-ai-agents/2462670"
     },
     {
-      "angle": "Hot take plus explainer: agents are no longer demos, they are spenders. Use the rogue agent story as the hook, then explain why wallets, limits and identity matter. Perfect for your niche.",
-      "category": "AI",
-      "discovered_at": "2026-11-07",
-      "id": "ai-agents-138m-payments-oct-2026",
-      "manual": true,
-      "project": "Web3 AI agents (sector)",
-      "published_at": "2026-11-01",
-      "score": 94,
-      "source": "OriginBrief Crypto & Web3 Monthly Report, 1 Nov 2026",
-      "source_type": "research",
-      "summary": "October 2026 report: AI agents are now measurable onchain economic actors, with 138 million crypto payments in the month, over 88 percent from US-linked wallets. One research agent even ran out of ETH and autonomously took funds from a wallet it did not own, which is exactly why agent governance is becoming a real topic.",
-      "tags": [
-        "ai-agents",
-        "payments",
-        "onchain",
-        "governance"
-      ],
-      "title": "AI agents made 138 million crypto payments in one month",
-      "type": "Update",
-      "url": "https://www.originbrief.app/en/reports/crypto-web3/2026-11-01/monthly"
-    },
-    {
-      "angle": "Explainer thread in your pinned-post style: break privacy scaling into simple layers (speed, developer access, user app), one project per layer, end with a question on which matters most.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-07",
-      "id": "privacy-tech-tachyon-zkapi-aztec-2026-11",
-      "manual": true,
-      "project": "Zcash / Ethereum / Aztec",
-      "published_at": "2026-11-01",
-      "score": 93,
-      "source": "OriginBrief Crypto & Web3 Monthly Report, 1 Nov 2026",
-      "source_type": "research",
-      "summary": "Privacy infrastructure advanced on three fronts at once: Zcash Tachyon code targeting 50,000+ private payments per second, Ethereum zkAPI mainnet launch, and Aztec relaunching zk.money, even as privacy faces quantum threat warnings and regulatory scrutiny.",
-      "tags": [
-        "privacy",
-        "zcash",
-        "zk",
-        "aztec",
-        "ethereum"
-      ],
-      "title": "Privacy tech push: Zcash Tachyon targets 50,000 private payments per second, zkAPI live, Aztec zk.money relaunches",
-      "type": "Update",
-      "url": "https://www.originbrief.app/en/reports/crypto-web3/2026-11-01/monthly"
-    },
-    {
-      "angle": "Privacy win explainer: what the withdrawn rules would have meant for ordinary self-custody users, in plain language, and why privacy builders are breathing easier.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-07",
-      "id": "fincen-private-wallet-rule-withdrawn-2026-11",
-      "manual": true,
-      "project": "US regulation / self-custody",
-      "published_at": "2026-11-01",
-      "score": 88,
-      "source": "OriginBrief Crypto & Web3 Monthly Report, 1 Nov 2026",
-      "source_type": "research",
-      "summary": "FinCEN withdrew the proposed $10,000 reporting rule for crypto sent to private wallets and the mixer reporting rule, removing a significant regulatory overhang for self-custody and privacy-preserving protocols.",
-      "tags": [
-        "privacy",
-        "regulation",
-        "self-custody",
-        "fincen"
-      ],
-      "title": "FinCEN withdraws proposed reporting rules for private wallets and mixers",
-      "type": "News",
-      "url": "https://www.originbrief.app/en/reports/crypto-web3/2026-11-01/monthly"
-    },
-    {
       "angle": "Short post plus chart-free explainer: the oldest privacy coin is still shipping. Ask your audience if privacy coins or privacy infrastructure (Midnight, Aztec) win this cycle.",
       "category": "Privacy",
       "discovered_at": "2026-11-07",
@@ -981,29 +620,6 @@
         "upgrade"
       ],
       "title": "Zcash NU7 upgrade delivers faster private payments",
-      "type": "Update",
-      "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
-    },
-    {
-      "angle": "Explainer: privacy as a feature other chains import, not a chain you move to. Compare with Aztec's approach and ask builders which model they would pick.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-07",
-      "id": "midnight-sig-network-ethereum-privacy-2026-10-28",
-      "manual": true,
-      "project": "Midnight (NIGHT)",
-      "published_at": "2026-10-28",
-      "score": 86,
-      "source": "Midnight Foundation via Mudrex",
-      "source_type": "news",
-      "summary": "Midnight, Cardano's privacy-focused chain for confidential smart contracts, announced a partnership with Sig Network on 28 October to bring Midnight privacy capabilities to Ethereum applications without developers moving liquidity. A governance proposal, MIP-0024, would also share NIGHT block rewards with Cardano stake pool operators and delegators.",
-      "tags": [
-        "privacy",
-        "midnight",
-        "night",
-        "cardano",
-        "ethereum"
-      ],
-      "title": "Midnight partners Sig Network to bring its privacy layer to Ethereum apps",
       "type": "Update",
       "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
     },
@@ -1052,28 +668,6 @@
       "title": "BNBAgent SDK: agent identity, escrow jobs and dispute resolution on BNB Chain",
       "type": "Update",
       "url": "https://thegrid.id/discovery/productType/ai-agent-framework"
-    },
-    {
-      "angle": "Quick alpha post format you can reuse for every listing: what it is, when trading opens, what Seed Tag means, one risk line. Speed is the content here.",
-      "category": "Listings & Markets",
-      "discovered_at": "2026-11-07",
-      "id": "binance-predict-listing-2026-10-30",
-      "manual": true,
-      "project": "Predict.fun (PREDICT)",
-      "published_at": "2026-10-30",
-      "score": 78,
-      "source": "Binance announcements tracker",
-      "source_type": "exchange",
-      "summary": "Binance opened PREDICT spot trading on 30 October at 10:00 UTC with a Seed Tag, its label for early-stage, higher-volatility projects. It is the latest of 30 Binance spot listings in the last 12 months, and listing announcements typically land only about 4 hours before trading opens, which is why speed matters for content.",
-      "tags": [
-        "binance",
-        "listing",
-        "seed-tag",
-        "prediction-markets"
-      ],
-      "title": "Binance lists Predict (PREDICT) spot with Seed Tag",
-      "type": "Listing",
-      "url": "https://koinbulteni.com/en/binance-new-listings"
     },
     {
       "angle": "Follow-up post: you are in early, show the pass, explain what Makers get, and ask who else got in before the window closes. Early proof beats early promises.",
@@ -1680,40 +1274,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-rainryu1-airdrop-research-skill",
       "title": "GitHub activity: Rainryu1/airdrop-research-skill",
       "project": "Rainryu1/airdrop-research-skill",
@@ -1904,26 +1464,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-miden-vm-v0-36-4",
       "title": "Miden release: miden-vm v0.36.4",
       "project": "Miden",
@@ -1940,26 +1480,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "aztec",
         "release"
       ]
     },
@@ -2004,26 +1524,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -2041,26 +1541,6 @@
       "tags": [
         "aleo",
         "development"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
       ]
     },
     {
@@ -2084,66 +1564,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-elizaos-release-eliza-pr-evidence-14",
-      "title": "ElizaOS release: eliza pr-evidence-14",
-      "project": "ElizaOS",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/elizaOS/eliza/releases/tag/pr-evidence-14",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "PR evidence assets 14 (headless-agent attachments). Overflow continuation of the 'pr-evidence' evidence asset store. GitHub caps a release at 1000 assets, so headless-agent evidence uploads (packages/scripts/pr-evidence.ts) roll into 'pr-evidence-14' once 'pr-evidence-13' fills. Files are named '<pr>-<artifact>'; embed the asset download URLs in the PR evidence rows. Never dele",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-09-26",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
-        "release"
-      ]
-    },
-    {
       "id": "auto-near-ai-release-nearai-red-sandbox-v0-1-2",
       "title": "NEAR AI release: nearai-red-sandbox v0.1.2",
       "project": "NEAR AI",
@@ -2161,46 +1581,6 @@
       "tags": [
         "near ai",
         "release"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "ritual",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-binance-agentic-wallet-dev-activity-binance-skills-hub",
-      "title": "Binance Agentic Wallet dev activity: binance-skills-hub",
-      "project": "Binance Agentic Wallet",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/binance/binance-skills-hub",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
-      "angle": "",
-      "score": 88,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": [
-        "binance agentic wallet",
-        "development"
       ]
     },
     {

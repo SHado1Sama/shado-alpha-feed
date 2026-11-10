@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 16:44 UTC",
-  "auto_count": 62,
-  "total": 111
+  "updated_at": "2026-11-10T16:48:00Z",
+  "signals": 82,
+  "note": "Weekly expiry applied: signals whose story is older than 7 days removed at the user's instruction"
 }
