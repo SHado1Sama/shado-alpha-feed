@@ -1061,41 +1061,7 @@
       "url": "https://www.coingecko.com/en/coins/dacity-coin-4",
       "category": "Web3",
       "type": "News",
-      "summary": "Dacity Coin is in CoinGecko's top trending searches in the last 24 hours, rank #876.",
-      "angle": "",
-      "score": 40,
-      "published_at": "2026-11-10",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-trending-on-coingecko-initia-init",
-      "title": "Trending on CoinGecko: Initia (INIT)",
-      "project": "",
-      "source": "CoinGecko Trending",
-      "source_type": "api",
-      "url": "https://www.coingecko.com/en/coins/initia",
-      "category": "Web3",
-      "type": "News",
-      "summary": "Initia is in CoinGecko's top trending searches in the last 24 hours, rank #358.",
-      "angle": "",
-      "score": 40,
-      "published_at": "2026-11-10",
-      "discovered_at": "2026-11-10",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-trending-on-coingecko-ethereum-eth",
-      "title": "Trending on CoinGecko: Ethereum (ETH)",
-      "project": "",
-      "source": "CoinGecko Trending",
-      "source_type": "api",
-      "url": "https://www.coingecko.com/en/coins/ethereum",
-      "category": "Web3",
-      "type": "News",
-      "summary": "Ethereum is in CoinGecko's top trending searches in the last 24 hours, rank #2.",
+      "summary": "Dacity Coin is in CoinGecko's top trending searches in the last 24 hours, rank #865.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-10",
@@ -1112,7 +1078,7 @@
       "url": "https://www.coingecko.com/en/coins/megaeth",
       "category": "Web3",
       "type": "News",
-      "summary": "MegaETH is in CoinGecko's top trending searches in the last 24 hours, rank #384.",
+      "summary": "MegaETH is in CoinGecko's top trending searches in the last 24 hours, rank #386.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-10",
@@ -1130,6 +1096,40 @@
       "category": "Web3",
       "type": "News",
       "summary": "Solana is in CoinGecko's top trending searches in the last 24 hours, rank #7.",
+      "angle": "",
+      "score": 40,
+      "published_at": "2026-11-10",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": []
+    },
+    {
+      "id": "auto-trending-on-coingecko-initia-init",
+      "title": "Trending on CoinGecko: Initia (INIT)",
+      "project": "",
+      "source": "CoinGecko Trending",
+      "source_type": "api",
+      "url": "https://www.coingecko.com/en/coins/initia",
+      "category": "Web3",
+      "type": "News",
+      "summary": "Initia is in CoinGecko's top trending searches in the last 24 hours, rank #367.",
+      "angle": "",
+      "score": 40,
+      "published_at": "2026-11-10",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": []
+    },
+    {
+      "id": "auto-trending-on-coingecko-ethereum-eth",
+      "title": "Trending on CoinGecko: Ethereum (ETH)",
+      "project": "",
+      "source": "CoinGecko Trending",
+      "source_type": "api",
+      "url": "https://www.coingecko.com/en/coins/ethereum",
+      "category": "Web3",
+      "type": "News",
+      "summary": "Ethereum is in CoinGecko's top trending searches in the last 24 hours, rank #2.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-10",
@@ -1269,6 +1269,40 @@
       "angle": "",
       "score": 65,
       "published_at": "2026-11-04",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": []
+    },
+    {
+      "id": "auto-github-activity-api-evangelist-zkme",
+      "title": "GitHub activity: api-evangelist/zkme",
+      "project": "api-evangelist/zkme",
+      "source": "GitHub Search",
+      "source_type": "api",
+      "url": "https://github.com/api-evangelist/zkme",
+      "category": "Privacy",
+      "type": "Release",
+      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
+      "angle": "",
+      "score": 67,
+      "published_at": "2026-11-01",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": []
+    },
+    {
+      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
+      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
+      "project": "mataraparmenas-arch/mataraparmenas-arch",
+      "source": "GitHub Search",
+      "source_type": "api",
+      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
+      "category": "Privacy",
+      "type": "Release",
+      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
+      "angle": "",
+      "score": 75,
+      "published_at": "2026-11-01",
       "discovered_at": "2026-11-10",
       "manual": false,
       "tags": []
@@ -1444,23 +1478,43 @@
       "tags": []
     },
     {
-      "id": "auto-zama-release-fhevm-v0-15-0-10",
-      "title": "Zama release: fhevm v0.15.0-10",
+      "id": "auto-zama-release-sdk-v3-8-0-beta-19",
+      "title": "Zama release: sdk v3.8.0-beta.19",
       "project": "Zama",
       "source": "GitHub Project Watch",
       "source_type": "github",
-      "url": "https://github.com/zama-ai/fhevm/releases/tag/v0.15.0-10",
+      "url": "https://github.com/zama-ai/sdk/releases/tag/v3.8.0-beta.19",
       "category": "Privacy",
       "type": "Project Watch",
-      "summary": "v0.15.0-10. <!-- Release notes generated using configuration in .github/release.yml at release/0.15.x -->\r\n\r\n## What's Changed\r\n### Other Changes\r\n* fix(test-suite): never cap a transaction's gas below its estimate by @haroldsphinx in https://github.com/zama-ai/fhevm/pull/4775\r\n\r\n\r\n**Full Changelog**: https://github.com/zama-ai/fhevm/compare/v0.15.0-9...v0.15.0-10",
+      "summary": "v3.8.0-beta.19. ## [3.8.0-beta.19](https://github.com/zama-ai/sdk/compare/v3.8.0-beta.18...v3.8.0-beta.19) (2026-11-10)\n\n### Features\n\n- **vaults:** batch status, open batches, and reads on another chain ([#911](https://github.com/zama-ai/sdk/issues/911)) ([e38322f]()), closes [#915]()\n",
       "angle": "",
       "score": 78,
-      "published_at": "2026-11-05",
+      "published_at": "2026-11-10",
       "discovered_at": "2026-11-10",
       "manual": false,
       "tags": [
         "zama",
         "release"
+      ]
+    },
+    {
+      "id": "auto-arcium-dev-activity-curve25519-dalek",
+      "title": "Arcium dev activity: curve25519-dalek",
+      "project": "Arcium",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/arcium-hq/curve25519-dalek",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
+      "angle": "",
+      "score": 70,
+      "published_at": "2026-10-28",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "arcium",
+        "development"
       ]
     },
     {
@@ -1484,18 +1538,38 @@
       ]
     },
     {
-      "id": "auto-midnight-release-midnight-ledger-proof-server-9-0-1",
-      "title": "Midnight release: midnight-ledger proof-server-9.0.1",
+      "id": "auto-aztec-release-aztec-packages-v6-0-0",
+      "title": "Aztec release: aztec-packages v6.0.0",
+      "project": "Aztec",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-10-22",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "aztec",
+        "release"
+      ]
+    },
+    {
+      "id": "auto-midnight-release-midnight-zkir-zkir-3-2-0",
+      "title": "Midnight release: midnight-zkir zkir-3.2.0",
       "project": "Midnight",
       "source": "GitHub Project Watch",
       "source_type": "github",
-      "url": "https://github.com/midnightntwrk/midnight-ledger/releases/tag/proof-server-9.0.1",
+      "url": "https://github.com/midnightntwrk/midnight-zkir/releases/tag/zkir-3.2.0",
       "category": "Privacy",
       "type": "Project Watch",
-      "summary": "Proof Server 9.0.1. Image: `ghcr.io/midnight-ntwrk/proof-server:9.0.1` (also `docker.io/midnightntwrk/proof-server:9.0.1`)\nDigest: `sha256:90e36a14f92c2004127f0ed1cfd6ee89d770cf1f6e9cd7f02026ffd4ecb42f37`\n\nVerify the build manifest with the attached public key:\n\n```\ngpg --import midnight-proof-server-public.asc\ngpg --verify build-manifest.json.asc build-manifest.json\n```",
+      "summary": "ZKIR 3.2.0. # ZKIR 3.2.0 Release Notes\n\n**Version:** 3.2.0\n**Date:** 2026-11-04\n\n## High-level summary\n\nZKIR 3.2.0 is the first final release of ZKIR 3.x. Earlier 3.x versions\n(3.0.0-rc.1, 3.1.0-rc.1, 3.2.0-rc.1 and 3.2.0-rc.2) were pre-releases only.\nThese notes cover everything since ZKIR was split out of midnight-ledger at\n3.0.0-rc.1.\n\nThe release greatly expands the IR lang",
       "angle": "",
       "score": 78,
-      "published_at": "2026-11-07",
+      "published_at": "2026-11-04",
       "discovered_at": "2026-11-10",
       "manual": false,
       "tags": [
@@ -1524,6 +1598,26 @@
       ]
     },
     {
+      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
+      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
+      "project": "Fhenix",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-10-19",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "fhenix",
+        "release"
+      ]
+    },
+    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -1541,6 +1635,26 @@
       "tags": [
         "aleo",
         "development"
+      ]
+    },
+    {
+      "id": "auto-sentient-release-evoskill-v2-0-0",
+      "title": "Sentient release: EvoSkill v2.0.0",
+      "project": "Sentient",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
+      "category": "AI",
+      "type": "Project Watch",
+      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-10-26",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "sentient",
+        "release"
       ]
     },
     {
@@ -1564,6 +1678,66 @@
       ]
     },
     {
+      "id": "auto-prime-intellect-release-prime-agent-v0-10-2",
+      "title": "Prime Intellect release: prime-agent v0.10.2",
+      "project": "Prime Intellect",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent/releases/tag/v0.10.2",
+      "category": "AI",
+      "type": "Project Watch",
+      "summary": "v0.10.2. ",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-10-28",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "prime intellect",
+        "release"
+      ]
+    },
+    {
+      "id": "auto-elizaos-release-eliza-pr-evidence-14",
+      "title": "ElizaOS release: eliza pr-evidence-14",
+      "project": "ElizaOS",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/elizaOS/eliza/releases/tag/pr-evidence-14",
+      "category": "AI",
+      "type": "Project Watch",
+      "summary": "PR evidence assets 14 (headless-agent attachments). Overflow continuation of the 'pr-evidence' evidence asset store. GitHub caps a release at 1000 assets, so headless-agent evidence uploads (packages/scripts/pr-evidence.ts) roll into 'pr-evidence-14' once 'pr-evidence-13' fills. Files are named '<pr>-<artifact>'; embed the asset download URLs in the PR evidence rows. Never dele",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-09-26",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "elizaos",
+        "release"
+      ]
+    },
+    {
+      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
+      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
+      "project": "Fetch.ai (ASI)",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
+      "category": "AI",
+      "type": "Project Watch",
+      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
+      "angle": "",
+      "score": 78,
+      "published_at": "2026-10-13",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "fetch.ai (asi)",
+        "release"
+      ]
+    },
+    {
       "id": "auto-near-ai-release-nearai-red-sandbox-v0-1-2",
       "title": "NEAR AI release: nearai-red-sandbox v0.1.2",
       "project": "NEAR AI",
@@ -1581,6 +1755,46 @@
       "tags": [
         "near ai",
         "release"
+      ]
+    },
+    {
+      "id": "auto-ritual-dev-activity-ritual-sc-core",
+      "title": "Ritual dev activity: ritual-sc-core",
+      "project": "Ritual",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/ritual-net/ritual-sc-core",
+      "category": "AI",
+      "type": "Project Watch",
+      "summary": "Active development from Ritual.",
+      "angle": "",
+      "score": 70,
+      "published_at": "2026-10-25",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "ritual",
+        "development"
+      ]
+    },
+    {
+      "id": "auto-binance-agentic-wallet-dev-activity-binance-skills-hub",
+      "title": "Binance Agentic Wallet dev activity: binance-skills-hub",
+      "project": "Binance Agentic Wallet",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/binance/binance-skills-hub",
+      "category": "Agentic Wallet",
+      "type": "Project Watch",
+      "summary": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
+      "angle": "",
+      "score": 88,
+      "published_at": "2026-10-26",
+      "discovered_at": "2026-11-10",
+      "manual": false,
+      "tags": [
+        "binance agentic wallet",
+        "development"
       ]
     },
     {
