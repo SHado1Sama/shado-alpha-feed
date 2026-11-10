@@ -135,6 +135,23 @@
       "deadline": "",
       "published_at": "2026-11-08",
       "manual": true
+    },
+    {
+      "id": "binance-square-write-to-earn",
+      "title": "Binance Square Write to Earn, weekly USDC for content engagement and reader trades",
+      "project": "Binance Square",
+      "type": "Creator Platform",
+      "url": "https://www.binance.com/en/support/announcement/detail/d9c84b68e9ab4ef29bee0cc53dfdabd2",
+      "source": "Binance official announcement, 2026-10-19",
+      "summary": "Binance Square upgraded its Write to Earn program on Oct 19, 2026: KYC-verified creators are automatically eligible after their first post, with no registration or opt-in. You earn a 20% basic commission when readers trade through your content, plus a share of a weekly Engagement Bonus pool for genuine likes, comments and follows. Rewards are calculated weekly and paid in USDC to your Spot Account by the following Thursday. There is no fixed amount per post, the engagement bonus depends on quality and volume of engagement at Binance's discretion, and fake engagement can disqualify you.",
+      "reward_text": "20% basic commission on reader trades plus a share of a weekly Engagement Bonus pool, paid in USDC weekly. No fixed amount per post",
+      "reward_usd_est": null,
+      "fit_score": 78,
+      "effort": "Low",
+      "requirements": "KYC-verified Binance account. Publish text posts, articles or videos on Binance Square. No registration needed, eligibility starts after your first post.",
+      "deadline": "",
+      "published_at": "2026-10-19",
+      "manual": true
     }
   ]
 }
