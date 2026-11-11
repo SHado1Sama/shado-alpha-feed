@@ -62,7 +62,7 @@ a{color:var(--accent)}
 .saved-toggle{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:13.5px;cursor:pointer;padding:6px 4px}
 .saved-toggle input{width:16px;height:16px;accent-color:var(--accent-solid)}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{min-height:36px;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;font-size:13px;font-weight:550;font-family:var(--font);transition:background .15s,color .15s,border-color .15s}
+.chip{min-height:36px;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;font-size:14px;font-weight:550;font-family:var(--font);transition:background .15s,color .15s,border-color .15s}
 .chip:hover{color:var(--text);border-color:#B4A67F}
 .chip.active{background:var(--accent-solid);color:var(--accent-ink);border-color:transparent;font-weight:600}
 
@@ -92,7 +92,7 @@ h2{font-size:23px;font-weight:650;letter-spacing:-.01em;margin:0 0 6px}
 .sig-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:3px}
 .sig-foot .card-actions{margin-left:auto}
 .card-actions{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-.tag{font-size:11px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.tag{font-size:12px;font-weight:650;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
 .tag.Privacy{color:var(--teal)}
 .tag.AI{color:#6C5CE7}
 .tag.Agentic{color:var(--green)}
@@ -118,7 +118,7 @@ button.primary:hover,.button-link.primary:hover{background:var(--accent-solid);f
 .card{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--r-lg);padding:26px;display:flex;flex-direction:column;gap:12px;transition:border-color .15s}
 .card:hover{border-color:var(--line)}
 .card-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
-.card h3{margin:0;font-size:16px;line-height:1.4;font-weight:620}
+.card h3{margin:0;font-size:18px;line-height:1.4;font-weight:620}
 .card h3 a{color:var(--text);text-decoration:none}
 .card h3 a:hover{color:var(--accent)}
 .card p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.55}
@@ -147,7 +147,7 @@ button.primary:hover,.button-link.primary:hover{background:var(--accent-solid);f
 /* ---------- Show more / footer / modal ---------- */
 .show-more-wrap{text-align:center;margin-top:28px}
 .show-more-wrap button{min-height:42px;padding:10px 26px;font-size:14px}
-footer{border-top:1px solid var(--line-soft);padding:34px 20px;max-width:1024px;margin:0 auto;color:var(--faint);font-size:13.5px}
+footer{border-top:1px solid var(--line-soft);padding:34px 20px;max-width:1024px;margin:0 auto;color:var(--faint);font-size:14.5px}
 footer p{margin:0 0 4px}
 footer strong{color:var(--muted)}
 .fine{font-size:12.5px}
