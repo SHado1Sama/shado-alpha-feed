@@ -120,23 +120,6 @@
       "url": "https://www.pqabelian.io/ambassador-program"
     },
     {
-      "id": "midnight-ambassador",
-      "title": "Midnight Nightforce Ambassador Program, Cohort 5",
-      "project": "Midnight",
-      "type": "Ambassador Program",
-      "url": "https://mpc.midnight.network/midnight-ambassador",
-      "source": "Midnight Foundation, official Nightforce interest form (audited 2026-11-09)",
-      "summary": "Nightforce is Midnight's official ambassador program, and the Foundation was actively reviewing Cohort 5 submissions in its June 2026 network update, with the official interest form still live. Midnight is a watched Privacy project on the alpha board that just shipped the Ledger 9 hard fork, so the content synergy is direct. Go in for the privacy brand and network, not for pay.",
-      "reward_text": "Volunteer program. The Foundation is explicit that Nightforce is built for contributors rather than reward seekers: no immediate financial rewards, consistent contributors can progress to leadership roles",
-      "reward_usd_est": null,
-      "fit_score": 72,
-      "effort": "Medium",
-      "requirements": "Privacy advocacy and content creation, plus enough understanding of confidential computing to explain it. The program leans toward cryptography and compliance experts, so lead with your Midnight coverage, not a generic application.",
-      "deadline": "",
-      "published_at": "2026-11-08",
-      "manual": true
-    },
-    {
       "id": "binance-square-write-to-earn",
       "title": "Binance Square Write to Earn, weekly USDC for content engagement and reader trades",
       "project": "Binance Square",
