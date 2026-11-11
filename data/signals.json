@@ -1,6 +1,29 @@
 {
   "signals": [
     {
+      "id": "zksync-prividium-connect-2026-11-10",
+      "title": "ZKsync's Matter Labs launches Prividium Connect, private cross-chain transactions for institutions",
+      "project": "ZKsync (Matter Labs)",
+      "source": "PANews",
+      "source_type": "news",
+      "url": "https://www.panews.io/articles/01a1c59e-84ae-77f8-9e51-817d519602c3",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 90,
+      "summary": "Matter Labs launched Prividium Connect on Nov 10: banks, asset managers and market infrastructures can exchange assets privately across the separate chains they each run, with no trusted intermediary. Zero knowledge proofs enforce the agreed terms, both sides of an exchange complete at the same time or not at all, and each institution's confidential records never leave its own systems. Matter Labs calls it the first mainnet solution that cryptographically enforces cross-chain private transactions. A public chain deployment is also proposed, which would route interoperability fees into the ZK economy through a fee switch now under audit.",
+      "angle": "Teach atomic private exchange simply: two banks swapping assets where neither can cheat and neither sees the other's books, then the bigger point, privacy is moving from hiding single transactions to hiding whole institutional workflows, and the crowd question from the Veil post applies here too, institutions are the crowd this time.",
+      "tags": [
+        "zksync",
+        "privacy",
+        "institutions",
+        "cross-chain",
+        "zk"
+      ],
+      "published_at": "2026-11-10",
+      "discovered_at": "2026-11-11",
+      "manual": true
+    },
+    {
       "angle": "The oldest privacy coin is planning its next leap, and the honest framing is the hook: this is a proposal, not a shipped upgrade. Explain Tachyon in one line, a new shielded pool built so even a quantum computer cannot unmask it, then the trade-off worth naming, 8MB blocks mean faster private payments but heavier wallets, and ask followers whether privacy should cost bandwidth or whether 200 shielded TPS is worth it.",
       "category": "Privacy",
       "discovered_at": "2026-11-11",

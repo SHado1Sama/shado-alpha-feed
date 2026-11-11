@@ -93,7 +93,8 @@
     "Autonolas",
     "Skyfire",
     "Wayfinder",
-    "Giza"
+    "Giza",
+    "ZKsync"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -255,6 +256,7 @@
     "Wayfinder": "Agentic Wallet",
     "Giza": "Agentic Wallet",
     "Almanak": "Agentic Wallet",
-    "BNB Chain agents": "Agentic Wallet"
+    "BNB Chain agents": "Agentic Wallet",
+    "ZKsync": "Privacy"
   }
 }
