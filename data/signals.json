@@ -1466,40 +1466,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-aomi-labs-aomi",
       "title": "GitHub activity: aomi-labs/aomi",
       "project": "aomi-labs/aomi",
@@ -1690,26 +1656,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -1726,26 +1672,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "aztec",
         "release"
       ]
     },
@@ -1790,26 +1716,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -1827,26 +1733,6 @@
       "tags": [
         "aleo",
         "development"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
       ]
     },
     {
@@ -1870,66 +1756,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-elizaos-release-eliza-pr-evidence-14",
-      "title": "ElizaOS release: eliza pr-evidence-14",
-      "project": "ElizaOS",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/elizaOS/eliza/releases/tag/pr-evidence-14",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "PR evidence assets 14 (headless-agent attachments). Overflow continuation of the 'pr-evidence' evidence asset store. GitHub caps a release at 1000 assets, so headless-agent evidence uploads (packages/scripts/pr-evidence.ts) roll into 'pr-evidence-14' once 'pr-evidence-13' fills. Files are named '<pr>-<artifact>'; embed the asset download URLs in the PR evidence rows. Never dele",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-09-26",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
-        "release"
-      ]
-    },
-    {
       "id": "auto-near-ai-release-cloud-api-prod-20261106-4ac61fd",
       "title": "NEAR AI release: cloud-api prod-20261106-4ac61fd",
       "project": "NEAR AI",
@@ -1947,46 +1773,6 @@
       "tags": [
         "near ai",
         "release"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "ritual",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-binance-agentic-wallet-dev-activity-binance-skills-hub",
-      "title": "Binance Agentic Wallet dev activity: binance-skills-hub",
-      "project": "Binance Agentic Wallet",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/binance/binance-skills-hub",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
-      "angle": "",
-      "score": 88,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "binance agentic wallet",
-        "development"
       ]
     },
     {
@@ -2028,6 +1814,101 @@
         "crossmint",
         "development"
       ]
+    },
+    {
+      "id": "watch-bittensor-tencent-hy4-chutes-2026-11-10",
+      "title": "Tencent's flagship Hy4 AI model launches through Bittensor subnet Chutes, putting decentralised inference in front of 1.4B users",
+      "project": "Bittensor (Chutes, SN64)",
+      "source": "AMBCrypto",
+      "source_type": "news",
+      "url": "https://ambcrypto.com/bittensor-gains-3-after-tencents-ai-launch-can-subnet-fees-lift-tao/",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 88,
+      "summary": "Tencent chose Chutes, Bittensor subnet 64, as a launch partner for Hy4, its flagship open-weight model with about 770 billion total parameters and 49 billion active per token, released under Apache 2.0 on Nov 4. Hy4 is now available through Chutes' OpenAI-compatible inference API at $0.525 per million input tokens and $1.5625 per million output tokens. The honest read: Tencent's 1.439 billion combined WeChat and Weixin monthly users is the size of Tencent's ecosystem, not confirmed Chutes usage, and Tencent also distributes Hy4 through its own products. The same week, subnet revenue kept compounding: Almanac (SN41) generated $109,440 in fees in October and burned all of it buying back TAO and SN41 alpha, while Engy (SN53) has spent $63,000 on buybacks and burns.",
+      "angle": "Big Tech's flagship model, served by a decentralised subnet. Explain the deal in one line, Tencent built the model, a Bittensor subnet sells the inference, then the honest correction, 1.4 billion users is Tencent's reach, not Chutes' customer list. End with the revenue line that matters, subnets are now earning real fees and burning them, and ask followers whether open-weight models will keep flowing to decentralised inference.",
+      "tags": [
+        "bittensor",
+        "chutes",
+        "tencent",
+        "hy4",
+        "subnet 64",
+        "open-weight",
+        "tao"
+      ],
+      "published_at": "2026-11-10",
+      "discovered_at": "2026-11-11",
+      "manual": true
+    },
+    {
+      "id": "watch-aztec-797m-unlock-2026-11-13",
+      "title": "Aztec unlocks 797.5M AZTEC on Nov 13, a third of its released supply, all to the foundation",
+      "project": "Aztec",
+      "source": "BeInCrypto",
+      "source_type": "news",
+      "url": "https://beincrypto.com/token-unlocks-second-week-of-november-2026/",
+      "category": "Listings & Markets",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "Aztec will release 797.5 million AZTEC on Nov 13, worth about $9.88 million and equal to 31.81 percent of the token's released supply, with the entire tranche going to the foundation. It lands a week after Aztec launched Tierra, its V6 privacy rollup with permissionless private smart contracts, so the unlock tests whether the network's biggest week of shipping survives its biggest supply event. Tokenomist marks the figures as pending verification, so treat them as projections until the release is confirmed on chain.",
+      "angle": "A supply test, not a price call: Aztec ships its biggest upgrade, then unlocks a third of its released supply a week later. Explain what an unlock is in one line, tokens that were locked become spendable, then the question to ask followers, does a foundation holding that much supply change how private a network feels? Keep the pending-verification caveat in the post.",
+      "tags": [
+        "aztec",
+        "unlock",
+        "tierra",
+        "zk",
+        "foundation"
+      ],
+      "published_at": "2026-11-09",
+      "discovered_at": "2026-11-11",
+      "manual": true
+    },
+    {
+      "id": "watch-bittensor-gamma-tokens-launch-2026-11-11",
+      "title": "OpenTensor launches Gamma Tokens, one wallet to pay any Bittensor subnet for its services",
+      "project": "Bittensor",
+      "source": "KuCoin (ChainCatcher report)",
+      "source_type": "news",
+      "url": "https://www.kucoin.com/news/flash/opentensor-foundation-launches-native-payment-mechanism-gamma-tokens",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 82,
+      "summary": "The OpenTensor Foundation unveiled Gamma Tokens on Nov 11, Bittensor's native payment mechanism for subnet services. Users and AI agents can use a single Bittensor wallet to pay any subnet that adopts the standard, with no separate account or API key per subnet. Gamma credit is obtained with TAO or the subnet's alpha tokens: paying with TAO buys and burns the subnet's alpha in the same transaction, while alpha holders burn it directly. This is the payment standard behind the Gamma rollout already live on Finney, where Attune (subnet 58) became the first subnet to sell a service, robotics training data, for Gamma credits on Nov 10.",
+      "angle": "The follow-up to the Attune post: Gamma now has a name and a standard. Explain it in one line, one wallet, pay any subnet, no API keys, then the mechanism worth teaching, your TAO buys and burns the subnet's own token to make the credit, so using a service supports its token. Ask followers which subnet service they would pay for first.",
+      "tags": [
+        "bittensor",
+        "gamma",
+        "opentensor",
+        "subnets",
+        "tao",
+        "payments"
+      ],
+      "published_at": "2026-11-11",
+      "discovered_at": "2026-11-11",
+      "manual": true
+    },
+    {
+      "id": "blur-retires-website-nov-12-2026",
+      "title": "Blur retires its website and stops new Blend loans on Nov 12, the NFT marketplace era ends quietly",
+      "project": "Blur",
+      "source": "8bitcrypto (citing CoinDesk)",
+      "source_type": "news",
+      "url": "https://8bitcrypto.com/nft-weekly-sales-slide-to-34-9m-as-ethereum-still-leads/",
+      "category": "NFTs",
+      "type": "News",
+      "score": 76,
+      "summary": "Blur, the NFT marketplace that captured more than 70 percent of Ethereum NFT volume at its March 2023 peak, retires its public website and stops matching new Blend loans on Nov 12, 2026. Monthly volume had already collapsed more than 99 percent to under $7 million by early 2026, according to CoinDesk. The underlying Ethereum contracts stay live, so trading persists on chain and BLUR holders keep control of the fee switch, but borrowers must settle outstanding NFT-backed loans or face default. Weekly NFT sales across the market were $34.95 million for the week ending Nov 10, down 11 percent, with Courtyard leading collections at $7.63 million.",
+      "angle": "An obituary for the marketplace that defined the last NFT cycle, told with the numbers: 70 percent of volume at peak, under $7 million a month now. The practical bit first, Blend borrowers must settle or default, then the bigger point, the frontend is gone but the contracts live on, which is the whole promise and the whole problem of on-chain marketplaces. Ask followers what replaces Blur, if anything.",
+      "tags": [
+        "blur",
+        "nft",
+        "marketplace",
+        "blend",
+        "shutdown"
+      ],
+      "published_at": "2026-11-11",
+      "discovered_at": "2026-11-11",
+      "manual": true
     }
   ]
 }

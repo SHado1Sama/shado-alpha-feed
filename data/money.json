@@ -70,23 +70,6 @@
     },
     {
       "deadline": "",
-      "effort": "High",
-      "fit_score": 72,
-      "id": "arbitrum-ambassador",
-      "manual": true,
-      "project": "Arbitrum",
-      "published_at": "2026-11-07",
-      "requirements": "Contribute first, then apply for retroactive DAO grants. Nigeria is one of the program's active regions, which helps. Apply via the Arbitrum Foundation ambassador page or ambassadors@arbitrum.foundation.",
-      "reward_text": "Retroactive DAO grants, typical grants reported at $10,000 or more for sustained contribution, not a salary and not guaranteed",
-      "reward_usd_est": null,
-      "source": "Arbitrum Foundation, official ambassador page (audited 2026-11-09)",
-      "summary": "The official Foundation page confirms Phase 2 of the Ambassador Program is live. The model is retroactive: you do education, content or community work first, then completed work is submitted for DAO grant approval. Nigeria is one of the program regions. Income is unpredictable, so treat any payout as a bonus, not a plan.",
-      "title": "Arbitrum Ambassador Program, retroactive grants, Nigeria is an active region",
-      "type": "Ambassador Program",
-      "url": "https://arbitrum.foundation/ambassador"
-    },
-    {
-      "deadline": "",
       "effort": "Medium",
       "fit_score": 70,
       "id": "injective-ninja-masters",
@@ -117,6 +100,23 @@
       "requirements": "KYC-verified Binance account. Publish text posts, articles or videos on Binance Square. No registration needed, eligibility starts after your first post.",
       "deadline": "",
       "published_at": "2026-10-19",
+      "manual": true
+    },
+    {
+      "id": "superteam-swapio-x402-video-bounty",
+      "title": "Swap.io x402 video bounty, $200 for a 60 second pitch on agent payments",
+      "project": "Swap.io (via Superteam Earn)",
+      "type": "Bounty",
+      "url": "https://earn.superteam.fun/listing/make-a-video-about-our-x402-feature",
+      "source": "Superteam Earn listing, published 2026-11-06",
+      "summary": "Swap.io, a Solana swap platform whose Agent API lets AI agents get swap quotes and pay per call in USDC through x402, is paying for a 60 to 120 second video pitching one concrete way an agent could use x402 with Swap.io. Post the video on X tagging @swapdotio and @Superteam, plus a Medium copy. No code needed, mockups and storyboards are welcome, and a working demo with a Solscan link earns up to 30 percent bonus. Judging weights idea and clarity at 45 percent, production quality 35 percent and X reach 20 percent. Contest, only placed entries are paid. No deadline is stated on the listing, and submissions were still open when checked on Nov 11.",
+      "reward_text": "1st $200, 2nd $125, 3rd $80, 4th $60, 5th $35; 6th to 10th get 40k XP for Season Zero. Contest, only placed entries are paid",
+      "reward_usd_est": 200,
+      "fit_score": 80,
+      "effort": "Medium",
+      "requirements": "One 60 to 120 second original video, one entry per participant. Post on X tagging @swapdotio and @Superteam, and on Medium linking swap.io. AI voiceovers allowed, on-camera presence preferred. Optional bonus: show a real paid call to the Swap.io Agent API with the Solscan link.",
+      "deadline": "",
+      "published_at": "2026-11-06",
       "manual": true
     }
   ]
