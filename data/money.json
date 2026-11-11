@@ -118,23 +118,6 @@
       "deadline": "",
       "published_at": "2026-10-19",
       "manual": true
-    },
-    {
-      "id": "zama-creator-program-season-5",
-      "title": "Zama Creator Program, Season 5 (final OG cohort)",
-      "project": "Zama",
-      "type": "Creator Program",
-      "url": "https://www.zama.org/programs/creator-program",
-      "source": "Zama (official site, zama.org, checked 2026-11-11)",
-      "summary": "Zama's own creator program for its FHE confidentiality layer, and Season 5 is billed as the final OG cohort. Creators post educational content about Zama and FHE, tracked on a public leaderboard run with Cookie3. Squarely in this page's privacy niche: Zama is already one of the most covered projects on the Alpha Board.",
-      "reward_text": "Top 100 creators on the monthly leaderboard share a $50,000 prize pool, paid in USDC or $ZAMA; the top 1,000 earn the Zama OG NFT; 6 Creator's Choice posts share an extra $3,000.",
-      "reward_usd_est": null,
-      "requirements": "Create educational content about Zama and FHE on X, tag @zama and use #ZamaCreatorProgram. No registration needed to start posting; register on Guild to claim rewards. No follower minimum stated and no fee. It is a leaderboard competition, so rewards are earned by ranking, not guaranteed.",
-      "effort": "Medium",
-      "fit_score": 76,
-      "deadline": "",
-      "published_at": "2026-11-11",
-      "manual": true
     }
   ]
 }
