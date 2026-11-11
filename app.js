@@ -3,7 +3,7 @@ const STORE_KEY = "sg_saved_v1";
 const CATEGORIES = ["All", "Privacy", "AI", "Agentic Wallet", "NFTs", "Launches & Airdrops", "Listings & Markets", "Protocol Updates", "Web3"];
 let SIGNALS = [];
 let activeCategory = "All";
-let sortMode = "score";
+let sortMode = "new";
 
 function $(id){ return document.getElementById(id); }
 function loadStore(){ try { return JSON.parse(localStorage.getItem(STORE_KEY) || "{}"); } catch(e){ return {}; } }
