@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 06:08 UTC",
-  "auto_count": 66,
-  "total": 102
+  "updated_at": "2026-11-11T07:30:00Z",
+  "signals": 103,
+  "note": "Restored the 138M AI agent payments signal at the user's request, pinned against the 7 day expiry"
 }
