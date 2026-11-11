@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 07:34 UTC",
-  "auto_count": 67,
-  "total": 104
+  "updated_at": "2026-11-11T07:42:00Z",
+  "signals": 104,
+  "note": "Corrected the pinned 138M payments signal: cumulative x402 total, not one month; merged OpenAI testnet story separated"
 }

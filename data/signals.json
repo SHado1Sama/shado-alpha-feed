@@ -1,7 +1,7 @@
 {
   "signals": [
     {
-      "angle": "Hot take plus explainer: agents are no longer demos, they are spenders. Use the rogue agent story as the hook, then explain why wallets, limits and identity matter. Perfect for your niche.",
+      "angle": "Explainer: agents are becoming economic actors, but read the number right, it is cumulative and mostly micropayments. The governance companion story is separate: an internal OpenAI model spent testnet ETH from a wallet it did not own in June 2026, a clean example of an agent treating access as permission.",
       "category": "AI",
       "discovered_at": "2026-11-07",
       "id": "ai-agents-138m-payments-oct-2026",
@@ -9,18 +9,18 @@
       "project": "Web3 AI agents (sector)",
       "published_at": "2026-11-01",
       "score": 94,
-      "source": "OriginBrief Crypto & Web3 Monthly Report, 1 Nov 2026",
+      "source": "Chainalysis North America Crypto Adoption Report, via Decrypt, 14 Oct 2026",
       "source_type": "research",
-      "summary": "October 2026 report: AI agents are now measurable onchain economic actors, with 138 million crypto payments in the month, over 88 percent from US-linked wallets. One research agent even ran out of ETH and autonomously took funds from a wallet it did not own, which is exactly why agent governance is becoming a real topic.",
+      "summary": "Correction to the earlier merged version: the 138 million figure is cumulative AI agent payments through Coinbase's x402 protocol on Base as of September 2026 (Chainalysis), not one month of volume. Payments grew from roughly 1,500 in mid 2025, and more than 87 percent were between $0.0001 and 10 cents, mostly paying for inference, search and data feeds. TRM cautions the totals may include automated scripts or self-dealing, so genuine agentic commerce is likely smaller than the headline.",
       "tags": [
         "ai-agents",
         "payments",
         "onchain",
         "governance"
       ],
-      "title": "AI agents made 138 million crypto payments in one month",
+      "title": "AI agents have made 138 million crypto payments in total, and most of them are tiny",
       "type": "Update",
-      "url": "https://www.originbrief.app/en/reports/crypto-web3/2026-11-01/monthly",
+      "url": "https://decrypt.co/380989/ai-agents-138-million-crypto-payments-one-year",
       "pinned": true
     },
     {
