@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:55:00Z",
-  "signals": 107,
-  "note": "Sweep 2026-11-12 evening: added 6 signals (Offworld Privacy launch, Zcash dev fund vote Nov 16-30, Venice Voorhees AI control warning, Binance Alpha airdrops resume with $350K pool, Allora unlock delayed to May 2027, Minos Bittensor Subnet 107 public beta); retired 1 signal (Allora first insider unlock, premise void after the delay); expired 10 signals older than 7 days (merged onto the auto updater's latest remote state first); money: added 1 campaign (Bitget Wallet Virtual Account UGC, $2,000 pool, ends Nov 13), all 9 entries re-verified live (Swap.io bounty still open, Gloam contest open to Nov 16, AirdropBuzz live to Dec 26, Sentient Sparks, PIVX, Injective, Binance Square Write to Earn, Superteam Earn, Zealy), none retired; Offworld Privacy added to watched_projects (Privacy)"
+  "updated_at": "2026-11-12 16:45 UTC",
+  "auto_count": 64,
+  "total": 111
 }
