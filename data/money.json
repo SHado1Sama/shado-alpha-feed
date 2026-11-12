@@ -118,6 +118,40 @@
       "deadline": "",
       "published_at": "2026-11-06",
       "manual": true
+    },
+    {
+      "id": "gloam-video-contest",
+      "title": "Gloam Video Contest, $600 for a 1 to 3 minute video on private money",
+      "project": "Gloam",
+      "type": "Campaign",
+      "url": "https://www.gloam.trade/contest",
+      "source": "Gloam official contest page, checked 2026-11-12",
+      "summary": "Gloam, private money on public chains, is paying for a 1 to 3 minute video about what it does: an explainer, tutorial, skit or animation you made yourself. Post the video on X quoting the contest announcement and tagging @gloamtrade, then send the link through the form on the contest page. No AI-generated videos, one entry per X account, no fee. Judging weights clarity 40 percent, creativity 30 percent, production quality 20 percent, and a real flow in the app on mainnet 10 percent. Likes and views are not counted. Winners announced by 19 Nov on @gloamtrade, paid privately via a Gloam claim link in USDG on Robinhood Chain or USDC on Base.",
+      "reward_text": "1st $250, 2nd $150, 3rd $100, 4th $100. $600 total. Contest, only placed entries are paid",
+      "reward_usd_est": 250,
+      "fit_score": 85,
+      "effort": "Medium",
+      "requirements": "One original 1 to 3 minute video, no AI footage, avatars or voices. Upload the video to the X post itself, quote the contest announcement, tag @gloamtrade, then submit the post link in the form on gloam.trade/contest. Showing a real private payment on mainnet scores higher.",
+      "deadline": "2026-11-16T23:59:00Z",
+      "published_at": "2026-11-09",
+      "manual": true
+    },
+    {
+      "id": "airdropbuzz-creator-campaign",
+      "title": "AirdropBuzz Creator Campaign, $625 USDC for Top 10 creators",
+      "project": "AirdropBuzz",
+      "type": "Campaign",
+      "url": "https://airdropbuzz.com/creator-campaign",
+      "source": "AirdropBuzz official campaign page, checked 2026-11-12",
+      "summary": "AirdropBuzz, an airdrop discovery platform, is paying for original content about AirdropBuzz, airdrops, safety tools or Market Pulse: X posts and threads, Telegram posts, articles, YouTube videos or Reddit posts. Publish, then submit the link on the campaign page. Free to enter, up to 5 entries per creator, 68 creators joined and 75 entries approved so far. The deadline was extended from Nov 19 to Dec 26 because participation was lower than hoped. Rewards are competitive, not guaranteed. Off the Privacy x AI niche, but honest review content fits a creator page and the field is small.",
+      "reward_text": "1st $175, 2nd $125, 3rd $85, 4th $65, 5th $50, 6th to 10th $25 each, plus 100 BUZZ points per ranked creator. $625 USDC total. Contest, only placed entries are paid",
+      "reward_usd_est": 175,
+      "fit_score": 60,
+      "effort": "Low",
+      "requirements": "Original content about AirdropBuzz or airdrops, in one of 5 formats (X, Telegram, article, YouTube, Reddit). Submit the published link on airdropbuzz.com/creator-campaign. Max 5 entries. No guaranteed earnings claims in the content.",
+      "deadline": "2026-12-26T23:59:00+05:30",
+      "published_at": "2026-08-21",
+      "manual": true
     }
   ]
 }
