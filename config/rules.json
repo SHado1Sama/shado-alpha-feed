@@ -96,7 +96,8 @@
     "Giza",
     "ZKsync",
     "Raycash",
-    "Gloam"
+    "Gloam",
+    "Offworld Privacy"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -261,6 +262,7 @@
     "BNB Chain agents": "Agentic Wallet",
     "ZKsync": "Privacy",
     "Raycash": "Privacy",
-    "Gloam": "Privacy"
+    "Gloam": "Privacy",
+    "Offworld Privacy": "Privacy"
   }
 }

@@ -152,6 +152,23 @@
       "deadline": "2026-12-26T23:59:00+05:30",
       "published_at": "2026-08-21",
       "manual": true
+    },
+    {
+      "id": "bitget-wallet-virtual-account-ugc-campaign",
+      "title": "Bitget Wallet Virtual Account UGC campaign, $2,000 pool, 20 winners get $100 USDC each",
+      "project": "Bitget Wallet",
+      "type": "Campaign",
+      "url": "https://web3.bitget.com/en/blog/articles/bitget-wallet-virtual-account",
+      "source": "Bitget Wallet official blog, Oct 27 2026, checked 2026-11-12",
+      "summary": "Bitget Wallet is running a user-generated-content campaign for its new Virtual Account feature, USD and EUR account numbers inside the self-custodial wallet that convert incoming bank transfers into USDT or USDC, from Oct 30 to Nov 13, 2026. Open a USD or EUR virtual account for free, create original content about it, publish on X tagging @BitgetWallet with #BitgetWalletVA, then submit through the form linked in the official campaign post on X. One entry per person, 20 winners get $100 USDC each. The same wallet launched a stablecoin spending card in Nigeria on Nov 4, so the feature is live in the user's market, but the campaign page does not name eligible regions, so check the official post before entering.",
+      "reward_text": "$2,000 USDC total pool, 20 winners at $100 USDC each. Contest, only winning entries are paid",
+      "reward_usd_est": 100,
+      "fit_score": 55,
+      "effort": "Low",
+      "requirements": "Open a free USD or EUR virtual account in Bitget Wallet, create original content about it, post on X tagging @BitgetWallet with #BitgetWalletVA, submit via the form in the official campaign post. One entry per person. Ends Nov 13, 2026, no end time stated, so enter today.",
+      "deadline": "2026-11-13T23:59:00Z",
+      "published_at": "2026-10-30",
+      "manual": true
     }
   ]
 }

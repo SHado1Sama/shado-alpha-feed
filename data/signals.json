@@ -1,6 +1,152 @@
 {
   "signals": [
     {
+      "id": "offworld-privacy-launch-2026-11-12",
+      "title": "Offworld Privacy launches to bring Zcash into private DeFi, shielded bridge and private lending first",
+      "project": "Offworld Privacy",
+      "source": "KuCoin News Flash (reporting Jon Walch announcement)",
+      "source_type": "news",
+      "url": "https://www.kucoin.com/news/flash/jon-walch-launches-offworld-privacy-to-bring-zcash-to-private-defi",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 86,
+      "summary": "Jon Walch, former engineering lead at Superstate, launched Offworld Privacy on Nov 12, 2026 to bring Zcash into private DeFi through Helius Privacy Rings and the Aztec Network. The first products are a trust-minimised shielded Zcash bridge and a private lending protocol. The pitch is privacy-first infrastructure that cuts DeFi exploit risk, and it lands days after Helius switched on Solana Privacy Rings and Aztec shipped Tierra.",
+      "angle": "A new privacy builder to watch, and the pattern is the story: shielded Zcash plus Helius rings plus Aztec, three privacy rails converging on one product. Explain the bridge in one line, ZEC goes in shielded and comes out usable in private DeFi without exposing the balance, then ask followers what they would lend first if nobody could see the loan.",
+      "tags": [
+        "offworld",
+        "zcash",
+        "helius",
+        "aztec",
+        "private defi",
+        "shielded",
+        "privacy rings"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "zcash-dev-fund-vote-50k-zec-2026-11-12",
+      "title": "Zcash votes Nov 16 to 30 on a 50,000 ZEC dev fund overhaul, half its grants treasury into the miner reserve",
+      "project": "Zcash",
+      "source": "BlockchainReporter",
+      "source_type": "news",
+      "url": "https://blockchainreporter.net/zcash-50000-zec-dev-fund-vote/",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 84,
+      "summary": "Zcash coinholders and community panels poll from Nov 16 to Nov 30, 2026 on a draft ZIP, merged into the zcash/zips repository on Nov 11, that would end Zcash Community Grants' 8 percent share of the block subsidy, pay it into a Future Dev and Legal Defense Fund lockbox until the third halving, and move 50,000 ZEC, about $49.6 million at $991, from the grants treasury into the Network Sustainability Mechanism, where it returns only as future miner rewards. The polls are advisory: the ZIP only becomes consensus if a network upgrade, planned as NU 7.1, is adopted. No disbursement mechanism for the lockbox exists yet.",
+      "angle": "Governance is the privacy story this month: who pays for Zcash development after 2028, and whether half the grants treasury should stop being spendable. Explain the lockbox in one line, money that exists but nobody can spend yet, then the honest caveat, a poll result moves no coin by itself, and ask followers whether a privacy coin should fund itself from miners or from grants.",
+      "tags": [
+        "zcash",
+        "governance",
+        "dev fund",
+        "zip",
+        "nu7.1",
+        "treasury"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "venice-voorhees-ai-control-warning-2026-11-12",
+      "title": "Venice founder Erik Voorhees warns against a government gatekeeper for frontier AI models",
+      "project": "Venice AI",
+      "source": "Crypto Briefing",
+      "source_type": "news",
+      "url": "https://cryptobriefing.com/venice-founder-voorhees-warns-government-ai-control/",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "Venice.ai founder Erik Voorhees posted on X on Nov 12, 2026 warning against putting politicians in charge of frontier AI, after All-In podcast co-host David Sacks predicted on Nov 7 that Democrats would push for a federal department approving frontier models before release. Voorhees argues a pre-release approval regime would hand the state a coercive monopoly over machine intelligence, and that open source and decentralised power are the safer guardrails. No such department exists, and the Sanders-Casar bill is the live legislative shape of the idea. Venice pitches private, permissionless AI with no stored conversations, serves over 3 million users and processes 1.3 trillion tokens a month.",
+      "angle": "The private AI founder versus the permission slip: frame it as the same fight as privacy, who gets to approve what you run. Keep the honest caveat in the post, Sacks offered a prediction, not a proposal, and Voorhees runs a business that benefits from light-touch access, then ask followers whether open source or a federal sign-off keeps AI safer.",
+      "tags": [
+        "venice",
+        "voorhees",
+        "ai regulation",
+        "open source",
+        "private ai",
+        "frontier models"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "binance-alpha-airdrops-resume-2026-11-12",
+      "title": "Binance Alpha airdrops resume today, $350K thank-you pool goes out with no claim and no points spent",
+      "project": "Binance Alpha",
+      "source": "Binance Square",
+      "source_type": "exchange",
+      "url": "https://www.binance.com/en-ZA/square/post/11-12-2026-binance-alpha-details-350-000-airdrop-and-service-updates-387409420595066",
+      "category": "Launches & Airdrops",
+      "type": "Update",
+      "score": 84,
+      "summary": "Binance Wallet announced on Nov 12, 2026 that Alpha airdrops and trading competitions resume today after the upgrade pause that began with the Oct 30 hack. The $350,000 appreciation airdrop goes to users holding 200 or more Alpha Points at the Nov 6 23:59 UTC snapshot: each eligible user receives one of KGeN (KGEN), Velo (VELO) or Velvet (VELVET), credited automatically with no claim and no points deducted. Alpha 2.0 instant orders are now live on all supported chains, and Alpha deposits and withdrawals are open on BSC, Ethereum, Base and Arbitrum. Separately, a third wave of the BSquared (B2) airdrop pays 72 B2 to users with 250 or more Alpha Points, costing 15 points.",
+      "angle": "The follow-up to the Nov 7 pause post: the wait is over and the airdrop needs no action at all. Lead with the practical bit, if you held 200 points on Nov 6, check your Alpha account, nothing to claim, then the bigger point, Alpha is back as the launch pipeline, with PREDICT's TGE reset for Nov 18, and ask followers whether the pause cost Alpha its momentum.",
+      "tags": [
+        "binance alpha",
+        "airdrop",
+        "alpha points",
+        "kgen",
+        "velo",
+        "velvet",
+        "b2"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "allora-unlock-delayed-may-2027-2026-11-12",
+      "title": "Allora delays its first insider unlock six months to May 2027, 485.5M ALLO stays locked",
+      "project": "Allora",
+      "source": "KuCoin News Flash (official Allora Network blog)",
+      "source_type": "news",
+      "url": "https://www.kucoin.com/news/flash/allora-delays-allo-token-unlock-for-team-and-investors-by-6-months-to-may-2027",
+      "category": "Listings & Markets",
+      "type": "Update",
+      "score": 82,
+      "summary": "Allora has delayed the first token unlock for its team and investors by six months, from Nov 11, 2026 to May 11, 2027, according to the official Allora Network blog. The cliff covers 485.5 million ALLO, 48.55 percent of total supply, for Core Contributors and Backers. Under the revised schedule, 50 percent, about 242.75 million ALLO, unlocks on May 11, 2027 and the rest releases linearly over the following 18 months through November 2028. The overall vesting duration is unchanged, only the start date shifts, and staking rewards and other allocations continue as planned. This corrects the board's Nov 11 signal, which said the unlock landed that day: it did not happen.",
+      "angle": "A correction worth posting plainly: yesterday's unlock did not happen, the team pushed it six months. Explain the delay in one line, insiders agreed to wait until May, then the question to ask followers, does a voluntary delay signal confidence in the network, or just a market nobody wants to sell into? Keep the numbers, 485.5M ALLO, half in May, the rest dripping to 2028.",
+      "tags": [
+        "allora",
+        "allo",
+        "unlock",
+        "vesting",
+        "tokenomics",
+        "ai"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "minos-bittensor-public-beta-2026-11-07",
+      "title": "Minos opens a public Mac beta for Bittensor Subnet 107, your AI drafts science briefs, your Mac checks the work",
+      "project": "Bittensor (Minos, SN107)",
+      "source": "Live Bitcoin News",
+      "source_type": "news",
+      "url": "https://www.livebitcoinnews.com/minos-public-mac-beta-bittensor-genomics/",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 76,
+      "summary": "Minos opened a public macOS beta on Nov 7, 2026 for Bittensor Subnet 107, a decentralised genomic variant-calling market where miners compete to spot DNA mutations in sequencing data. The downloadable Apple Silicon client asks the user's own AI, Codex, Claude Code, Kimi Code, SayGM or Chutes, to draft scientific literature briefs, then the Mac audits the draft locally and uploads a signed evidence bundle. On-chain subnet rewards for this workload stay off during the beta, and the work burns the user's own subscription or credit. The beta is a prototype miner for the subnet's next workload, evaluation authoring, not the live variant-calling competition.",
+      "angle": "Decentralised science keeps shipping real tools: a Mac app that turns your AI into a research assistant for genomics, with the chain keeping score later. Explain the split in one line, your model drafts, your machine checks, the subnet pays only when rewards switch on, then the honest caveat, a beta without pay is a rehearsal, not a market, and ask followers what science job they would hand to a subnet.",
+      "tags": [
+        "bittensor",
+        "minos",
+        "subnet 107",
+        "genomics",
+        "decentralised science",
+        "tao"
+      ],
+      "published_at": "2026-11-07",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
       "angle": "Explainer: agents are becoming economic actors, but read the number right, it is cumulative and mostly micropayments. The governance companion story is separate: an internal OpenAI model spent testnet ETH from a wallet it did not own in June 2026, a clean example of an agent treating access as permission.",
       "category": "AI",
       "discovered_at": "2026-11-07",
@@ -231,30 +377,6 @@
       "title": "Binance Wallet to award 20 two-digit Agent IDs, the shortest names in the Agent ID system",
       "type": "Project Watch",
       "url": "https://www.binance.com/en/square/post/11-10-2026-binance-wallet-to-award-two-digit-agent-ids-to-20-winners-386695592221800"
-    },
-    {
-      "angle": "A supply lesson with a live test today: Allora's first insider unlock is $24.1M against $1.71M of daily volume, and the number everyone quotes, $72.9M, is wrong. Explain the correction in one line, only a third vests now, the rest drips monthly until 2028, then the honest read, what matters is whether any of it reaches an exchange wallet. Ask followers to watch the wallets, not the headline.",
-      "category": "Listings & Markets",
-      "discovered_at": "2026-11-11",
-      "id": "allora-first-insider-unlock-2026-11-11",
-      "manual": true,
-      "project": "Allora",
-      "published_at": "2026-11-11",
-      "score": 78,
-      "source": "Base Camp",
-      "source_type": "research",
-      "summary": "Allora releases about 160.2 million ALLO, worth $24.1 million, to early backers and core contributors on Nov 11 at 13:00 UTC, exactly one year after ALLO started trading. That is the first year's 33 percent share of the 485.5 million ALLO locked for 12 months, not the $72.9 million headline figure on trackers, which counts tokens that do not vest until 2028. The tranche is 65.6 percent of the tokens Tokenomist counts as released and about 38 percent of circulating supply, while ALLO traded only $1.71 million across all exchanges in the past 24 hours. After Wednesday the same two groups keep vesting about 13.5 million ALLO a month until November 2028.",
-      "tags": [
-        "allora",
-        "allo",
-        "unlock",
-        "tokenomics",
-        "ai",
-        "vesting"
-      ],
-      "title": "Allora's first insider unlock lands today, 160M ALLO worth $24.1M, about two weeks of its trading volume",
-      "type": "News",
-      "url": "https://basecamp.markets/token-unlocks-november-9/"
     },
     {
       "id": "helius-solana-privacy-rings-mainnet-2026-11-10",
@@ -1638,57 +1760,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-paraloom-labs-paraloom-core",
-      "title": "GitHub activity: paraloom-labs/paraloom-core",
-      "project": "paraloom-labs/paraloom-core",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/paraloom-labs/paraloom-core",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Open privacy Layer 2 for Solana. Groth16 zk-SNARKs, BFT cohort, ~10 ms verification on commodity hardware. Pre-mainnet.",
-      "angle": "",
-      "score": 65,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-xbrucethegoose-cryptofinder",
       "title": "GitHub activity: xBruceTheGoose/cryptofinder",
       "project": "xBruceTheGoose/cryptofinder",
@@ -1879,26 +1950,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -1979,26 +2030,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhe-contracts-v1-0-2",
-      "title": "Fhenix release: cofhe-contracts v1.0.2",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhe-contracts/releases/tag/v1.0.2",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v1.0.2. ## What's Changed\r\n* [FEAT] FHE.addToAccessList / removeFromAccessList by @liorbond in https://github.com/FhenixProtocol/cofhe-contracts/pull/158\r\n\r\n\r\n**Full Changelog**: https://github.com/FhenixProtocol/cofhe-contracts/compare/v1.0.1...v1.0.2",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -2016,26 +2047,6 @@
       "tags": [
         "aleo",
         "development"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
       ]
     },
     {
@@ -2059,26 +2070,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
       "id": "auto-elizaos-release-eliza-v2-0-5",
       "title": "ElizaOS release: eliza v2.0.5",
       "project": "ElizaOS",
@@ -2095,26 +2086,6 @@
       "manual": false,
       "tags": [
         "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
         "release"
       ]
     },
@@ -2136,46 +2107,6 @@
       "tags": [
         "near ai",
         "release"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "ritual",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-binance-agentic-wallet-dev-activity-binance-skills-hub",
-      "title": "Binance Agentic Wallet dev activity: binance-skills-hub",
-      "project": "Binance Agentic Wallet",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/binance/binance-skills-hub",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
-      "angle": "",
-      "score": 88,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "binance agentic wallet",
-        "development"
       ]
     },
     {
