@@ -24,6 +24,121 @@
       "pinned": true
     },
     {
+      "id": "watch-virtuals-ios-app-beta-2026-11-10",
+      "title": "Virtuals Protocol opens closed iOS beta, AI agents can now trade from your phone",
+      "project": "Virtuals Protocol",
+      "source": "Gadgets360",
+      "source_type": "news",
+      "url": "https://turbo.gadgets360.com/en/cryptocurrency/virtuals-protocol-adds-ai-powered-trading-through-new-ios-app-crypto-adoption-ai-trades-bitcoin-ethereum-12145116?utm_source=website&utm_medium=content&utm_campaign=gadgets360turbo",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 82,
+      "summary": "Virtuals Protocol launched its Virtuals App in a closed iOS beta on Nov 10, 2026. Selected users can assign AI agents to wallets, monitor markets and execute trades from predefined instructions, through a chat interface for research and execution, with group chats where users discuss investments alongside their personal AI agents.",
+      "angle": "The agent leaves the terminal and moves into your pocket: assign an agent to your wallet, tell it your rules in chat, and it trades while you watch. Explain the trade-off in one line, the agent acts on your instructions, but your wallet keys and your limits stay yours, then ask followers whether they would hand an agent the keys to trade from their phone.",
+      "tags": [
+        "virtuals",
+        "ios app",
+        "ai agents",
+        "trading",
+        "agent commerce"
+      ],
+      "published_at": "2026-11-10",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "watch-venice-vvv-burn-record-2026-11-09",
+      "title": "Venice sets a new VVV burn record, $458K retired in November, still a fraction of new supply",
+      "project": "Venice AI",
+      "source": "Yahoo Finance (Bankless)",
+      "source_type": "news",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/venice-sets-vvv-burn-record-205630924.html",
+      "category": "AI",
+      "type": "Update",
+      "score": 78,
+      "summary": "Venice burned 21,657 VVV, worth about $458,000, on Nov 9, 2026, its biggest discretionary monthly burn yet, beating October's $414,000 by about 10 percent. Venice sets aside part of its free cash flow to buy VVV through the month, then burns the stockpile in one transaction on Base. The honest scale: Venice mints about 167,000 VVV a month for stakers, so the record burn covers roughly an eighth of new supply, and retires about 0.04 percent of the 48.9 million VVV in circulation. Whether VVV turns net deflationary depends on the separate subscription and API-credit burns growing.",
+      "angle": "A record burn that still is not deflation: teach the maths in one line, a $458K burn against about 167,000 new VVV a month is a start, not a flip. The trend is the story, monthly burns nearly tripled since June, then ask followers whether a burn that small can ever catch emissions, or whether the real test is the API-credit burn.",
+      "tags": [
+        "venice",
+        "vvv",
+        "burn",
+        "buyback",
+        "private ai"
+      ],
+      "published_at": "2026-11-09",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "grayscale-zcash-wsj-campaign-2026-11-11",
+      "title": "Grayscale wraps the Wall Street Journal in zebra stripes as ZEC slips below $1,000",
+      "project": "Zcash",
+      "source": "CoinTelegraph",
+      "source_type": "news",
+      "url": "https://cointelegraph.com/markets/zcash-falls-1k-grayscales-1m-ecosystem-commitment",
+      "category": "Privacy",
+      "type": "News",
+      "score": 80,
+      "summary": "Grayscale launched its national Zcash campaign on Nov 10, 2026, wrapping the Wall Street Journal front page in zebra stripes for 'Zcash: The Next Era of Crypto', and opened ZcashInvest.com for investors and advisers. It has already paid $400,000 of its $1 million ecosystem commitment, split equally between the Zcash Foundation, Shielded Labs, Pretty Good Policy for Zcash and Project Tachyon. The same week ZEC fell below $1,000 for the first time since September, down 13.5 percent on Nov 11 to $962.85, as a hot US inflation report pushed the whole market down. Grayscale's Zcash ETF has seen about $15 million in net outflows in November after $46.25 million in October.",
+      "angle": "The biggest privacy marketing push ever landed in the worst week to launch one: a WSJ front page and $400K already paid out to builders, while the coin itself fell below $1,000. Lead with the irony, then the real question, does a marketing campaign move a privacy coin, or does the market only care about the ETF flows? Ask followers whether they would rather have the ad or the inflows.",
+      "tags": [
+        "zcash",
+        "grayscale",
+        "zec",
+        "etf",
+        "privacy"
+      ],
+      "published_at": "2026-11-11",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "across-protocol-domain-hijack-2026-11-11",
+      "title": "Across Protocol recovers its website after domain hijack, about $350,000 stolen in phishing redirect",
+      "project": "Across Protocol",
+      "source": "Gadgets360",
+      "source_type": "news",
+      "url": "https://turbo.gadgets360.com/en/cryptocurrency/across-protocol-recovers-website-after-hackers-seize-control-of-domain-crypto-breach-scams-hacks-security-news-12313311",
+      "category": "Web3",
+      "type": "News",
+      "score": 76,
+      "summary": "Attackers took control of Across Protocol's across.to domain at about 18:45 UTC on Nov 10 through a social engineering attack on its domain registrar, Namecheap, and pointed visitors to a phishing page. Security firm GoPlus estimates about $350,000 was stolen from wallets across Ethereum, Arbitrum, Base, BNB Chain, Ink and Plasma, a figure Across has not confirmed. Across regained the domain on Nov 11 with help from Namecheap's founder, restored all systems, pledged all affected users will be made whole, and promised a full post-mortem. No smart contract was exploited.",
+      "angle": "The smart contracts were never touched, and that is the point: the weakest link was the domain registrar. Explain the attack in one line, trick the registrar, swap the website, drain the visitors, then the practical bit, bookmark the real site and never trust a link that asks you to connect a wallet after a redirect. Ask followers whether they check the domain before they connect.",
+      "tags": [
+        "across",
+        "domain hijack",
+        "phishing",
+        "security",
+        "namecheap"
+      ],
+      "published_at": "2026-11-11",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
+      "id": "initia-second-hack-3-27m-2026-11-11",
+      "title": "Initia hacked a second time in three weeks, $3.27M moved through a stolen Google Cloud key",
+      "project": "Initia",
+      "source": "Gadgets360",
+      "source_type": "news",
+      "url": "https://www.gadgets360.com/cryptocurrency/news/initia-confirms-another-hack-as-attackers-steal-usd-3-million-in-three-weeks-crypto-scams-hacks-crypto-markets-security-12312847/amp",
+      "category": "Web3",
+      "type": "News",
+      "score": 74,
+      "summary": "Initia confirmed its second security breach in under three weeks on Nov 11, 2026. An attacker used a compromised Google Cloud Platform key to run a command injection attack on Nov 9, exposing environment variables that opened Initia's GitHub and cloud accounts, then reached Anvil, the platform hosting Initia's rollups, and forged IBC withdrawals from five rollups. About $3.27 million moved to the attacker's address, but $2.16 million of it sits frozen on the halted network, so roughly $1.1 million actually left the chain. Initia halted its Layer 1 on Nov 10 and says it will restore backing for affected assets in full. The first hack, on Oct 23, took about $2.7 million through a MoveVM flaw.",
+      "angle": "Two hacks in three weeks, and the second one never touched the chain's code: a stolen cloud key opened the whole operation. Explain the chain in one line, cloud key to GitHub to rollup host to forged withdrawals, then the number to quote carefully, $3.27M moved but $2.16M frozen on the halted chain. Ask followers whether they trust a chain whose ops keys are the real vault.",
+      "tags": [
+        "initia",
+        "hack",
+        "gcp",
+        "ibc",
+        "security"
+      ],
+      "published_at": "2026-11-11",
+      "discovered_at": "2026-11-12",
+      "manual": true
+    },
+    {
       "id": "zksync-prividium-connect-2026-11-10",
       "title": "ZKsync's Matter Labs launches Prividium Connect, private cross-chain transactions for institutions",
       "project": "ZKsync (Matter Labs)",
@@ -654,50 +769,6 @@
       ]
     },
     {
-      "id": "watch-prime-intellect-ripple-65b",
-      "title": "Prime Intellect ran the pretraining clusters behind Ripple-65B, a new open-weight coding model",
-      "project": "Prime Intellect",
-      "source": "Latent Space",
-      "source_type": "research",
-      "url": "https://latent.space/p/ainews-it-s-swapping-season/",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Ricursive launched Ripple-65B Preview, a 65B dense open-weight model pretrained from scratch that claims top US open-weight results on agentic coding (80.5% on Terminal-Bench 2.1), trained on 12T tokens with 1M context under Apache 2.0. Prime Intellect ran the pretraining clusters. Ricursive reports a $32M full R&D budget and 16x pretraining compute efficiency at small scale versus its Olmo 3 baseline, both vendor claims with no independent verification yet. Critics note the US-only SOTA framing omits Chinese models such as Qwen.",
-      "angle": "Decentralised AI training just produced a frontier-class coding model. Explain what Prime Intellect actually did (ran the pretraining clusters) and why a small team claiming 16x compute efficiency matters for open AI, while keeping the scepticism about benchmark framing in the thread.",
-      "score": 85,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "prime intellect",
-        "ripple-65b",
-        "open-weight",
-        "decentralised ai"
-      ]
-    },
-    {
-      "id": "watch-zama-zerion-confidential-tokens",
-      "title": "Zama confidential tokens go live in Zerion Wallet as shielded TVL passes $122M",
-      "project": "Zama",
-      "source": "Zama",
-      "source_type": "blog",
-      "url": "https://www.zama.org/post/zama-newsletter-october-recap",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Zama's October recap puts shielded TVL past $122M, up from $90M+ in September, with $102M+ in confidential vaults. Confidential tokens are now live in Zerion Wallet, so users manage encrypted balances next to public holdings, and Merkl rewards earned on confidential vaults are now claimable in the Zama App. Zama also joined the Open Transaction Layer as a founding partner.",
-      "angle": "The privacy story is moving from vaults to wallets people already use. Show the Zerion moment: your confidential balance sitting next to your public one, same wallet, no separate app. Then the number, $122M shielded, and what it says about confidential DeFi becoming infrastructure.",
-      "score": 80,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "zama",
-        "zerion",
-        "confidential tokens",
-        "fhe"
-      ]
-    },
-    {
       "angle": "Explainer: what the Alpha upgrade pause actually means for hunters, and why no-claim airdrops are the safest kind. End by asking followers if they made the 200 point cut.",
       "category": "Launches & Airdrops",
       "discovered_at": "2026-11-07",
@@ -765,29 +836,6 @@
       "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
     },
     {
-      "angle": "This is your exact intersection, lead with it: AI that does not read your prompts. Explain private inference simply, then the token changes, then ask if privacy is AI's killer feature.",
-      "category": "AI",
-      "discovered_at": "2026-11-07",
-      "id": "venice-vvv-private-ai-2026-11",
-      "manual": true,
-      "project": "Venice (VVV)",
-      "published_at": "2026-11-04",
-      "score": 90,
-      "source": "Mudrex, November 2026 watchlist",
-      "source_type": "news",
-      "summary": "Venice, the private AI computing platform, sits right on your Privacy x AI overlap: reduced token emissions, buybacks, and expanding AI services are driving its November narrative. Private inference is becoming a token story, not just a product story.",
-      "tags": [
-        "privacy",
-        "ai",
-        "venice",
-        "vvv",
-        "private-ai"
-      ],
-      "title": "Venice Token (VVV): private AI computing cuts emissions, adds buybacks",
-      "type": "Update",
-      "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
-    },
-    {
       "angle": "Connect straight to your Binance Agentic Wallet audience: agents on BNB are getting identity, escrow and reputations, the full job market stack. Ask what job followers would hire an agent for first.",
       "category": "Agentic Wallet",
       "discovered_at": "2026-11-07",
@@ -830,28 +878,6 @@
       "title": "Elysium opens its first free mint, Makers first, no public sale",
       "type": "Early Alpha",
       "url": "https://elysium.band"
-    },
-    {
-      "angle": "Explainer: open AI versus closed AI, using Sentient's GRID as the example. Tie it to privacy, open models are the other half of user control.",
-      "category": "AI",
-      "discovered_at": "2026-11-07",
-      "id": "sentient-grid-decentralised-ai-2026-11",
-      "manual": true,
-      "project": "Sentient (SENT)",
-      "published_at": "2026-11-04",
-      "score": 76,
-      "source": "Mudrex, November 2026 watchlist",
-      "source_type": "news",
-      "summary": "Sentient is building an open network of AI models, agents, data and compute through its GRID infrastructure. November token-supply events keep SENT on the decentralised AI watchlist, in the same narrative lane as Venice and the agent frameworks.",
-      "tags": [
-        "ai",
-        "decentralised-ai",
-        "sentient",
-        "sent"
-      ],
-      "title": "Sentient (SENT): decentralised AI network heads into November supply events",
-      "type": "Update",
-      "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
     },
     {
       "id": "watch-bittensor-tencent-hy4-chutes-2026-11-10",
@@ -1120,7 +1146,7 @@
     },
     {
       "id": "auto-this-new-ai-music-model-is-already-better-than-suno-we-put-a",
-      "title": "This New AI Music Model Is Already Better Than Suno—We Put ACE to the Test",
+      "title": "This New AI Music Model Is Already Better Than Suno,We Put ACE to the Test",
       "project": "",
       "source": "Decrypt",
       "source_type": "news",
@@ -1314,7 +1340,7 @@
       "url": "https://decrypt.co/382873/binance-hack-elon-musk-animal-meme-coins-launder-stolen-crypto",
       "category": "NFTs",
       "type": "News",
-      "summary": "Elliptic says the hackers are minting their own worthless tokens—complete with cartoon animal and Elon Musk logos—and routing stolen funds through liquidity pools to break the trail.",
+      "summary": "Elliptic says the hackers are minting their own worthless tokens,complete with cartoon animal and Elon Musk logos,and routing stolen funds through liquidity pools to break the trail.",
       "angle": "",
       "score": 43,
       "published_at": "2026-11-09",
@@ -1595,57 +1621,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-paraloom-labs-paraloom-core",
-      "title": "GitHub activity: paraloom-labs/paraloom-core",
-      "project": "paraloom-labs/paraloom-core",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/paraloom-labs/paraloom-core",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Open privacy Layer 2 for Solana. Groth16 zk-SNARKs, BFT cohort, ~10 ms verification on commodity hardware. Pre-mainnet.",
-      "angle": "",
-      "score": 65,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-aomi-labs-aomi",
       "title": "GitHub activity: aomi-labs/aomi",
       "project": "aomi-labs/aomi",
@@ -1790,7 +1765,7 @@
       "url": "https://github.com/eldardzh/nullmask",
       "category": "Privacy",
       "type": "Release",
-      "summary": "Architecture showcase — Zero-knowledge privacy protocol on EVM. Code private.",
+      "summary": "Architecture showcase, Zero-knowledge privacy protocol on EVM. Code private.",
       "angle": "",
       "score": 79,
       "published_at": "2026-11-08",
@@ -1836,26 +1811,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -1872,26 +1827,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "aztec",
         "release"
       ]
     },
@@ -1936,26 +1871,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -1973,26 +1888,6 @@
       "tags": [
         "aleo",
         "development"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
       ]
     },
     {
@@ -2016,26 +1911,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
       "id": "auto-elizaos-release-eliza-pr-evidence-15",
       "title": "ElizaOS release: eliza pr-evidence-15",
       "project": "ElizaOS",
@@ -2052,26 +1927,6 @@
       "manual": false,
       "tags": [
         "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
         "release"
       ]
     },
@@ -2093,46 +1948,6 @@
       "tags": [
         "near ai",
         "release"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "ritual",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-binance-agentic-wallet-dev-activity-binance-skills-hub",
-      "title": "Binance Agentic Wallet dev activity: binance-skills-hub",
-      "project": "Binance Agentic Wallet",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/binance/binance-skills-hub",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Skills Hub is an open skills marketplace that gives AI agents native access to crypto",
-      "angle": "",
-      "score": 88,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-11",
-      "manual": false,
-      "tags": [
-        "binance agentic wallet",
-        "development"
       ]
     },
     {

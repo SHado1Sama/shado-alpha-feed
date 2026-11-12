@@ -94,7 +94,8 @@
     "Skyfire",
     "Wayfinder",
     "Giza",
-    "ZKsync"
+    "ZKsync",
+    "Raycash"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -257,6 +258,7 @@
     "Giza": "Agentic Wallet",
     "Almanak": "Agentic Wallet",
     "BNB Chain agents": "Agentic Wallet",
-    "ZKsync": "Privacy"
+    "ZKsync": "Privacy",
+    "Raycash": "Privacy"
   }
 }

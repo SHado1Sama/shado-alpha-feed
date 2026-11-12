@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 21:55 UTC",
-  "auto_count": 69,
-  "total": 110
+  "updated_at": "2026-11-12T04:45:22Z",
+  "signals": 100,
+  "note": "Sweep 2026-11-12 morning: added 5 signals (Virtuals iOS app beta, Venice record VVV burn, Grayscale Zcash WSJ campaign, Across domain hijack, Initia second hack); expired 15 signals older than 7 days (5 from Nov 4 plus 10 auto GitHub entries the updater had just re-added with Oct 13-28 release dates); money: no new opportunities passed the rules, all 7 entries re-verified live (Swap.io bounty still open, Sentient Sparks, PIVX, Injective, Binance Square Write to Earn, Superteam Earn, Zealy), none retired; Raycash added to watched_projects (Privacy)"
 }
