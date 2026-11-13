@@ -1,6 +1,78 @@
 {
   "signals": [
     {
+      "id": "midnight-monument-bank-250m-2026-11-12",
+      "title": "Midnight nears 250M pound tokenized bank deposit rollout with UK-regulated Monument Bank",
+      "project": "Midnight",
+      "source": "The Crypto Basic",
+      "source_type": "news",
+      "url": "https://thecryptobasic.com/2026/11/12/cardano-founder-says-this-is-just-the-beginning-as-midnight-nears-250m-bank-deposit-rollout/",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 88,
+      "summary": "Monument Bank, a UK-regulated lender managing about 7 billion pounds in deposits, is close to putting up to 250 million pounds of retail customer deposits on Midnight as one-to-one tokenized deposits that keep earning interest, stay redeemable in pounds and keep Financial Services Compensation Scheme protection. The rollout was delayed by a custody bottleneck and is now expected around November 2026. The in days timeline comes from the community after both sides appeared at the Digital Asset Summit in London, not from an official confirmation, and Hoskinson called it just the beginning, saying all the worlds assets want NIGHT Mode. Midnights roadmap lists audited shielded-token contracts and tokenized-deposit templates for Q4 2026, with institutional key security and viewing keys for auditors and regulators in Q1 2027.",
+      "angle": "A real bank putting real deposits on a privacy chain, and the honest framing is the hook: the 250 million pounds is a first-phase target, not money already moved, and the launch date is community talk, not an official date. Explain a tokenized deposit in one line, your pounds in the bank, represented on chain, still yours, still protected, then ask followers whether they would keep savings on a chain nobody can see into.",
+      "tags": [
+        "midnight",
+        "monument bank",
+        "tokenized deposits",
+        "night",
+        "rwa",
+        "privacy"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-13",
+      "manual": true
+    },
+    {
+      "id": "midnight-txs-pass-zcash-2026-11-12",
+      "title": "Midnight processed 4x Zcash daily transactions on Nov 10, 96,000 to 24,000",
+      "project": "Midnight",
+      "source": "CryptoPotato (via Bitget News)",
+      "source_type": "news",
+      "url": "https://www.bitget.cloud/news/detail/12560606165311",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 82,
+      "summary": "Midnight processed more than 96,000 transactions on Nov 10, 2026, a new record, against slightly more than 24,000 on Zcash the same day. Hoskinson reposted the numbers with the line Midnight is growing. Private Smart contracts are the future. NIGHT traded near 0.047 dollars, up about 9 percent in 24 hours, while ZEC sat near 980 dollars, down 25 percent on the week after falling below 1,000 dollars. The comparison is activity, not value: Midnight is a new chain ramping up, Zcash is the older privacy coin in a market-wide slide.",
+      "angle": "The privacy crown is being contested on usage, not price: a chain that launched mainnet this year just out-transacted the original privacy coin four to one in a day. Keep the honest caveat in the post, transaction counts are not users and not value, then ask followers whether the next privacy leader is decided by who ships private smart contracts or who holds the shielded supply.",
+      "tags": [
+        "midnight",
+        "zcash",
+        "night",
+        "zec",
+        "transactions",
+        "privacy"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-13",
+      "manual": true
+    },
+    {
+      "id": "venice-pareto-1m-context-2026-11-12",
+      "title": "Pareto AI launches on Venice with a 1M-token context window and anonymous access",
+      "project": "Venice AI",
+      "source": "KuCoin News Flash",
+      "source_type": "news",
+      "url": "https://www.kucoin.com/news/flash/pareto-ai-launches-on-venice-with-1m-token-context-window",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "Unbiaseds Pareto model is live on Venice as of Nov 12, 2026, with a 1,048,576-token context window and image input, at about 0.80 dollars per million input tokens and 3.20 dollars per million output tokens. Pareto is a blended model: it runs several frontier and open models in parallel and synthesizes their outputs instead of routing each query to one model. On Venice it is available with anonymous access, no account and no login-linked identity trail, with conversations stored locally in the browser where possible. Pareto itself is only two months old, first released Sep 17, with the context window quadrupled on Oct 1.",
+      "angle": "Private AI just got a bigger brain: a million tokens of context with no account attached. Explain the two ideas simply, a blended model that asks several AIs and merges the answers, and anonymous access that means Venice never ties the question to you, then ask followers what anonymous should mean when the model still has to read the prompt, and what they would feed a million-token window first.",
+      "tags": [
+        "venice",
+        "pareto",
+        "private ai",
+        "context window",
+        "unbiased",
+        "vvv"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-13",
+      "manual": true
+    },
+    {
       "id": "offworld-privacy-launch-2026-11-12",
       "title": "Offworld Privacy launches to bring Zcash into private DeFi, shielded bridge and private lending first",
       "project": "Offworld Privacy",
@@ -913,29 +985,6 @@
       "url": "https://www.binance.com/en/square/post/385546070141899"
     },
     {
-      "angle": "Thread: agents are getting IDs the way people got KYC. Connect it to your own Agent ID, shado.ai, and ask whether agent identity becomes mandatory before agents can hold money.",
-      "category": "Agentic Wallet",
-      "discovered_at": "2026-11-07",
-      "id": "zetrix-kya-agent-identity-2026-11-05",
-      "manual": true,
-      "project": "Zetrix AI",
-      "published_at": "2026-11-05",
-      "score": 95,
-      "source": "Manila Times / PR Newswire",
-      "source_type": "news",
-      "summary": "Know Your Agent gives AI agents verifiable digital identities linked to the business or person they represent, what they are authorised to do, and whether actions stay within approved limits. Built on W3C Verifiable Credentials and AvatarLabs agentic wallet tech, with a cross-border pilot across the Middle East, Africa, China and ASEAN, results going to ITU and IEEE standards discussions.",
-      "tags": [
-        "ai-agents",
-        "identity",
-        "kya",
-        "agentic-wallet",
-        "privacy"
-      ],
-      "title": "Zetrix AI and CAICT launch Know Your Agent (KYA) service for verifiable AI agent identity",
-      "type": "Launch",
-      "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/pr-newswire/zetrix-ai-and-china-academy-of-information-and-communications-technology-unveil-know-your-agent-kya-service-to-bring-trust-and-accountability-to-ai-agents/2462670"
-    },
-    {
       "angle": "Short post plus chart-free explainer: the oldest privacy coin is still shipping. Ask your audience if privacy coins or privacy infrastructure (Midnight, Aztec) win this cycle.",
       "category": "Privacy",
       "discovered_at": "2026-11-07",
@@ -1692,74 +1741,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-regalgramma-aztec-private-state-transition",
-      "title": "GitHub activity: regalgramma/aztec-private-state-transition",
-      "project": "regalgramma/aztec-private-state-transition",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/regalgramma/aztec-private-state-transition",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Privacy-first zk-rollup state transition accumulator and UTXO note commitments verifier",
-      "angle": "",
-      "score": 98,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-paraloom-labs-paraloom-core",
-      "title": "GitHub activity: paraloom-labs/paraloom-core",
-      "project": "paraloom-labs/paraloom-core",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/paraloom-labs/paraloom-core",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Open privacy Layer 2 for Solana. Groth16 zk-SNARKs, BFT cohort, ~10 ms verification on commodity hardware. Pre-mainnet.",
-      "angle": "",
-      "score": 65,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-aomi-labs-aomi",
       "title": "GitHub activity: aomi-labs/aomi",
       "project": "aomi-labs/aomi",
@@ -1950,26 +1931,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -1986,46 +1947,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "aztec",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-midnight-release-midnight-examples-mnkit-v0-2-0-rc-1",
-      "title": "Midnight release: midnight-examples mnkit-v0.2.0-rc.1",
-      "project": "Midnight",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/midnightntwrk/midnight-examples/releases/tag/mnkit-v0.2.0-rc.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "mnkit 0.2.0-rc.1. Release candidate for mnkit 0.2.0. Published to the `next` dist-tag; `npx mnkit` keeps resolving `latest`.",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-29",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "midnight",
         "release"
       ]
     },
@@ -2050,26 +1971,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aleo-dev-activity-aleo-dev-toolkit",
       "title": "Aleo dev activity: aleo-dev-toolkit",
       "project": "Aleo",
@@ -2087,66 +1988,6 @@
       "tags": [
         "aleo",
         "development"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-gensyn-dev-activity-gensyn-audit",
-      "title": "Gensyn dev activity: gensyn-audit",
-      "project": "Gensyn",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/gensyn-ai/gensyn-audit",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "CLI for independently auditing Gensyn Open 1B training steps",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "gensyn",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
       ]
     },
     {
@@ -2170,26 +2011,6 @@
       ]
     },
     {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
-        "release"
-      ]
-    },
-    {
       "id": "auto-near-ai-dev-activity-cvm-compose-files",
       "title": "NEAR AI dev activity: cvm-compose-files",
       "project": "NEAR AI",
@@ -2206,26 +2027,6 @@
       "manual": false,
       "tags": [
         "near ai",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-12",
-      "manual": false,
-      "tags": [
-        "ritual",
         "development"
       ]
     },
