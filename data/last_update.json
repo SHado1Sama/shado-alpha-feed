@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T04:55:00Z",
-  "signals": 103,
-  "note": "Sweep 2026-11-13 morning: added 3 signals (Midnight Monument Bank 250M pound tokenized deposits, Midnight 96k daily txs vs Zcash 24k, Pareto AI 1M-token context on Venice); expired 14 signals older than 7 days (Zetrix KYA Nov 5, 13 auto GitHub release and dev-activity entries from Oct 13 to Nov 5, merged onto the auto updater's latest remote state first); money: added 2 opportunities (KriptoK Creator Challenge bounty $200 USDC, Oasis Sentinels ambassador program with bounty-based ROSE rewards, form verified live), corrected Bitget entry (Nigeria not on excluded-regions list, feature available there; campaign ends Nov 13), all 10 existing entries re-verified live (Swap.io bounty still open, Gloam contest open to Nov 16, AirdropBuzz live to Dec 26, Sentient Sparks, PIVX, Injective, Binance Square Write to Earn, Superteam Earn, Zealy), none retired; SurfCash video bounty NOT added (published Mar 30, no deadline or open status on the listing page, could not confirm submissions still open); Midnight Nightforce NOT re-added (volunteer, unpaid, retired 2026-11-11)"
+  "updated_at": "2026-11-13 04:49 UTC",
+  "auto_count": 67,
+  "total": 116
 }
