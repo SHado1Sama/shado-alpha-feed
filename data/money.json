@@ -154,23 +154,6 @@
       "url": "https://airdropbuzz.com/creator-campaign"
     },
     {
-      "deadline": "2026-11-13T23:59:00Z",
-      "effort": "Low",
-      "fit_score": 55,
-      "id": "bitget-wallet-virtual-account-ugc-campaign",
-      "manual": true,
-      "project": "Bitget Wallet",
-      "published_at": "2026-10-30",
-      "requirements": "Open a free USD or EUR virtual account in Bitget Wallet, create original content about it, post on X tagging @BitgetWallet with #BitgetWalletVA, submit via the form in the official campaign post. One entry per person. Nigeria is not on the blog's excluded-regions list, so the account is available there. Ends Nov 13, 2026, no end time stated, so enter today.",
-      "reward_text": "$2,000 USDC total pool, 20 winners at $100 USDC each. Contest, only winning entries are paid",
-      "reward_usd_est": 100,
-      "source": "Bitget Wallet official blog, Oct 27 2026, checked 2026-11-13",
-      "summary": "Bitget Wallet is running a user-generated-content campaign for its new Virtual Account feature, USD and EUR account numbers inside the self-custodial wallet that convert incoming bank transfers into USDT or USDC, from Oct 30 to Nov 13, 2026. Open a USD or EUR virtual account for free, create original content about it, publish on X tagging @BitgetWallet with #BitgetWalletVA, then submit through the form linked in the official campaign post on X. One entry per person, 20 winners get $100 USDC each. The same wallet launched a stablecoin spending card in Nigeria on Nov 4, so the feature is live in the user's market, the official blog lists excluded regions and Nigeria is not among them, so the feature is available there.",
-      "title": "Bitget Wallet Virtual Account UGC campaign, $2,000 pool, 20 winners get $100 USDC each",
-      "type": "Campaign",
-      "url": "https://web3.bitget.com/en/blog/articles/bitget-wallet-virtual-account"
-    },
-    {
       "deadline": "",
       "effort": "Medium",
       "fit_score": 55,
@@ -220,6 +203,23 @@
       "title": "OKX Orbit Creator Rewards, weekly USDT share of a nearly 100,000 USDT monthly pool",
       "type": "Creator Platform",
       "url": "https://www.okx.com/en-us/help/orbit-engage-your-community-earn-rewards"
+    },
+    {
+      "id": "heygen-video-contest",
+      "title": "HeyGen Video Contest, $20K+ for videos your AI agent makes through MCP",
+      "type": "Campaign",
+      "project": "HeyGen",
+      "deadline": "2026-12-01T23:59:00-08:00",
+      "effort": "Medium",
+      "fit_score": 50,
+      "reward_text": "Grand prize $3,500; Best Product Ad, Best Story or Skit, Best Edit $1,500 each; 3 runner-ups $1,000 each; Most Viral $1,000; Audience Choice $750; 9 Weekly Spotlights $250 each; MiniMax Award $5,000 in API credits. $20K+ cash and credits total. Contest, only placed entries are paid",
+      "reward_usd_est": 3500,
+      "source": "HeyGen official contest page, checked 2026-11-14",
+      "summary": "HeyGen is paying for videos made with HeyGen Video 1.0 through HeyGen MCP: connect the MCP to your AI agent, ask it to make the video, then edit it however you like. At least 70 percent of the video must be Video 1.0 footage made through MCP from your own HeyGen account. No paid HeyGen plan is needed, free entrants get an allowance to make Video 1.0 clips through MCP, enough for up to 3 entries. Post on X with #HeyGenVideoContest, tag @HeyGenMCP and follow it, then submit through the form on the contest page. Entries close Dec 1, 2026 at 11:59 pm PT, winners announced Dec 10. The contest is squarely in the AI agent lane, and video is your current format, but it is off the Privacy x AI crypto niche and the payout is via PayPal, so confirm Nigeria is eligible in the official rules before entering.",
+      "requirements": "Make a video with HeyGen Video 1.0 through HeyGen MCP (at least 70% of the footage), post on X with #HeyGenVideoContest in the first line, tag @HeyGenMCP and follow it, then submit the post link in the form on the contest page. Up to 3 entries per person. No paid HeyGen plan needed, free allowance covers up to 3 entries. Payout is via PayPal: confirm Nigeria is eligible in the official rules, PayPal receiving is restricted in Nigeria.",
+      "published_at": "2026-11-10",
+      "url": "https://www-redesign.heygen.com/blog/video-contest",
+      "manual": true
     }
   ]
 }

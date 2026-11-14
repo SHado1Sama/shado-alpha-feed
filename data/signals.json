@@ -1,6 +1,107 @@
 {
   "signals": [
     {
+      "id": "santiment-privacy-dev-activity-2026-11-13",
+      "title": "Santiment ranks Dash, Chainlink and HOPR the busiest privacy builders, Zama, Zcash and Aztec in the top 10",
+      "project": "Privacy (sector)",
+      "source": "Crypto Briefing",
+      "source_type": "research",
+      "url": "https://cryptobriefing.com/santiment-privacy-projects-development-activity-dash/",
+      "category": "Privacy",
+      "type": "Update",
+      "score": 82,
+      "summary": "Santiment's latest 30-day GitHub ranking of privacy projects, published Nov 13, 2026, puts Dash first, Chainlink second and HOPR third, with Zama, NYM, Zcash, Monero, Dusk, Aztec and Anyone rounding out the top 10. The ranking counts notable commits and pull requests and filters out forks and low-value activity. The category itself has widened: it now covers infrastructure that adds privacy features, like oracles and anonymity tools, not just privacy coins. Santiment is explicit that development activity does not move prices on a schedule, it is a long-term health signal, not a buy signal.",
+      "angle": "The privacy leaderboard, ranked by shipping, not by price: Dash and HOPR climbing says the old coins and the infrastructure plays are both still building. Explain the method in one line, it counts real commits, not forks, then the honest caveat, busy GitHubs do not mean the token goes up, and ask followers which kind of privacy project they would back, a coin that hides transactions or infrastructure that hides data for everyone else.",
+      "tags": [
+        "santiment",
+        "privacy",
+        "dash",
+        "chainlink",
+        "hopr",
+        "zama",
+        "zcash",
+        "aztec",
+        "development activity"
+      ],
+      "published_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "binance-covers-6-34b-hack-por-2026-11-12",
+      "title": "Binance says it has fully covered the $6.34B hack and posts a 198-token proof of reserves snapshot",
+      "project": "Binance",
+      "source": "Bitcoin Magazine",
+      "source_type": "news",
+      "url": "https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack",
+      "category": "Web3",
+      "type": "News",
+      "score": 84,
+      "summary": "Binance said on Nov 12, 2026 it has completed coverage of the assets hit in the Oct 29 hack, the largest crypto theft on record at $6.34 billion, paying for the replacement from company funds: a partial draw on its SAFU emergency fund, part of its futures insurance fund and its corporate treasury, and it will replenish SAFU to about $1 billion. It also published a new proof of reserves snapshot taken Nov 12 covering 198 tokens, up from 10 in the Oct 31 snapshot. The catch: the full zero-knowledge proof for the new snapshot takes about 40 to 50 hours to generate, so users cannot yet independently verify the 1:1 backing themselves. Withdrawals continue to reopen in phases, and Binance has not said how much of the stolen funds was recovered or named an attacker.",
+      "angle": "The follow-up to the hack story your followers already know: Binance says every affected balance is now covered from its own books, and the proof is a 198-token snapshot. Teach the difference in one line, a snapshot is Binance's statement, the zero-knowledge proof is the check, and that check is still being computed, then ask followers whether they would trust an exchange's word while the proof is pending.",
+      "tags": [
+        "binance",
+        "hack",
+        "proof of reserves",
+        "zk proof",
+        "safu"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "offworld-zec-collateral-solana-aztec-2026-11-12",
+      "title": "Offworld plans shielded ZEC as collateral on Solana and Aztec, but liquidation is where private lending gets tested",
+      "project": "Offworld Privacy",
+      "source": "CryptoCompass (Coindoo)",
+      "source_type": "research",
+      "url": "https://cryptocompass.com/articles/zcash-could-become-collateral-across-solana-and-aztec",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 84,
+      "summary": "Offworld Privacy's website describes two products: Offworld Bridge, which would move shielded ZEC into private balances on Solana and Aztec, and Offworld Lend, which would let users borrow against that ZEC on both networks. No launch date, deployed contract, loan-to-value figure, audit or liquidation method has been published. The honest context: borrowing against ZEC on Solana is already possible in public, Kamino Finance runs an isolated market where bridged ZEC backs USDC loans at up to 1.7x leverage. The open question is liquidation: a lender must prove a position breached its health factor and move the collateral without the borrower signing, and every design that does that leaks something, the moment of the sale, a spending key held by the contract, or the privacy of the position itself.",
+      "angle": "The follow-up to the Offworld launch post: the idea is shielded ZEC you can borrow against, and the hard part is not the bridge, it is the liquidation. Explain the test in one line, a private loan still has to be sold publicly when it goes bad, then the question to ask followers, is a loan private if the liquidation is not? Keep the caveat in the post, nothing is deployed yet, this is a design to watch, not a product to use.",
+      "tags": [
+        "offworld",
+        "zcash",
+        "zec",
+        "shielded",
+        "lending",
+        "solana",
+        "aztec",
+        "private defi"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "bas-agent-id-three-weeks-182k-2026-11-12",
+      "title": "Binance Agent ID, three weeks in: 182,000 names claimed, 992 run an agent, and agent commerce so far is 3 cents",
+      "project": "Binance Agentic Wallet",
+      "source": "BAS (BNB Attestation Service)",
+      "source_type": "research",
+      "url": "https://medium.com/@bas_io/binance-agent-id-36b574b74c5a",
+      "category": "Agentic Wallet",
+      "type": "Project Watch",
+      "score": 86,
+      "summary": "BAS indexed every Binance Agent ID on BNB Chain and matched them against ERC-8004 agents and ERC-8183 jobs, snapshot Nov 11, 2026. 182,040 Agent IDs have been claimed, one per wallet, none transferred or burned, with 62 percent claimed in the first week and claims now running at about 1,500 a day. Only 992 holders, 0.54 percent, also run an ERC-8004 agent. Two holders have used ERC-8183, both as clients: cfo.ai paid three agents 1 cent each, and jackfred.ai's 50-cent job was refunded undelivered. No Agent ID holder has been paid for work yet. Launchpads already gate on Agent ID, Four.Meme's Agent ID Exclusive mode and Flap's ID Agent Curve, but the wallets launchpads admit and the wallets doing agent commerce are, so far, different wallets.",
+      "angle": "The honest numbers post your agentic wallet audience needs: identity is booming, 182,000 names in three weeks, but actual agent commerce is 3 cents and nobody has been paid for work yet. Frame it as the ladder, a name is rung one, a registered agent is rung two, getting paid is rung four, and almost everyone is still on rung one. Ask followers what would have to change before they would hire an agent through a wallet, and whether the name or the work history is the trust signal.",
+      "tags": [
+        "binance",
+        "agent id",
+        "agentic wallet",
+        "erc-8004",
+        "erc-8183",
+        "bas",
+        "identity"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
       "id": "railgun-vitalik-2-6m-2026-11-13",
       "title": "Vitalik Buterin moves $2.6M through Railgun again, Ethereum's co-founder keeps choosing private DeFi",
       "project": "Railgun",
@@ -686,29 +787,6 @@
       ]
     },
     {
-      "id": "watch-bittensor-gamma-488",
-      "title": "Bittensor ships Gamma, subnets can now price services in dollars by burning alpha",
-      "project": "Bittensor",
-      "source": "Subtensor GitHub releases",
-      "source_type": "blog",
-      "url": "https://github.com/RaoFoundation/subtensor/releases/tag/v488",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Subtensor Runtime 488 shipped on Nov 6 and went live on mainnet from block 9,442,681, bundling Release 487 and 488. The headline feature is Gamma, a dollar-valued service credit subnets can mint by burning subnet alpha, so a subnet can charge for its service in dollars instead of a floating token price. The same release train adds post-quantum wallet signatures (ML-DSA-65, Falcon-512, Falcon-1024), a Lock proxy type, and a 33 percent combined cap on burn and recycle emission slots, while 488 reverts the fee and gas-pricing changes 487 had raised. Honest caveat: Gamma is merged and on chain, but Taostats reports it stays off until the root wallet activates it, so the billing feature is shipped, not yet switched on.",
-      "angle": "Decentralised AI is learning to bill like a normal business: a subnet can now quote a dollar price and burn alpha to back it. Explain Gamma in one line, burn the subnet token, get a dollar credit to sell your service, then the honest read, the code is live but the switch is not flipped yet, so watch for the root activation before calling it done. Ask followers which subnet they would pay dollars to use.",
-      "score": 84,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "bittensor",
-        "subtensor",
-        "gamma",
-        "tao",
-        "subnets"
-      ]
-    },
-    {
       "id": "watch-zodl-ohttp-servers",
       "title": "Zodl wallet hides your IP from your own wallet requests with Oblivious HTTP",
       "project": "Zcash",
@@ -824,30 +902,6 @@
       ]
     },
     {
-      "id": "watch-bittensor-decide-4b",
-      "title": "Bittensor subnet Iota ships Decide 4B, a decision model trained on borrowed GPUs that outscored OpenAI on JevBench",
-      "project": "Bittensor",
-      "source": "Bittensor Weekly",
-      "source_type": "research",
-      "url": "https://newsletter.bittensor.quest/p/bittensor-weekly-november-6-2026",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Iota, Bittensor subnet 9 run by Macrocosmos, shipped Decide 4B, the first public model out of the subnet: a 4B decision model under Apache 2.0 that answers with probabilities instead of text, about 33 ms per request on one GPU. It scored 78.6 on JevBench against 62.4 for OpenAI's Decisions API, though the score is Macrocosmos' own run on the 231-question public split and the sealed-set evaluation is still pending. The training run used 16 RTX A4000 cards, one per machine, merged with streaming DiLoCo, with no cluster anywhere in it.",
-      "angle": "Decentralised training keeps producing real artifacts: a model trained on 16 workstation cards, not a data centre, now tops a decision benchmark. Explain decision models in one line, an AI that answers instead of writing, and keep the honest caveat in the thread, the sealed-set score is still pending, so this is a claim to test, not a crown.",
-      "score": 86,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "bittensor",
-        "iota",
-        "decide 4b",
-        "decision models",
-        "open weights",
-        "tao"
-      ]
-    },
-    {
       "id": "watch-coinbase-wallet-mcp",
       "title": "Coinbase launches Wallet MCP, AI assistants can now act inside Coinbase Wallet with user approval",
       "project": "Coinbase",
@@ -895,30 +949,6 @@
       ]
     },
     {
-      "id": "watch-bittensor-reax-13",
-      "title": "Bittensor subnet REAX 1.3 tops the Hugging Face Decision Index, built from miners winning entries",
-      "project": "Bittensor",
-      "source": "Subnet Alpha",
-      "source_type": "research",
-      "url": "https://subnetalpha.ai/subnet/reax/",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "REAX, Bittensor subnet 92, released REAX 1.3 on Nov 6, the first REAX model built directly from competition entries: it averages two miner fine-tunes, one from UID 18 and one from generalist co-champion UID 83, each blended with an open decision model. It reached first place among 274 models on the Hugging Face Decision Index 0.4.1 with a Full score of 74.0. Decision models do not write essays, they return probabilities over predefined answers, which makes them a routing and decision layer for agents. REAX 1.3 is served on decisionmodels.io in the EU tier at 0.400 euro per million input tokens with output free, and its weights are open under Apache 2.0.",
-      "angle": "Decentralised training is now producing the top-ranked model in its class, and the winners were miners competing on Bittensor, not a lab. Explain decision models in one line, an AI that answers instead of writing, then why that matters for agents that need fast, cheap choices, and note the honest caveat that the ranking is on one index, not a universal benchmark.",
-      "score": 85,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "bittensor",
-        "reax",
-        "subnet 92",
-        "decision models",
-        "open weights",
-        "tao"
-      ]
-    },
-    {
       "id": "watch-coinbase-wallet-agent-capabilities",
       "title": "Coinbase Wallet plans to add AI agent capabilities this year, inheriting its Agentic Wallets stack",
       "project": "Coinbase",
@@ -940,30 +970,6 @@
         "agentic wallet",
         "x402",
         "agentkit"
-      ]
-    },
-    {
-      "id": "binance-wallet-nov-update-agent-id",
-      "title": "Binance Wallet adds CopyTrade, Solana support and Agent ID Exclusive mode in Meme Rush",
-      "project": "Binance Agentic Wallet",
-      "source": "Binance Square",
-      "source_type": "exchange",
-      "url": "https://www.binance.com/en-IN/square/post/11-06-2026-binance-wallet-adds-search-copytrade-solana-and-extension-features-385353385309522",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Binance Wallet announced a bundle of updates on Nov 6: CopyTrade is live on the app and web for BSC and Solana, the DeFi API now covers Solana across 10+ protocols, and Meme Rush adds an Agent ID Exclusive mode plus the Sender protocol. In Agent ID Exclusive mode, bonding-curve trading is limited to Binance Agentic Wallets holding an Agent ID, with each wallet capped at 1 percent of supply and tokens non-transferable until graduation. Search now finds Square users by username, Tracker call posts auto-translate, and token detail pages show unrealised and total PnL per address.",
-      "angle": "Agent ID is becoming a gate, not just a name: exclusive launches now require one, which is exactly why your audience should claim theirs before the next drop. Explain CopyTrade in one line (copy a trader, same chain, same risk) and ask followers whether they would ever let an agent trade for them.",
-      "score": 82,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "binance",
-        "agent id",
-        "meme rush",
-        "copytrade",
-        "solana",
-        "agentic wallet"
       ]
     },
     {
@@ -1013,50 +1019,6 @@
       ]
     },
     {
-      "id": "watch-midnight-ledger-9",
-      "title": "Midnight hard forks to Ledger 9 on mainnet, contracts can now call each other",
-      "project": "Midnight",
-      "source": "Midnight",
-      "source_type": "blog",
-      "url": "https://midnight.network/blog/ledger-9-upgrade-on-mainnet",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Midnight executed a mainnet hard fork from Ledger 8 to Ledger 9, deployed directly to mainnet without the usual Preprod soak. It adds contract to contract calls in a single transaction, native Keccak-256 and ECDSA signatures plus BIP-44 derivation so custodians and wallets can plug in with existing tooling, ZKIR V3 proofs and live event logs. Existing contracts and balances migrate automatically; builders must move to Midnight.js 5.",
-      "angle": "Explain composability in one line: on Midnight, approve plus swap plus deposit used to be three signatures, now it is one click. Frame it as the moment private DeFi stops feeling like a demo and starts feeling like normal DeFi, with custody support as the quiet institutional tell.",
-      "score": 90,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "midnight",
-        "ledger 9",
-        "hard fork",
-        "private defi"
-      ]
-    },
-    {
-      "id": "watch-bittensor-post-quantum-signatures",
-      "title": "Bittensor adds quantum-resistant wallet signatures, mainnet upgrade still pending",
-      "project": "Bittensor",
-      "source": "Crypto Briefing",
-      "source_type": "news",
-      "url": "https://cryptobriefing.com/bittensor-quantum-resistant-wallet-signatures/",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "The Opentensor Foundation announced on 6 November three post-quantum signing algorithms (ML-DSA-65, Falcon-512, Falcon-1024) for TAO transfers, staking and validator operations on its Subtensor chain. The code merged into the release-487 branch on 27 October, but mainnet was still on runtime 486 at announcement, so the protection is not live yet. Token economics are untouched, existing Sr25519 and Ed25519 wallets need no migration, and an optional automatic key rotation costs a one-time 0.2 TAO lock.",
-      "angle": "Bittensor is future-proofing its wallets against quantum computers before the threat exists. Teach the difference between announcing a security upgrade and shipping it, and why the runtime number (486 vs 487) is the thing to watch before claiming protection is live.",
-      "score": 88,
-      "published_at": "2026-11-06",
-      "discovered_at": "2026-11-08",
-      "manual": true,
-      "tags": [
-        "bittensor",
-        "post-quantum",
-        "tao",
-        "wallets"
-      ]
-    },
-    {
       "angle": "Explainer: what the Alpha upgrade pause actually means for hunters, and why no-claim airdrops are the safest kind. End by asking followers if they made the 200 point cut.",
       "category": "Launches & Airdrops",
       "discovered_at": "2026-11-07",
@@ -1077,28 +1039,6 @@
       "title": "Binance Alpha upgrading, $350K thank-you airdrop for holders with 200+ Alpha Points",
       "type": "Early Alpha",
       "url": "https://www.binance.com/en/square/post/385546070141899"
-    },
-    {
-      "angle": "Short post plus chart-free explainer: the oldest privacy coin is still shipping. Ask your audience if privacy coins or privacy infrastructure (Midnight, Aztec) win this cycle.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-07",
-      "id": "zcash-nu7-upgrade-2026-11-06",
-      "manual": true,
-      "project": "Zcash (ZEC)",
-      "published_at": "2026-11-06",
-      "score": 85,
-      "source": "Mudrex, November 2026 watchlist",
-      "source_type": "news",
-      "summary": "Zcash, the original privacy coin, shipped its NU7 upgrade around 6 November, focused on faster private payments, keeping ZEC at the centre of the November privacy narrative alongside quantum-resistance work.",
-      "tags": [
-        "privacy",
-        "zcash",
-        "zec",
-        "upgrade"
-      ],
-      "title": "Zcash NU7 upgrade delivers faster private payments",
-      "type": "Update",
-      "url": "https://mudrex.com/learn/best-crypto-short-term-gains/"
     },
     {
       "angle": "Connect straight to your Binance Agentic Wallet audience: agents on BNB are getting identity, escrow and reputations, the full job market stack. Ask what job followers would hire an agent for first.",
@@ -1733,74 +1673,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-regalgramma-aztec-private-state-transition",
-      "title": "GitHub activity: regalgramma/aztec-private-state-transition",
-      "project": "regalgramma/aztec-private-state-transition",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/regalgramma/aztec-private-state-transition",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Privacy-first zk-rollup state transition accumulator and UTXO note commitments verifier",
-      "angle": "",
-      "score": 98,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-paraloom-labs-paraloom-core",
-      "title": "GitHub activity: paraloom-labs/paraloom-core",
-      "project": "paraloom-labs/paraloom-core",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/paraloom-labs/paraloom-core",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Open privacy Layer 2 for Solana. Groth16 zk-SNARKs, BFT cohort, ~10 ms verification on commodity hardware. Pre-mainnet.",
-      "angle": "",
-      "score": 65,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-aomi-labs-aomi",
       "title": "GitHub activity: aomi-labs/aomi",
       "project": "aomi-labs/aomi",
@@ -1991,26 +1863,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -2027,26 +1879,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "aztec",
         "release"
       ]
     },
@@ -2091,66 +1923,6 @@
       ]
     },
     {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aleo-release-python-sdk-v0-8-0",
-      "title": "Aleo release: python-sdk v0.8.0",
-      "project": "Aleo",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ProvableHQ/python-sdk/releases/tag/v0.8.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v0.8.0. This release adds private record inventory to the core SDK and Shield Swap: a view of an account's spendable records, a planner for the joins and splits that reach a chosen layout, and a shared reservation journal that keeps concurrent writers from spending the same record. It is a port of [Veil PR #172](https://github.com/ProvableHQ/veil/pull/172) without the CLI.\n\n```",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-23",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "aleo",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
-      ]
-    },
-    {
       "id": "auto-gensyn-dev-activity-axl",
       "title": "Gensyn dev activity: axl",
       "project": "Gensyn",
@@ -2171,26 +1943,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-10-0",
-      "title": "Prime Intellect release: prime-rl v0.10.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.10.0. _**279 commits** from **25 contributors** (11 new) since [v0.9.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.9.0)._\n\n## Highlights\n\n### 1. Trainer Performance\n\nOne MoE runtime and checkpoint layout now serves every model. Runtime gate/up and QKV fusions are on by default, a SonicMoE BF16 backend is available, and MoE compute can be chosen per layer. ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
       "id": "auto-elizaos-release-eliza-v2-0-5",
       "title": "ElizaOS release: eliza v2.0.5",
       "project": "ElizaOS",
@@ -2207,26 +1959,6 @@
       "manual": false,
       "tags": [
         "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-13",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
         "release"
       ]
     },
