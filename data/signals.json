@@ -1,6 +1,119 @@
 {
   "signals": [
     {
+      "id": "solana-confidential-compute-2026-11-13",
+      "title": "Solana launches Confidential Compute, private AI with hardware proof published on chain",
+      "project": "Solana Confidential Compute (Nito)",
+      "source": "Solana Foundation",
+      "source_type": "blog",
+      "url": "https://solana.ai/blog/nito-solana-confidential-compute",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 86,
+      "summary": "The Solana Foundation and Nito launched Solana Confidential Compute on Nov 13, 2026, an open-source SDK and on-chain verification program for private AI. Apps run models inside trusted execution environments, and the hardware attestation is verified and recorded on Solana, so anyone can check that an answer came from a verified machine without seeing the prompt or the data. The beta runs on Solana devnet with Intel TDX and AMD SEV-SNP attestations, NVIDIA GPU attestation still in development, and no audit yet, so it is for development use only and mainnet follows the audit. Nito's own private AI chat is the first product built on it, and the same record could back an AI judge for prediction markets or trading agents that only act on verified model output. It lands three days after Helius switched on Solana Privacy Rings on mainnet.",
+      "angle": "Private AI is moving from a promise to a receipt: Solana now lets you prove the hardware that ran your model, on chain, without revealing what you asked it. Explain the two halves in one line, the model runs locked inside a trusted enclave, and the chain holds the proof it was the real machine, then the honest caveat, devnet only, unaudited, no mainnet date, and ask followers whether they would trust an AI answer more if they could check the machine that produced it.",
+      "tags": [
+        "solana",
+        "confidential compute",
+        "nito",
+        "private ai",
+        "tee",
+        "attestation"
+      ],
+      "published_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "binance-withdrawals-87-networks-2026-11-14",
+      "title": "Binance reopens withdrawals on 87 networks and aims for full recovery by Nov 22",
+      "project": "Binance",
+      "source": "Bitcoin.com",
+      "source_type": "news",
+      "url": "https://news.bitcoin.com/featured/binance-reopens-87-networks-following-historic-6-3-billion-breach/",
+      "category": "Web3",
+      "type": "News",
+      "score": 82,
+      "summary": "Binance said on Nov 14, 2026 it reopened withdrawals on 87 networks this week, including Cardano, Litecoin, Avalanche, Cosmos, Near, Aptos, Starknet, Linea, Scroll, opBNB, zkSync Era and Celestia, and it aims to reopen withdrawals for all remaining networks and assets by the end of next week, around Nov 22. The exchange resumed withdrawals in phases from Nov 1 after the Oct 29 theft of about $6.34 billion, and said on Nov 12 it had covered the losses from its own funds. The target is an aim, not a guarantee, Binance has not published a list of what is still closed, and it warns of temporary delays and longer processing times as traffic returns. About 95 percent of the stolen funds were covered or frozen by third parties, and the FBI has linked the breach to North Korea.",
+      "angle": "The follow-up to the hack coverage story: the exchange is nearly back, 87 networks reopened and a target date for the rest. Lead with the practical bit, check the network status page for your exact asset before moving anything, then the honest caveat, end of next week is an aim and Binance has not named what is still closed, and ask followers whether a phased reopening rebuilds trust faster than a single big-bang return.",
+      "tags": [
+        "binance",
+        "withdrawals",
+        "hack",
+        "recovery"
+      ],
+      "published_at": "2026-11-14",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "binance-wallet-blast-support-ends-2026-11-12",
+      "title": "Binance Wallet drops Blast support on Nov 30, move assets before the cutoff",
+      "project": "Binance Wallet",
+      "source": "TokenPost",
+      "source_type": "news",
+      "url": "https://www.tokenpost.com/news/technology/55261",
+      "category": "Web3",
+      "type": "News",
+      "score": 74,
+      "summary": "Binance Wallet will stop supporting the Blast chain on Nov 30, 2026 at 10:00 UTC, after which users can no longer view, send or receive Blast assets inside the wallet. Blast, the Ethereum layer 2 from the founder of Blur, shut down in October 2026 after fading activity left it unable to cover operating costs, and its own asset recovery site stays open until Nov 4, 2027. Binance says the change only affects how Blast assets are displayed and managed in its wallet, and users should manage or transfer their assets before the cutoff, then claim any remainder through Blast's official site.",
+      "angle": "A deadline post, not a market post: if you still hold anything on Blast inside Binance Wallet, Nov 30 is the last day the wallet will show it. Explain the split in one line, the chain shut down in October, now the wallet stops displaying it, and the recovery route is Blast's own site until Nov 2027, then ask followers whether they checked what chains their wallet still holds after a shutdown.",
+      "tags": [
+        "binance wallet",
+        "blast",
+        "shutdown",
+        "deadline"
+      ],
+      "published_at": "2026-11-12",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "sentinel-agents-multi-agent-security-2026-11-13",
+      "title": "Sentinel Agents paper proposes a security guard for AI agent teams, a small local model caught 84 percent of attacks",
+      "project": "Multi-agent AI (research)",
+      "source": "arXiv",
+      "source_type": "research",
+      "url": "https://arxiv.org/abs/2509.14956",
+      "category": "AI",
+      "type": "Update",
+      "score": 76,
+      "summary": "A paper by Diego Gosmar and Deborah A. Dahl, revised Nov 5, 2026, proposes Sentinel Agents, a dedicated security layer that watches what agents in a multi-agent system say to each other and reports to a Coordinator Agent that can quarantine a misbehaving agent. One bad or adversarial message can spread from one agent to many, so the Sentinel combines rules, behavioural checks and LLM inspection of the conversation itself. Tested on 1,000 synthetic messages, a small locally run Gemma 4 12B model caught 83.8 percent of attacks at an 11.4 percent false-positive rate, far better than rules alone at F1 0.38, and the paper gives practical guidance on calibrating the detectors and combining them.",
+      "angle": "The governance companion to the agent boom: when agents talk to each other, one poisoned message can hijack the whole team, and this paper hires a guard for the conversation itself. Explain it in one line, a watcher agent reads everything the team says and can quarantine the one that goes rogue, then the honest scale, synthetic tests, not production, and a small local model did the watching, which is the point, oversight does not need a frontier model, and ask followers who should guard the guards.",
+      "tags": [
+        "ai agents",
+        "multi-agent",
+        "security",
+        "governance",
+        "research"
+      ],
+      "published_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
+      "id": "soneium-apps-binance-wallet-2026-11-14",
+      "title": "Soneium brings six apps to Binance Wallet, Sony's chain reaches the wallet's users",
+      "project": "Soneium",
+      "source": "Cryptonews.net",
+      "source_type": "news",
+      "url": "https://cryptonews.net/news/blockchain/33751413/",
+      "category": "Agentic Wallet",
+      "type": "News",
+      "score": 70,
+      "summary": "Six Soneium applications are now live in Binance Wallet, announced Nov 14, 2026, giving wallet users direct access to the Sony-backed Ethereum layer 2's onchain entertainment and community tools, including real-time voice chats, community engagement and a chronological timeline. Soneium, built by Sony Block Solutions Labs on the Optimism stack, already counts about 7 million users and hosts Uniswap v4, Velodrome, Stargate and Lido, and Aave debuted on the chain on Nov 13. No adoption or transaction figures for the wallet integration were published.",
+      "angle": "The wallet is becoming a distribution channel: Sony's chain just moved into Binance Wallet instead of asking users to come to it. Explain the move in one line, six entertainment apps, no new download, inside the wallet millions already hold, then the honest caveat, no usage numbers yet, so this is reach, not proof, and ask followers whether the next chain war is fought inside wallets rather than on exchanges.",
+      "tags": [
+        "soneium",
+        "binance wallet",
+        "sony",
+        "layer 2"
+      ],
+      "published_at": "2026-11-14",
+      "discovered_at": "2026-11-14",
+      "manual": true
+    },
+    {
       "id": "santiment-privacy-dev-activity-2026-11-13",
       "title": "Santiment ranks Dash, Chainlink and HOPR the busiest privacy builders, Zama, Zcash and Aztec in the top 10",
       "project": "Privacy (sector)",
@@ -1707,74 +1820,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-regalgramma-aztec-private-state-transition",
-      "title": "GitHub activity: regalgramma/aztec-private-state-transition",
-      "project": "regalgramma/aztec-private-state-transition",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/regalgramma/aztec-private-state-transition",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Privacy-first zk-rollup state transition accumulator and UTXO note commitments verifier",
-      "angle": "",
-      "score": 98,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-paraloom-labs-paraloom-core",
-      "title": "GitHub activity: paraloom-labs/paraloom-core",
-      "project": "paraloom-labs/paraloom-core",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/paraloom-labs/paraloom-core",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Open privacy Layer 2 for Solana. Groth16 zk-SNARKs, BFT cohort, ~10 ms verification on commodity hardware. Pre-mainnet.",
-      "angle": "",
-      "score": 65,
-      "published_at": "2026-11-04",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-api-evangelist-zkme",
-      "title": "GitHub activity: api-evangelist/zkme",
-      "project": "api-evangelist/zkme",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/api-evangelist/zkme",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "zkMe — independent third-party profile of a public API surface, by API Evangelist. zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever han",
-      "angle": "",
-      "score": 67,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-mataraparmenas-arch-mataraparmenas-arch",
-      "title": "GitHub activity: mataraparmenas-arch/mataraparmenas-arch",
-      "project": "mataraparmenas-arch/mataraparmenas-arch",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/mataraparmenas-arch/mataraparmenas-arch",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Building Technologist & Web3 Builder focused on building and exploring decentralized systems, privacy, smart contracts, ZK, rollups, and AI-assisted development.",
-      "angle": "",
-      "score": 75,
-      "published_at": "2026-11-01",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-radmo3-signhold",
       "title": "GitHub activity: Radmo3/signhold",
       "project": "Radmo3/signhold",
@@ -1945,46 +1990,6 @@
       "tags": []
     },
     {
-      "id": "auto-zama-release-tfhe-rs-tfhe-rs-1-8-2",
-      "title": "Zama release: tfhe-rs tfhe-rs-1.8.2",
-      "project": "Zama",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/zama-ai/tfhe-rs/releases/tag/tfhe-rs-1.8.2",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "TFHE-rs 1.8.2. Backport `max_degree` removal patch to maintain consistency from older used release with future TFHE-rs versions.\r\n\r\nFix a scalar rotate/shift edge case.",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "zama",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
       "id": "auto-miden-release-wallet-v1-17-11",
       "title": "Miden release: wallet v1.17.11",
       "project": "Miden",
@@ -2001,26 +2006,6 @@
       "manual": false,
       "tags": [
         "miden",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aztec-release-aztec-packages-v6-0-0",
-      "title": "Aztec release: aztec-packages v6.0.0",
-      "project": "Aztec",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/AztecProtocol/aztec-packages/releases/tag/v6.0.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v6.0.0. ```\r\n   v5   L1 ▕░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▏ L2    24–108s\r\n   v6   L1 ▕████████▏ L2                          12–30s\r\n\r\n                   A Z T E C  ·  6 · 0 · 0\r\n```\r\n\r\n**Date:** 2026-10-22 · **Tag:** `v6.0.0` · **Baseline:** `v5.2.1` · Major release\r\n\r\nnpm: `@aztec-foundation/bb.js@6.0.0` (note the new `@aztec-foundation` scope) · crates.io: `barretenberg-rs 6.0.0",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-22",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "aztec",
         "release"
       ]
     },
@@ -2062,66 +2047,6 @@
       "tags": [
         "nillion",
         "development"
-      ]
-    },
-    {
-      "id": "auto-fhenix-release-cofhesdk-cofhe-sdk-1-0-1",
-      "title": "Fhenix release: cofhesdk @cofhe/sdk@1.0.1",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhesdk/releases/tag/%40cofhe/sdk%401.0.1",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "@cofhe/sdk@1.0.1. ### Patch Changes\n\n- fcc819c: **Breaking:** `encryptInputs(...).execute()` now binds the consuming contract into the ZK proof itself, and the CoFHE verifier requires it. Upgrade to 1.0.1: 1.0.0 is deprecated because of an issue in ZK verification, and once the verifier is updated a proof from 1.0.0 fails with `ZK_VERIFY_FAILED`. No code change is needed beyond",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aleo-release-python-sdk-v0-8-0",
-      "title": "Aleo release: python-sdk v0.8.0",
-      "project": "Aleo",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ProvableHQ/python-sdk/releases/tag/v0.8.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v0.8.0. This release adds private record inventory to the core SDK and Shield Swap: a view of an account's spendable records, a planner for the joins and splits that reach a chosen layout, and a shared reservation journal that keeps concurrent writers from spending the same record. It is a port of [Veil PR #172](https://github.com/ProvableHQ/veil/pull/172) without the CLI.\n\n```",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-23",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "aleo",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "sentient",
-        "release"
       ]
     },
     {
@@ -2185,26 +2110,6 @@
       ]
     },
     {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
-        "release"
-      ]
-    },
-    {
       "id": "auto-near-ai-dev-activity-cvm-compose-files",
       "title": "NEAR AI dev activity: cvm-compose-files",
       "project": "NEAR AI",
@@ -2221,26 +2126,6 @@
       "manual": false,
       "tags": [
         "near ai",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-ritual-dev-activity-ritual-sc-core",
-      "title": "Ritual dev activity: ritual-sc-core",
-      "project": "Ritual",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ritual-net/ritual-sc-core",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "Active development from Ritual.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-25",
-      "discovered_at": "2026-11-14",
-      "manual": false,
-      "tags": [
-        "ritual",
         "development"
       ]
     },

@@ -97,7 +97,8 @@
     "ZKsync",
     "Raycash",
     "Gloam",
-    "Offworld Privacy"
+    "Offworld Privacy",
+    "Nito"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -263,6 +264,7 @@
     "ZKsync": "Privacy",
     "Raycash": "Privacy",
     "Gloam": "Privacy",
-    "Offworld Privacy": "Privacy"
+    "Offworld Privacy": "Privacy",
+    "Nito": "Privacy"
   }
 }
