@@ -98,7 +98,9 @@
     "Raycash",
     "Gloam",
     "Offworld Privacy",
-    "Nito"
+    "Nito",
+    "Lightning Labs",
+    "Flop Labs"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -265,6 +267,8 @@
     "Raycash": "Privacy",
     "Gloam": "Privacy",
     "Offworld Privacy": "Privacy",
-    "Nito": "Privacy"
+    "Nito": "Privacy",
+    "Lightning Labs": "Agentic Wallet",
+    "Flop Labs": "AI"
   }
 }

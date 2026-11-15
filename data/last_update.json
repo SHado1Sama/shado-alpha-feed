@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 01:00 UTC",
-  "auto_count": 65,
-  "total": 120
+  "updated_at": "2026-11-15T05:45:00Z",
+  "signals": 107,
+  "note": "Sweep 2026-11-15 morning: added 5 signals (Lightning Labs pi402, AI agents pay for inference with Bitcoin over Lightning; Aztec Tierra serial numbers let users prove funds are not tied to Lazarus hacks; Midnight Ledger 9 mainnet upgrade with private transfers; Zcash NU7 live, 25s blocks, $16M frozen in Sprout; Flop Labs testnet and airdrop set for Nov 24); expired 18 signals older than 7 days (6 manual dated Nov 7, 12 auto GitHub activity and releases dated Sep 30 to Nov 5, pinned 138M entry kept, oldest non-pinned entry now Nov 8); money: added Raenest Global Bounty, $13,000 USDC, Nigeria-targeted, referral-weighted judging; re-verified live all dated money entries (Swap.io still open, KriptoK still open to about Nov 18, Gloam contest open to Nov 16, AirdropBuzz live to Dec 26 with 71 creators and 81 approved entries, HeyGen open to Dec 1) and the Oasis Sentinels program page, none retired; not added: Binance Square SXT creator campaign (requires sharing SXT trades, trade-to-earn, no clean official apply link), Fungo X creator campaign (project just cancelled its Genesis auction, reward and deadline unclear), RaveDAO claim (could not verify the pool is exhausted, left for the 7-day expiry), DOJ seizure of Binance hack funds (same hack story already on the board); added Lightning Labs and Flop Labs to the watchlist."
 }
