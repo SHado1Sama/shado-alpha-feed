@@ -1,5 +1,76 @@
 [
   {
+    "id": "bittensor-post-quantum-wallets-runtime-488-2026-11-09",
+    "title": "Bittensor ships post-quantum wallets in Runtime 488, but the switch is not on yet",
+    "project": "Bittensor",
+    "source": "tao.media",
+    "source_type": "news",
+    "url": "https://www.tao.media/bittensor-adds-post-quantum-wallet-support-in-runtime-488-with-activation-pending/",
+    "category": "AI",
+    "type": "Project Watch",
+    "score": 82,
+    "summary": "Bittensor deployed support for quantum-resistant wallets on its Finney mainnet through Runtime 488, live at block 9,442,681 on Nov 5, adding three post-quantum signing schemes, ML-DSA-65, Falcon-512 and Falcon-1024, plus optional automatic key rotation that keeps the same address, balances and stake while the signing key advances with each transaction. The catch: post-quantum signing and rotating-account registration stay disabled until root enables them, so post-quantum addresses can receive funds now but cannot spend them yet. Existing Sr25519 and Ed25519 wallets keep working with no migration needed, while moving to a quantum-resistant account needs a new account and compatible signing software, and rotating accounts reserve a 0.2 TAO registration deposit.",
+    "angle": "Teach the threat simply: today's wallet signatures rest on elliptic curves a future quantum computer could break, so Bittensor is giving wallets a choice of three post-quantum schemes plus keys that rotate without changing the address. Then the honest caveat, the code is live but the switch is not flipped yet, so this is preparation, not protection, and ask followers whether they would move funds to a new quantum-resistant address before or after activation.",
+    "tags": [
+      "bittensor",
+      "post-quantum",
+      "wallets",
+      "runtime 488",
+      "ml-dsa",
+      "falcon",
+      "tao"
+    ],
+    "published_at": "2026-11-09",
+    "discovered_at": "2026-11-15",
+    "manual": true
+  },
+  {
+    "id": "x402-passes-200m-payments-2026-11-15",
+    "title": "x402 passes 200 million settled payments, about $43M moved so far",
+    "project": "x402",
+    "source": "Agent Economy",
+    "source_type": "research",
+    "url": "https://agenteconomy.to/x402",
+    "category": "Agentic Wallet",
+    "type": "Update",
+    "score": 80,
+    "summary": "Agent Economy's live dataset, updated Nov 15 from public on-chain activity, counts 200,680,559 cumulative x402 payments settled and $42,999,352 in USD volume across 12 chains and 18 facilitators, with 486,706 payments on Nov 14 alone. Base carries the largest share at 90.9 million transactions. That is up from 198.3 million on Nov 9, about 2.3 million payments in six days. x402 revives HTTP 402 so an agent or app pays for an API call or a piece of content in stablecoins inside the request itself, with no account or sign-up. The page is careful with the number: settlement events include tests and infrastructure traffic, so the count shows the payment path being exercised, not audited end-user commerce.",
+    "angle": "The follow-up to the 198 million post from Nov 9: the rail crossed 200 million in under a week, about 2.3 million new payments. Keep the honest read in the post, volume is $43M total and most payments are cents, and the count is activity, not revenue, then ask followers what they would charge per request if every API call could carry its own payment.",
+    "tags": [
+      "x402",
+      "agent payments",
+      "coinbase",
+      "base",
+      "stablecoins"
+    ],
+    "published_at": "2026-11-15",
+    "discovered_at": "2026-11-15",
+    "manual": true
+  },
+  {
+    "id": "dogeos-mainnet-nears-2026-11-15",
+    "title": "DogeOS says its Dogecoin app layer is nearly ready, audits done, no launch date yet",
+    "project": "DogeOS",
+    "source": "The Block (via ad-hoc-news)",
+    "source_type": "news",
+    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dogeos-mainnet-nears-as-dogecoin-price-holds-at-usd-0-06/70516125",
+    "category": "Protocol Updates",
+    "type": "Update",
+    "score": 74,
+    "summary": "DogeOS founder Jordan Jefferson told The Block on Nov 11 that version one of the Dogecoin application layer and its audits are complete, and described the mainnet launch as very, very close, with no specific date. DogeOS is a zero-knowledge rollup designed to settle toward the Dogecoin chain and bring DeFi, games and other apps to DOGE, using DOGE itself for fees rather than a new token, with more than 100 builders working on projects. The honest caveat: until a proposed OP_CHECKZKP upgrade lets the base chain verify zero-knowledge proofs, the layer relies on its own permissioned validators, so early users trust the operator set, not the chain.",
+    "angle": "The memecoin gets a serious question: what if DOGE could run apps without changing what DOGE is. Explain the design in one line, apps live on a ZK rollup, DOGE pays the fees, the base chain stays a payments chain, then the caveat worth naming, permissioned validators until the chain itself can check the proofs, and ask followers whether a memecoin needs apps at all.",
+    "tags": [
+      "dogeos",
+      "dogecoin",
+      "zk rollup",
+      "mainnet",
+      "doge"
+    ],
+    "published_at": "2026-11-15",
+    "discovered_at": "2026-11-15",
+    "manual": true
+  },
+  {
     "id": "lightning-pi402-agent-inference-bitcoin-2026-11-12",
     "title": "Lightning Labs launches pi402, AI agents pay for inference with Bitcoin over Lightning",
     "project": "Lightning Labs",
