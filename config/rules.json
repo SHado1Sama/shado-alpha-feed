@@ -100,7 +100,8 @@
     "Offworld Privacy",
     "Nito",
     "Lightning Labs",
-    "Flop Labs"
+    "Flop Labs",
+    "Beam (Bittensor SN105)"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -269,6 +270,7 @@
     "Offworld Privacy": "Privacy",
     "Nito": "Privacy",
     "Lightning Labs": "Agentic Wallet",
-    "Flop Labs": "AI"
+    "Flop Labs": "AI",
+    "Beam (Bittensor SN105)": "AI"
   }
 }
