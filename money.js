@@ -167,7 +167,7 @@ function loadMoney() {
   fetch("data/money.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      OPPS = (data && data.opportunities) || [];
+      OPPS = Array.isArray(data) ? data : ((data && data.opportunities) || []);
       render();
     })
     .catch(function () {

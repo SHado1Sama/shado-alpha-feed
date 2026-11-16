@@ -142,7 +142,7 @@ function wireCards(){
 
 function loadSignals(){
   fetch("data/signals.json", { cache: "no-store" }).then(r => r.json()).then(data => {
-    SIGNALS = (data.signals || []).slice().sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
+    SIGNALS = (Array.isArray(data) ? data : (data.signals || [])).slice().sort((a, b) => (b.score || 0) - (a.score || 0) || String(b.published_at).localeCompare(String(a.published_at)));
     const c = $("stat-count"); if(c) c.textContent = SIGNALS.length + " signals on the board";
     render();
   }).catch(() => {
@@ -202,7 +202,7 @@ function init(){
   }).catch(() => {});
   fetch("data/sources.json", { cache: "no-store" }).then(r => r.json()).then(data => {
     const el = $("sources-list"); if(!el) return;
-    el.innerHTML = (data.sources || []).map(s => '<div class="source-card"><h4>' + esc(s.name) + ' <span class="pill">' + esc(s.fetch) + '</span></h4><p>' + esc(s.cadence || "") + "</p>" + (s.notes ? "<p>" + esc(s.notes) + "</p>" : "") + "</div>").join("");
+    el.innerHTML = (Array.isArray(data) ? data : (data.sources || [])).map(s => '<div class="source-card"><h4>' + esc(s.name) + ' <span class="pill">' + esc(s.fetch) + '</span></h4><p>' + esc(s.cadence || "") + "</p>" + (s.notes ? "<p>" + esc(s.notes) + "</p>" : "") + "</div>").join("");
   }).catch(() => {});
 }
 document.addEventListener("DOMContentLoaded", init);
