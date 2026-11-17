@@ -1,6 +1,126 @@
 {
   "signals": [
     {
+      "id": "wbtc-confidential-defi-zama-2026-11-16",
+      "title": "WBTC goes confidential with Zama FHE, your vault balance stays encrypted",
+      "project": "Zama",
+      "source": "GlobeNewswire (WBTC)",
+      "source_type": "news",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3403205/0/en/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending.html",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "WBTC announced on Nov 16 a confidential DeFi integration with Zama: a Wintermute Confidential WBTC vault, curated by Armitage and built on Morpho, encrypts individual deposit and withdrawal amounts and user share balances using Zama fully homomorphic encryption, while wallet addresses, transaction timestamps, aggregate vault metrics and lending allocations stay public on chain. The honest caveats come from the release itself: converting standard WBTC into its confidential form can expose the initial amount, and privacy depends on batch participation, a lone depositor in a batch can have their amount revealed by the aggregate. The release is sponsored WBTC content, not independent reporting.",
+      "angle": "Bitcoin's biggest wrapped asset just got a privacy mode: explain FHE in one line, the vault can do maths on your encrypted balance without ever seeing it, then the honest limit, your address and the totals are still public, and a batch of one is no batch at all, and ask followers whether Bitcoin DeFi needs confidentiality to grow up, or whether public accounting is the whole point.",
+      "tags": [
+        "zama",
+        "wbtc",
+        "fhe",
+        "confidential defi",
+        "morpho",
+        "bitcoin"
+      ],
+      "published_at": "2026-11-16",
+      "discovered_at": "2026-11-17",
+      "manual": true
+    },
+    {
+      "id": "optimizely-supply-chain-attack-178-sites-2026-11-16",
+      "title": "Optimizely supply-chain attack hit 178 sites including Ledger, swapping crypto addresses in visitors' browsers",
+      "project": "Web security (Report URI)",
+      "source": "Report URI",
+      "source_type": "research",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "category": "Web3",
+      "type": "News",
+      "score": 84,
+      "summary": "On Nov 16, 2026, attackers injected malicious JavaScript into Optimizely Web A/B-testing snippets served to visitors of 178 organisations, including Zoom, the BBC, CNN, Salesforce, GitLab, HSBC, Equifax and Ledger. The payload swapped crypto wallet addresses (BTC, ETH, TRON, Solana, TON, LTC, BCH, DOGE) for the attacker's, skimmed card numbers typed into sites' own payment forms, stole cookies and page screenshots, and pushed Coruna and DarkSword iOS exploit kits to older iPhones and iPads. About $7,040 in crypto was confirmed stolen by 19:25 UTC. The code came from Optimizely's own CDN with its own certificate; none of the affected sites' own systems were breached. Most snippets were cleaned by 21:52 UTC, with one TalkTalk snippet still infected, and how the attacker got write access is still unknown.",
+      "angle": "The privacy angle is the trust angle: the most dangerous code on a page is the code you already trust. Explain the supply chain in one line, a third-party script every big site loads did the stealing, and the sites themselves were never hacked, then the practical bit, if you copied a wallet address from any of those sites on Nov 16, check it before you send, and ask followers what a site owes you when the leak is in a vendor, not in its own code.",
+      "tags": [
+        "optimizely",
+        "supply chain",
+        "ledger",
+        "crypto clipper",
+        "security",
+        "report uri"
+      ],
+      "published_at": "2026-11-16",
+      "discovered_at": "2026-11-17",
+      "manual": true
+    },
+    {
+      "id": "midnight-google-cloud-zkpaas-2026-11-16",
+      "title": "Midnight moves zero-knowledge proof generation into Google Cloud confidential hardware",
+      "project": "Midnight",
+      "source": "Google Cloud (case study)",
+      "source_type": "blog",
+      "url": "https://cloud.google.com/customers/midnightfoundation",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "A Google Cloud case study, first covered on Nov 16, describes how the Midnight Foundation moved zero-knowledge proof generation off users' devices and into Google Cloud Confidential Space, a trusted execution environment where the operator cannot see the data being proved. Generating a proof on a phone or laptop can take tens of seconds and drain the battery, which is why Lace wallet users previously had to run their own proof server. The setup, built with BCW Group, went from concept to live production in two months and unblocked the Lace wallet integration, with attestation letting a wallet verify the sealed environment before sending anything to it. Honest caveats: the case study page carries no publication date of its own, first coverage appeared Nov 16, and the privacy now rests on Google's hardware attestation rather than on the user's own device.",
+      "angle": "The trade every privacy chain eventually faces: your phone is too slow to prove in private, so the proof moves to a cloud you cannot see into, but can check. Explain attestation in one line, the hardware signs a note saying this exact code is running and nobody, not even Google, can peek inside, then the question, is a proof you can verify but cannot run yourself still private, and ask followers whether they would rather wait ten seconds on their own phone or trust a sealed box in a data centre.",
+      "tags": [
+        "midnight",
+        "google cloud",
+        "confidential computing",
+        "zero-knowledge",
+        "tee",
+        "lace"
+      ],
+      "published_at": "2026-11-16",
+      "discovered_at": "2026-11-17",
+      "manual": true
+    },
+    {
+      "id": "bittensor-engy-3-11t-tokens-2026-11-16",
+      "title": "Bittensor subnet Engy reports 3.11 trillion inference tokens served in 30 days",
+      "project": "Bittensor",
+      "source": "Shizzy Unchained (Bittensor Daily News)",
+      "source_type": "news",
+      "url": "https://shizzyunchained.com/subnet-news/2026-11-16",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 78,
+      "summary": "Engy, Bittensor subnet 53, reported 3,105,679,412,402 prompt and completion tokens across the 30 days from Oct 17 to Nov 15, averaging about 103.5 billion tokens a day and peaking at 190.7 billion on Nov 13, according to its public dashboard snapshot updated Nov 16. The figures are described as buyer traffic across live catalog models, excluding Engy's own probes. The honest concentration: DeepSeek V4.1 Flash accounted for about 83.5 percent of the total, so most throughput came from one model across nine listed, and the figures are operator-reported usage, not audited revenue or profit.",
+      "angle": "The follow-up to the Lium revenue post: another subnet now reports usage at a scale that looks like a real service, 3 trillion tokens in a month. Explain the scale in one line, about 100 billion tokens a day is roughly the output of a mid-size AI company, then the honest caveat, one model does 83 percent of the work and tokens are not dollars, and ask followers what a subnet has to prove before usage counts as a business: paying customers, or just traffic.",
+      "tags": [
+        "bittensor",
+        "engy",
+        "subnet 53",
+        "inference",
+        "tokens",
+        "deepseek"
+      ],
+      "published_at": "2026-11-16",
+      "discovered_at": "2026-11-17",
+      "manual": true
+    },
+    {
+      "id": "bittensor-ms-computer-sn24-host-run-2026-11-15",
+      "title": "Bittensor subnet ms.computer launches free hosting and AI-agent sandboxes",
+      "project": "Bittensor",
+      "source": "Shizzy Unchained (Bittensor Daily News)",
+      "source_type": "news",
+      "url": "https://shizzyunchained.com/subnet-news/2026-11-16",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 76,
+      "summary": "ms.computer announced the launch of subnet 24 on Nov 15, offering HOST, free hosting for websites or apps, and RUN, a sandbox where an AI agent runs on its own. A third feature, CONNECT, an inference network, is marked coming soon. Mining is now open to anyone after a period with trusted miners, and miners are paid for the real work of running sandboxes. Honest caveats: the announcement invites users to a waitlist, so the launch is not proof of unrestricted access, and the team has not published usage or paid-demand figures.",
+      "angle": "A subnet that rents out the two things an agent needs most: somewhere to live and somewhere to run. Explain it in one line, HOST puts your app on the internet, RUN gives your agent its own locked room to work in, then the honest caveat, waitlist first, no usage numbers yet, and ask followers whether a decentralised host can beat a cloud provider on the one thing that matters, trust.",
+      "tags": [
+        "bittensor",
+        "ms.computer",
+        "subnet 24",
+        "hosting",
+        "ai agents",
+        "sandbox"
+      ],
+      "published_at": "2026-11-15",
+      "discovered_at": "2026-11-17",
+      "manual": true
+    },
+    {
       "id": "binance-agent-id-200k-2026-11-16",
       "title": "Binance Agent ID claims pass 200,000 in under four weeks",
       "project": "Binance Agentic Wallet",
@@ -191,31 +311,6 @@
       "manual": true
     },
     {
-      "id": "bittensor-post-quantum-wallets-runtime-488-2026-11-09",
-      "title": "Bittensor ships post-quantum wallets in Runtime 488, but the switch is not on yet",
-      "project": "Bittensor",
-      "source": "tao.media",
-      "source_type": "news",
-      "url": "https://www.tao.media/bittensor-adds-post-quantum-wallet-support-in-runtime-488-with-activation-pending/",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 82,
-      "summary": "Bittensor deployed support for quantum-resistant wallets on its Finney mainnet through Runtime 488, live at block 9,442,681 on Nov 5, adding three post-quantum signing schemes, ML-DSA-65, Falcon-512 and Falcon-1024, plus optional automatic key rotation that keeps the same address, balances and stake while the signing key advances with each transaction. The catch: post-quantum signing and rotating-account registration stay disabled until root enables them, so post-quantum addresses can receive funds now but cannot spend them yet. Existing Sr25519 and Ed25519 wallets keep working with no migration needed, while moving to a quantum-resistant account needs a new account and compatible signing software, and rotating accounts reserve a 0.2 TAO registration deposit.",
-      "angle": "Teach the threat simply: today's wallet signatures rest on elliptic curves a future quantum computer could break, so Bittensor is giving wallets a choice of three post-quantum schemes plus keys that rotate without changing the address. Then the honest caveat, the code is live but the switch is not flipped yet, so this is preparation, not protection, and ask followers whether they would move funds to a new quantum-resistant address before or after activation.",
-      "tags": [
-        "bittensor",
-        "post-quantum",
-        "wallets",
-        "runtime 488",
-        "ml-dsa",
-        "falcon",
-        "tao"
-      ],
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-15",
-      "manual": true
-    },
-    {
       "id": "x402-passes-200m-payments-2026-11-15",
       "title": "x402 passes 200 million settled payments, about $43M moved so far",
       "project": "x402",
@@ -305,29 +400,6 @@
         "zero-knowledge"
       ],
       "published_at": "2026-11-14",
-      "discovered_at": "2026-11-15",
-      "manual": true
-    },
-    {
-      "id": "midnight-ledger-9-mainnet-2026-11-09",
-      "title": "Midnight upgrades mainnet to Ledger 9 with private transfers and contract calls",
-      "project": "Midnight",
-      "source": "Crypto Briefing",
-      "source_type": "news",
-      "url": "https://cryptobriefing.com/midnight-network-mainnet-ledger-9-upgrade/",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 82,
-      "summary": "Midnight moved its mainnet to Ledger 9 in a hard fork that activated Nov 6, adding private asset transfers, contract-to-contract calls and a rebuilt zero-knowledge proving stack. The upgrade also brings native ECDSA signatures, Keccak-256 hashing and secp256k1 support, plus unshielded event emissions so contracts can broadcast selected events publicly on a network that is private by default. The fork went straight to mainnet, skipping the usual Preprod soak period, which Midnight said was for pressing security reasons. Builders need Midnight.js 5.0.0 and Wallet SDK 2.0.0 to stay compatible, and transactions built for Ledger 8 can no longer be decoded on mainnet.",
-      "angle": "A privacy chain just shipped its biggest upgrade by skipping its own safety process, and said security was the reason. Explain what Ledger 9 unlocks in one line, private transfers between assets and contracts calling contracts, then the question worth asking, when a privacy network rushes a hard fork, is that confidence or urgency, and what would you want to see before you trusted it with real value.",
-      "tags": [
-        "midnight",
-        "ledger 9",
-        "mainnet",
-        "private transfers",
-        "hard fork"
-      ],
-      "published_at": "2026-11-09",
       "discovered_at": "2026-11-15",
       "manual": true
     },
@@ -902,29 +974,6 @@
       "manual": true
     },
     {
-      "id": "watch-venice-vvv-burn-record-2026-11-09",
-      "title": "Venice sets a new VVV burn record, $458K retired in November, still a fraction of new supply",
-      "project": "Venice AI",
-      "source": "Yahoo Finance (Bankless)",
-      "source_type": "news",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/venice-sets-vvv-burn-record-205630924.html",
-      "category": "AI",
-      "type": "Update",
-      "score": 78,
-      "summary": "Venice burned 21,657 VVV, worth about $458,000, on Nov 9, 2026, its biggest discretionary monthly burn yet, beating October's $414,000 by about 10 percent. Venice sets aside part of its free cash flow to buy VVV through the month, then burns the stockpile in one transaction on Base. The honest scale: Venice mints about 167,000 VVV a month for stakers, so the record burn covers roughly an eighth of new supply, and retires about 0.04 percent of the 48.9 million VVV in circulation. Whether VVV turns net deflationary depends on the separate subscription and API-credit burns growing.",
-      "angle": "A record burn that still is not deflation: teach the maths in one line, a $458K burn against about 167,000 new VVV a month is a start, not a flip. The trend is the story, monthly burns nearly tripled since June, then ask followers whether a burn that small can ever catch emissions, or whether the real test is the API-credit burn.",
-      "tags": [
-        "venice",
-        "vvv",
-        "burn",
-        "buyback",
-        "private ai"
-      ],
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-12",
-      "manual": true
-    },
-    {
       "id": "grayscale-zcash-wsj-campaign-2026-11-11",
       "title": "Grayscale wraps the Wall Street Journal in zebra stripes as ZEC slips below $1,000",
       "project": "Zcash",
@@ -1112,30 +1161,6 @@
       ]
     },
     {
-      "id": "coinbase-occ-national-trust-charter-2026-11-09",
-      "title": "Coinbase wins full OCC national trust bank charter, custody moves under federal supervision",
-      "project": "Coinbase",
-      "source": "Crypto News",
-      "source_type": "news",
-      "url": "https://crypto.news/coinbase-full-occ-national-trust-bank-charter/",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Coinbase announced on Nov 9 that the OCC completed the chartering of Coinbase National Trust Company, effective Nov 6, 2026, seven months after conditional approval in April and an application filed in October 2025. The charter puts its institutional digital asset custody business under direct federal supervision, and Coinbase plans to migrate its existing New York-regulated custody business to the federal trust company over three years. The limits matter: the charter covers fiduciary custody, not retail deposits, traditional lending or direct stablecoin issuance, and it does not automatically grant access to Federal Reserve payment systems. Ripple received its own final OCC approval on Oct 26, and community banking groups are suing the OCC over the charter policy.",
-      "angle": "The agentic wallet angle is the plumbing: the company behind AgentKit and x402 now has a federally chartered custody arm, which is the kind of regulated home an agent's wallet would need before it can hold real money at scale. Keep the limits in the post, this is custody, not a bank account for agents, no deposits, no stablecoin issuance, and ask followers what a federally chartered agent wallet would unlock first.",
-      "score": 84,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "coinbase",
-        "occ",
-        "trust bank",
-        "custody",
-        "agentkit",
-        "regulation"
-      ]
-    },
-    {
       "id": "sentient-julie-beliao-vp-product-2026-11-10",
       "title": "Sentient hires former Mozilla.ai product chief Julie Beliao as VP of Product",
       "project": "Sentient",
@@ -1205,170 +1230,6 @@
       ]
     },
     {
-      "id": "veil-cash-shutdown-2026-11-09",
-      "title": "Veil.Cash shuts down, deposits halted, frontend closes Dec 21",
-      "project": "Veil.Cash",
-      "source": "PANews",
-      "source_type": "news",
-      "url": "https://www.panews.io/articles/01a1c2bc-9d2b-7456-a79c-12c7525693da",
-      "category": "Privacy",
-      "type": "News",
-      "summary": "On-chain privacy protocol Veil.Cash announced on Nov 9 it is shutting down after two years. Deposits are disabled immediately, the frontend and relayers run until Dec 21, 2026, after which withdrawals work only through command-line tools. Founder Apex said the privacy solution never scaled: Veil's privacy strength depends on usage, and falling usage weakens the anonymity set for everyone left. Support for the VEIL token ends the same day, including staking rewards and liquidity incentives, and treasury tokens will be destroyed. Veil was a zero-knowledge privacy protocol backed by Coinbase Ventures.",
-      "angle": "The hard lesson about privacy tools: an anonymity set is a network effect, and when usage falls, privacy itself degrades. Frame Veil as the cautionary tale for every privacy project on the board, then the practical bit, anyone with funds in Veil has until Dec 21 to withdraw through the normal frontend, after that it is CLI only. Ask followers whether a privacy tool that few people use is private at all.",
-      "score": 86,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "veil",
-        "veil.cash",
-        "privacy",
-        "shutdown",
-        "anonymity set",
-        "zk"
-      ]
-    },
-    {
-      "id": "watch-zodl-ohttp-servers",
-      "title": "Zodl wallet hides your IP from your own wallet requests with Oblivious HTTP",
-      "project": "Zcash",
-      "source": "KuCoin / PANews",
-      "source_type": "news",
-      "url": "https://www.kucoin.com/news/flash/zcash-wallet-zodl-launches-self-operated-servers-with-ohttp-integration",
-      "category": "Privacy",
-      "type": "Update",
-      "summary": "Zcash wallet Zodl, the former Zashi, began rolling out self-operated wallet servers on Nov 9 that integrate Oblivious HTTP (OHTTP), an IETF standard, in collaboration with Cloudflare and Fastly. Wallet requests pass through independent relays run by Cloudflare or Fastly, which can see the user's IP address but not the encrypted request content, while Zodl processes the requests without seeing the originating IP. Previously Zodl relied on community-operated lightwallet servers. The rollout continues over the coming week, available by updating to Zodl version 3.20.0.",
-      "angle": "Shielded transactions hide what you sent, but your IP address can still give you away, and Zodl just fixed that half of the problem. Explain OHTTP in one line, the relay sees who you are but not what you asked, the server sees what you asked but not who you are, and nobody sees both. Ask followers whether they knew their wallet's server could see their IP all along.",
-      "score": 82,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "zcash",
-        "zodl",
-        "zashi",
-        "ohttp",
-        "ip privacy",
-        "wallet"
-      ]
-    },
-    {
-      "id": "enjin-fort-canning-upgrade",
-      "title": "Enjin Fort Canning upgrade goes live, NFT lending and expiring tokens arrive",
-      "project": "Enjin",
-      "source": "Bitrue",
-      "source_type": "news",
-      "url": "https://www.bitrue.com/blog/enjin-enj-fort-canning-upgrade",
-      "category": "NFTs",
-      "type": "Update",
-      "summary": "Enjin's Fort Canning upgrade, the largest structural change to the network since its launch, activated on the Relaychain on Nov 9 at about 17:12 UTC, with the Matrixchain phase following on Nov 16. The upgrade adds NFT lending, so an item can be lent for a set period and used in games but not sold or transferred, returning automatically when the time expires; ephemeral tokens, minted with an expiry date for season passes, event tickets and temporary boosts; mint rate limits to protect collections if a minting key is compromised; frozen attributes that lock an item's metadata permanently; and the OpenGov framework, letting ENJ holders propose and vote on network changes directly. The marketplace pauses for up to 30 minutes on Nov 16 while listings migrate.",
-      "angle": "NFTs are growing up into lendable, expirable, governable objects, and Enjin just shipped all three at once. Lead with the use case your audience gets instantly, lend a game item the way you lend a book, it comes back by itself, then the season-pass idea, a token that deletes itself when the event ends. Ask followers what they would lend first if their NFTs could be rented safely.",
-      "score": 76,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "enjin",
-        "nft lending",
-        "ephemeral tokens",
-        "opengov",
-        "gaming"
-      ]
-    },
-    {
-      "id": "nft-worlds-far-worlds-rebrand",
-      "title": "NFT Worlds returns as Far Worlds, a playable RPG with a free mint for newcomers",
-      "project": "Far Worlds (ex NFT Worlds)",
-      "source": "BlockchainGamerBiz",
-      "source_type": "news",
-      "url": "https://www.blockchaingamer.biz/news/43183/nft-worlds-hytopia-rebrands-far-worlds/",
-      "category": "NFTs",
-      "type": "Update",
-      "summary": "NFT Worlds, the project that became HYTOPIA before its games platform shut down for lack of funds, has reinvented itself again as Far Worlds, a block-based adventure RPG. It is already playable as a free browser alpha, with expeditions from a home camp, 12 skills progressing to level 99, and persistent gear and progression. The original Worlds NFT collection will be relaunched and expanded, including a small free mint open to newcomers, and owning a World is not required to play. On Nov 7 the team changed the migration policy to a one-for-one swap tied to ownership of eligible unredeemed Worlds. Launch and redemption dates have not been announced.",
-      "angle": "A comeback story with the honest caveat attached: the game is actually playable today, which is more than most relaunches can say, but the free mint has no date yet. Frame it as the third life of a project that survived a Minecraft ban and a funding collapse, and ask followers whether a playable game first, token later, is the order crypto gaming should have used all along.",
-      "score": 72,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-10",
-      "manual": true,
-      "tags": [
-        "nft worlds",
-        "far worlds",
-        "hytopia",
-        "gaming",
-        "free mint"
-      ]
-    },
-    {
-      "id": "x402-198m-payments-settled",
-      "title": "x402 passes 198 million settled payments, the agent payment rail keeps compounding",
-      "project": "x402",
-      "source": "Agent Economy",
-      "source_type": "research",
-      "url": "https://agenteconomy.to/x402",
-      "category": "Agentic Wallet",
-      "type": "Update",
-      "summary": "Agent Economy's live dataset, updated Nov 9 from public on-chain activity, counts 198,355,908 cumulative x402 payments settled and $42.6M in USD volume across 12 chains and 18 facilitators, with 333,746 payments on Nov 8 alone. Base carries the largest share at 90M transactions. x402 revives the HTTP 402 Payment Required code so an agent or app can pay for an API call or a piece of content in stablecoins inside the request itself, with no account or sign-up. The page is careful with the number: settlement events include tests and infrastructure traffic, so the count shows the payment path being exercised, not audited end-user commerce.",
-      "angle": "The follow-up to the 138 million agent payments story: the rail those payments run on now has its own scoreboard, and it is nearing 200 million. Explain x402 in one line, the web's forgotten paywall code, turned into a way for software to pay per request, then the honest read, volume is small in dollars, most payments are cents, and the count is activity, not revenue.",
-      "score": 80,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "x402",
-        "agent payments",
-        "coinbase",
-        "base",
-        "stablecoins"
-      ]
-    },
-    {
-      "id": "watch-coinbase-wallet-mcp",
-      "title": "Coinbase launches Wallet MCP, AI assistants can now act inside Coinbase Wallet with user approval",
-      "project": "Coinbase",
-      "source": "Coinbase Developer Platform",
-      "source_type": "blog",
-      "url": "https://docs.cdp.coinbase.com/ai-agents/coinbase-for-agents/wallet-mcp#quickstart",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "summary": "Coinbase Developer Platform published Wallet MCP documentation on Nov 9, connecting AI assistants directly to Coinbase Wallet. Assistants can read balances and transaction history across Base, Ethereum, Arbitrum, Optimism, Polygon, BSC and Avalanche, prepare DeFi transactions and pay for web APIs with x402 USDC micropayments under user-set caps, but every write action, transfer, swap or contract call, requires manual approval in Coinbase Wallet before it executes. Protocols can publish plugin specs so agents can call their contracts through batched atomic executions without touching private keys.",
-      "angle": "The wallet is becoming the agent's desk: your assistant can now prepare the trade and the payment, but you still sign every move. Explain the approval model in one line, the agent proposes, the human approves, then ask followers whether they would let an assistant prepare transactions inside their own wallet, and what cap they would set.",
-      "score": 86,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "coinbase",
-        "wallet mcp",
-        "ai agents",
-        "x402",
-        "agentic wallet"
-      ]
-    },
-    {
-      "id": "watch-raycash-confidential-usdc",
-      "title": "Zama spin-off Raycash launches confidential USDC payments on Ethereum, private beta live",
-      "project": "Raycash",
-      "source": "The Block",
-      "source_type": "news",
-      "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Raycash, a stablecoin payments app spun out of Zama, launched on Ethereum mainnet on Nov 9 in a private beta, with more than 75,000 people on the waitlist. It is the first retail payment product built on the Zama Protocol: users wrap USDC 1:1 into ERC-7984 confidential tokens, so balances and payment amounts stay encrypted while settlement stays onchain. Idle balances can earn yield privately through Morpho, the wallet is self-custodial with no freeze or seize function at the token layer, and users can grant view access to an accountant or auditor without going public. A Raycard for private spending is in development.",
-      "angle": "This is confidential finance reaching ordinary money: not a vault for institutions, but dollars you can send and spend without publishing the amount. Explain the wrap in one line, same dollars, hidden numbers, then the trade-off worth naming, the app hides amounts from the public, not from a view key you choose to share. Ask followers what they would pay for first if nobody could see the amount.",
-      "score": 90,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-09",
-      "manual": true,
-      "tags": [
-        "zama",
-        "raycash",
-        "fhe",
-        "confidential payments",
-        "usdc",
-        "erc-7984"
-      ]
-    },
-    {
       "id": "watch-bittensor-tencent-hy4-chutes-2026-11-10",
       "title": "Tencent's flagship Hy4 AI model launches through Bittensor subnet Chutes, putting decentralised inference in front of 1.4B users",
       "project": "Bittensor (Chutes, SN64)",
@@ -1390,29 +1251,6 @@
         "tao"
       ],
       "published_at": "2026-11-10",
-      "discovered_at": "2026-11-11",
-      "manual": true
-    },
-    {
-      "id": "watch-aztec-797m-unlock-2026-11-13",
-      "title": "Aztec unlocks 797.5M AZTEC on Nov 13, a third of its released supply, all to the foundation",
-      "project": "Aztec",
-      "source": "BeInCrypto",
-      "source_type": "news",
-      "url": "https://beincrypto.com/token-unlocks-second-week-of-november-2026/",
-      "category": "Listings & Markets",
-      "type": "Project Watch",
-      "score": 80,
-      "summary": "Aztec will release 797.5 million AZTEC on Nov 13, worth about $9.88 million and equal to 31.81 percent of the token's released supply, with the entire tranche going to the foundation. It lands a week after Aztec launched Tierra, its V6 privacy rollup with permissionless private smart contracts, so the unlock tests whether the network's biggest week of shipping survives its biggest supply event. Tokenomist marks the figures as pending verification, so treat them as projections until the release is confirmed on chain.",
-      "angle": "A supply test, not a price call: Aztec ships its biggest upgrade, then unlocks a third of its released supply a week later. Explain what an unlock is in one line, tokens that were locked become spendable, then the question to ask followers, does a foundation holding that much supply change how private a network feels? Keep the pending-verification caveat in the post.",
-      "tags": [
-        "aztec",
-        "unlock",
-        "tierra",
-        "zk",
-        "foundation"
-      ],
-      "published_at": "2026-11-09",
       "discovered_at": "2026-11-11",
       "manual": true
     },
@@ -2411,26 +2249,6 @@
       "tags": [
         "midnight",
         "release"
-      ]
-    },
-    {
-      "id": "auto-nillion-dev-activity-nilvm",
-      "title": "Nillion dev activity: nilvm",
-      "project": "Nillion",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/NillionNetwork/nilvm",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Active development from Nillion.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-16",
-      "manual": false,
-      "tags": [
-        "nillion",
-        "development"
       ]
     },
     {
