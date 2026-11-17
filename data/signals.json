@@ -1,6 +1,79 @@
 {
   "signals": [
     {
+      "angle": "The follow-up to the $2.7M post: the same subnet now reports $2.93M billed in 30 days, and the number to quote is the rental count, 34,268 rentals, not the annualized projection. Explain the shift in one line, customers keep paying dollars for GPUs by the second, then the caveat that matters, hosted capacity is not owned hardware and operator numbers are not audited profit, and ask followers what Lium has to show before rental revenue counts as a real business.",
+      "category": "AI",
+      "discovered_at": "2026-11-17",
+      "id": "bittensor-lium-2-93m-billings-2026-11-16",
+      "manual": true,
+      "project": "Bittensor",
+      "published_at": "2026-11-16",
+      "score": 78,
+      "source": "Shizzy Unchained (Bittensor Daily News)",
+      "source_type": "news",
+      "summary": "Lium, Bittensor subnet 51, said on Nov 16 its hosted hardware footprint has reached about $50 million, including 481 B300 GPUs and more than 25 GPU types, and its public dashboard, timestamped Nov 17, reported $2.93 million billed to renters over the previous 30 days, up from $2.70 million in the 31 days reported Nov 13, with 1.21 million GPU-hours, 34,268 rentals and 83 percent utilization. The honest caveats: the footprint is hosted capacity, not hardware the subnet owns or revenue earned, and all usage figures are operator-reported, not independently audited profit. Providers also earn subnet emissions on top of rental fees, which subsidizes prices.",
+      "tags": [
+        "bittensor",
+        "lium",
+        "subnet 51",
+        "gpu",
+        "revenue",
+        "rentals"
+      ],
+      "title": "Bittensor subnet Lium now reports $2.93M in GPU rentals over 30 days, 34,268 rentals",
+      "type": "Project Watch",
+      "url": "https://shizzyunchained.com/subnet-news/2026-11-17"
+    },
+    {
+      "angle": "A privacy protocol built for banks just opened its doors to everyone, and the honest tension is the story: your payments are hidden from the public and your competitors, but an auditor can read every one of them, by design. Explain the trade in one line, Enygma hides who paid whom and how much from everyone except the holder of the auditor key, then the question, is privacy with a built-in auditor still privacy, or is it the version banks and regulators can finally live with, and ask followers which side of that line they would stand on.",
+      "category": "Privacy",
+      "discovered_at": "2026-11-17",
+      "id": "rayls-enygma-public-testnet-2026-11-15",
+      "manual": true,
+      "project": "Rayls",
+      "published_at": "2026-11-15",
+      "score": 84,
+      "source": "Rayls",
+      "source_type": "blog",
+      "summary": "Rayls opened the public testnet pilot of Enygma Public, a privacy protocol for EVM chains that hides who paid whom and how much, encrypting amounts and recipients with AES-256-GCM under keys agreed through ML-KEM, the NIST post-quantum standard, and keeping an auditor in the loop by design. In this testnet deployment the Rayls Foundation holds the auditor keys and can read every payment. Payments sit in one shared shielded pool, a relayer submits each one so the sender address is not in the transaction, and gas is paid in shielded $RLS. Passkey wallets replace seed phrases, and invite links solve the first-gas problem by delivering private test tokens to a new account. It runs on the Rayls Public Chain Testnet with test tokens only, so nothing sent there has real value. The honest limits, from Rayls itself: the zero-knowledge proofs and signatures are not post-quantum, so the design is quantum-private, not quantum-secure, and the anonymity set is the crowd of notes in the pool, which is thin while the pilot is new. Shielded swaps, delivery versus payment and sealed-bid auctions are promised in the coming weeks. The post carries no printed date of its own; first coverage appeared Nov 15.",
+      "tags": [
+        "rayls",
+        "enygma",
+        "private payments",
+        "post-quantum",
+        "ml-kem",
+        "auditor",
+        "testnet"
+      ],
+      "title": "Rayls opens a public testnet for Enygma, private payments where the auditor can still read everything",
+      "type": "Project Watch",
+      "url": "https://www.rayls.com/blog/rayls-enygma-public-testnet-pilot"
+    },
+    {
+      "angle": "Private balances just reached an everyday Solana wallet, and the honest framing is the hook: it hides how much you hold and how much you pay, not who you are. Explain the split in one line, the amounts go dark, the addresses stay lit, then the question, is hiding the amount enough when the counterparty is still public, and ask followers whether they would move their balance into Private Mode before the audit results are out.",
+      "category": "Privacy",
+      "discovered_at": "2026-11-17",
+      "id": "solflare-private-mode-2026-11-15",
+      "manual": true,
+      "project": "Solflare",
+      "published_at": "2026-11-15",
+      "score": 82,
+      "source": "Solflare",
+      "source_type": "blog",
+      "summary": "Solflare launched Private Mode on Nov 15, a state its Solana wallet can be in where the amount you hold and the amounts you pay are no longer public. It is powered by Helius Privacy Rings, which went live on Solana mainnet on Nov 10. Private Mode encrypts balances and payment amounts between users who both have it set up, runs from the same Solana address with no second wallet to set up, and stays fully self-custodial. The honest limits: sender and recipient addresses stay visible, deposits and withdrawals into Private Mode are public, and swaps, staking and other apps still use the public balance, so funds must leave Private Mode to use them. Solflare says Helius independent security audits of the protocol are underway, with results to be published once available.",
+      "tags": [
+        "solflare",
+        "solana",
+        "private mode",
+        "helius",
+        "privacy rings",
+        "balances"
+      ],
+      "title": "Solflare adds Private Mode to its Solana wallet, balances and payment amounts go encrypted",
+      "type": "Project Watch",
+      "url": "https://www.solflare.com/blog/introducing-private-mode/"
+    },
+    {
       "id": "wbtc-confidential-defi-zama-2026-11-16",
       "title": "WBTC goes confidential with Zama FHE, your vault balance stays encrypted",
       "project": "Zama",

@@ -101,7 +101,9 @@
     "Nito",
     "Lightning Labs",
     "Flop Labs",
-    "Beam (Bittensor SN105)"
+    "Beam (Bittensor SN105)",
+    "Rayls",
+    "Solflare"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -271,6 +273,8 @@
     "Nito": "Privacy",
     "Lightning Labs": "Agentic Wallet",
     "Flop Labs": "AI",
-    "Beam (Bittensor SN105)": "AI"
+    "Beam (Bittensor SN105)": "AI",
+    "Rayls": "Privacy",
+    "Solflare": "Privacy"
   }
 }
