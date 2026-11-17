@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T16:50:46Z",
-  "signals": 112,
-  "note": "Sweep 2026-11-17 evening: added 3 signals (Rayls Enygma Public testnet, quantum-private payments with a built-in auditor; Solflare Private Mode on Solana, encrypted balances via Helius Privacy Rings; Bittensor Lium follow-up, $2.93M in 30-day GPU billings); expired 0 signals, none older than Nov 10, pinned 138M entry kept; added Rayls and Solflare to watched_projects; ZKsync Prividium Connect was already on the board from Nov 11, not re-added; money: no new entries passed the rules, SurfCash bounty is closed with winners announced May 7 and the Unlock x Incented campaign site says Incented has wound down, both rejected live; re-verified all dated money entries (WEEX open to Nov 23; KriptoK still open, closes about Nov 18; Burnie, Raenest, Swap.io still open; AirdropBuzz live to Dec 26 with 75 creators and 86 approved entries; HeyGen open to Dec 1) and the program entries (Sentient Sparks, PIVX, Injective, Oasis form all live); rejected as stale on original-date check: Vitalik Railgun $2.6M story is the June 2025 CoinDesk story republished on OKX Orbit, Aztec escapeHatch hacks are June 2026, Zama Yield.xyz integration is September 2026, Fungo auction cancellation is Nov 6, outside the 7-day window; PREDICT TGE already covered in the Nov 12 Alpha signal and its claim-form deadline passed."
+  "updated_at": "2026-11-17 18:00 UTC",
+  "auto_count": 56,
+  "total": 114
 }
