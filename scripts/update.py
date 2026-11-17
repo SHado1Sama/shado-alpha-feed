@@ -252,8 +252,19 @@ def main():
     github_search(rules, fresh)
     github_watch(rules, fresh)
     cmc(rules, fresh)
-    # freshness window for auto items
-    cutoff = datetime.now(timezone.utc).date() - timedelta(days=14)
+    # freshness window for auto items: user instruction 2026-11-10, the board
+    # carries only the last 7 days of stories, manual and auto alike. This
+    # cutoff used to be computed but never applied, so every push-triggered
+    # refresh re-added stale GitHub releases and dev activity (a repo's
+    # latest release can be weeks old) and undid the sweep's expiry.
+    cutoff = datetime.now(timezone.utc).date() - timedelta(days=7)
+    def _fresh_enough(s):
+        try:
+            d = datetime.fromisoformat((s.get("published_at") or "")[:10]).date()
+        except Exception:
+            return True  # undated items (e.g. CoinGecko trending) are today
+        return d >= cutoff
+    fresh = [s for s in fresh if _fresh_enough(s)]
     seen, merged = set(), []
     for s in manual + fresh:
         # Dedupe on URL + title together: distinct stories legitimately share

@@ -1948,23 +1948,6 @@
       "tags": []
     },
     {
-      "id": "auto-github-activity-regalgramma-aztec-private-state-transition",
-      "title": "GitHub activity: regalgramma/aztec-private-state-transition",
-      "project": "regalgramma/aztec-private-state-transition",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/regalgramma/aztec-private-state-transition",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Privacy-first zk-rollup state transition accumulator and UTXO note commitments verifier",
-      "angle": "",
-      "score": 98,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": []
-    },
-    {
       "id": "auto-github-activity-demiurge105-code-agentguard",
       "title": "GitHub activity: demiurge105-code/agentguard",
       "project": "demiurge105-code/agentguard",
@@ -1977,23 +1960,6 @@
       "angle": "",
       "score": 50,
       "published_at": "2026-11-12",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-intoapex-ai-trading-tools",
-      "title": "GitHub activity: intoApex/ai-trading-tools",
-      "project": "intoApex/ai-trading-tools",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/intoApex/ai-trading-tools",
-      "category": "Agentic Wallet",
-      "type": "Release",
-      "summary": "Sourced list of 147 AI trading agents, broker MCP servers, Telegram trading bots, agent wallets and market data APIs, with safety scores from TradingAgentStack.",
-      "angle": "",
-      "score": 53,
-      "published_at": "2026-11-09",
       "discovered_at": "2026-11-17",
       "manual": false,
       "tags": []
@@ -2028,23 +1994,6 @@
       "angle": "",
       "score": 64,
       "published_at": "2026-11-16",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-cabalspy-cabalspy-x402",
-      "title": "GitHub activity: CabalSpy/cabalspy-x402",
-      "project": "CabalSpy/cabalspy-x402",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/CabalSpy/cabalspy-x402",
-      "category": "Agentic Wallet",
-      "type": "Release",
-      "summary": "x402 client for the CabalSpy KOL API — AI agents pay per request in USDC, no account or API key. Query KOL, smart money and whale wallets on Solana, Base, BNB Chain, Ethereum and Robinhood Chain, with built-in spend limits so a runaway agent cannot drain the wallet.",
-      "angle": "",
-      "score": 50,
-      "published_at": "2026-10-07",
       "discovered_at": "2026-11-17",
       "manual": false,
       "tags": []
@@ -2155,46 +2104,6 @@
       ]
     },
     {
-      "id": "auto-arcium-dev-activity-curve25519-dalek",
-      "title": "Arcium dev activity: curve25519-dalek",
-      "project": "Arcium",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/arcium-hq/curve25519-dalek",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "A pure-Rust implementation of group operations on Ristretto and Curve25519",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-10-28",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "arcium",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-miden-release-wallet-v1-17-11",
-      "title": "Miden release: wallet v1.17.11",
-      "project": "Miden",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/0xMiden/wallet/releases/tag/v1.17.11",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "1.17.11. - [FIX][all] Ignore queued history scroll events after the list element is removed.\n- [CHANGE][ci] Release E2E updates a mainnet wallet from the previous full release to the version under test and fails if any account or balance does not survive the update (#2086).\n- [CHANGE][all] Classify CCTP quote refusals as a fixed bridge receive diagnostic without provider respon",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "miden",
-        "release"
-      ]
-    },
-    {
       "id": "auto-aztec-release-barretenberg-v7-0-0-nightly-20261117",
       "title": "Aztec release: barretenberg v7.0.0-nightly.20261117",
       "project": "Aztec",
@@ -2211,106 +2120,6 @@
       "manual": false,
       "tags": [
         "aztec",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-midnight-release-midnight-verifiable-credentials-v0-3-0",
-      "title": "Midnight release: midnight-verifiable-credentials v0.3.0",
-      "project": "Midnight",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/midnightntwrk/midnight-verifiable-credentials/releases/tag/v0.3.0",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v0.3.0. ## What's Changed\n* chore: reset develop to released main baseline by @yshyn-iohk in https://github.com/midnightntwrk/midnight-verifiable-credentials/pull/665\n* chore(deps): bump github/codeql-action/upload-sarif from 4.37.3 to 4.38.0 by @dependabot[bot] in https://github.com/midnightntwrk/midnight-verifiable-credentials/pull/655\n* chore(deps): bump pnpm/action-setup fr",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-05",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "midnight",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-nillion-dev-activity-nilvm",
-      "title": "Nillion dev activity: nilvm",
-      "project": "Nillion",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/NillionNetwork/nilvm",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "Active development from Nillion.",
-      "angle": "",
-      "score": 70,
-      "published_at": "2026-11-09",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "nillion",
-        "development"
-      ]
-    },
-    {
-      "id": "auto-fhenix-release-cofhe-contracts-v1-0-2",
-      "title": "Fhenix release: cofhe-contracts v1.0.2",
-      "project": "Fhenix",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/FhenixProtocol/cofhe-contracts/releases/tag/v1.0.2",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v1.0.2. ## What's Changed\r\n* [FEAT] FHE.addToAccessList / removeFromAccessList by @liorbond in https://github.com/FhenixProtocol/cofhe-contracts/pull/158\r\n\r\n\r\n**Full Changelog**: https://github.com/FhenixProtocol/cofhe-contracts/compare/v1.0.1...v1.0.2",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-19",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "fhenix",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-aleo-release-veil-v0-16-2",
-      "title": "Aleo release: veil v0.16.2",
-      "project": "Aleo",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/ProvableHQ/veil/releases/tag/v0.16.2",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "summary": "v0.16.2. # Veil 0.16.2\n\nPatch release for all ten Veil, Shield Swap, and Bridge packages, published\nunder npm's `latest` tag. The functional change is in\n`@provablehq/aleo-bridge-sdk`; the other packages move in lockstep.\n\n```sh\nnpm install @provablehq/aleo-bridge-sdk@latest\n```\n\n## Changes\n\n- Add public ALEO ↔ BSC transfers through Verulink. The default registry\n  declares bot",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-11-05",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "aleo",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-sentient-release-evoskill-v2-0-0",
-      "title": "Sentient release: EvoSkill v2.0.0",
-      "project": "Sentient",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/sentient-agi/EvoSkill/releases/tag/v2.0.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v2.0.0 — EvoSkill v2: Benchmark Adaptor, Stateful Evolver (tech report). ## ✨ What's New\n\n**EvoSkill v2 is the system from our tech report, [EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](https://arxiv.org/abs/2610.25931).** It improves an agent by rewriting its skills and leaves the model and the harness as they are. It lives on the",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-26",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "sentient",
         "release"
       ]
     },
@@ -2335,26 +2144,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-verifiers-v0-4-1",
-      "title": "Prime Intellect release: verifiers v0.4.1",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/verifiers/releases/tag/v0.4.1",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.4.1. ## Highlights\n\n- **Smaller core, one eval path.** verifiers now holds environments, harnesses, runtimes, and scoring. Full evaluations, serving, and platform uploads move to prime-rl. `vf-run` is a minimal in-process runner for quick runs (#3047, #2610, #3052, #3056, #3046, #3054).\n- **Native Prime VMs for services.** Task services and Compose services run as native Pri",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-11-03",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
       "id": "auto-elizaos-release-eliza-v2-0-5",
       "title": "ElizaOS release: eliza v2.0.5",
       "project": "ElizaOS",
@@ -2371,26 +2160,6 @@
       "manual": false,
       "tags": [
         "elizaos",
-        "release"
-      ]
-    },
-    {
-      "id": "auto-fetch-ai-asi-release-uagents-core-0-4-12",
-      "title": "Fetch.ai (ASI) release: uAgents core@0.4.12",
-      "project": "Fetch.ai (ASI)",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/fetchai/uAgents/releases/tag/core%400.4.12",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "core@0.4.12. ## What's Changed\n* fix(uagents): retention policy cutoff and cache removal by @jrriehl in https://github.com/fetchai/uAgents/pull/961\n* feat(core): add agent telemetry types and primitives by @lrahmani in https://github.com/fetchai/uAgents/pull/957\n* chore(core): bump version from 0.4.11 to 0.4.12 by @lrahmani in https://github.com/fetchai/uAgents/pull/963\n\n\n**Ful",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-10-13",
-      "discovered_at": "2026-11-17",
-      "manual": false,
-      "tags": [
-        "fetch.ai (asi)",
         "release"
       ]
     },
