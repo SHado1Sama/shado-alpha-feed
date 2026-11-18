@@ -104,7 +104,9 @@
     "Beam (Bittensor SN105)",
     "Rayls",
     "Solflare",
-    "Polkadot"
+    "Polkadot",
+    "Coinstancy",
+    "Pi Network"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -277,6 +279,8 @@
     "Beam (Bittensor SN105)": "AI",
     "Rayls": "Privacy",
     "Solflare": "Privacy",
-    "Polkadot": "Privacy"
+    "Polkadot": "Privacy",
+    "Coinstancy": "Agentic Wallet",
+    "Pi Network": "Agentic Wallet"
   }
 }
