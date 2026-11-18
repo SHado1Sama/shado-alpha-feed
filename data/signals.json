@@ -1,6 +1,30 @@
 {
   "signals": [
     {
+      "id": "polkadot-private-messaging-cash-2026-11-18",
+      "title": "Polkadot bets its comeback on privacy: private messaging and private dollar payments in one app",
+      "project": "Polkadot",
+      "source": "polkadot.com",
+      "source_type": "blog",
+      "url": "https://polkadot.com",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 82,
+      "summary": "Polkadot's new strategy, Products and Privacy for People, centers a consumer app with end-to-end encrypted messaging and CASH, digital cash denominated in US dollars that travels through encrypted chat and is not linked to the username. The strategy passed a governance vote on Nov 11 with 97% support. Payments run through pallet-coinage, an anonymous coin system using Ring-VRF proofs with no on-chain link between deposit and withdrawal. Caveats: the app is on a waitlist, Android first with iPhone in App Store review, so nothing is live yet; the chain itself is not going private, the privacy sits in the app and payment layer; and the related dotUSD stablecoin, live since Oct 10, still mints 1:1 against USDT, with DOT-backed minting still to come. Flagged by @Lithos_eth on X, Nov 18.",
+      "angle": "A major chain betting its comeback on privacy as a consumer feature, not a niche. The edge question applies: payments are private inside the app, but adding CASH through cards, banks and crypto is public. And the usage thesis in the open: the pivot is measured by adoption, so the privacy only holds if people actually use it.",
+      "tags": [
+        "Polkadot",
+        "CASH",
+        "private payments",
+        "Coinage",
+        "dotUSD",
+        "governance"
+      ],
+      "published_at": "2026-11-18",
+      "discovered_at": "2026-11-18",
+      "manual": true
+    },
+    {
       "id": "crossmint-fiat-privacy-rings-2026-11-17",
       "title": "Crossmint funds Helius Privacy Rings straight from fiat, the deposit stays public",
       "project": "Crossmint",

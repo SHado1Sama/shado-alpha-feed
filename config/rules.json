@@ -103,7 +103,8 @@
     "Flop Labs",
     "Beam (Bittensor SN105)",
     "Rayls",
-    "Solflare"
+    "Solflare",
+    "Polkadot"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -275,6 +276,7 @@
     "Flop Labs": "AI",
     "Beam (Bittensor SN105)": "AI",
     "Rayls": "Privacy",
-    "Solflare": "Privacy"
+    "Solflare": "Privacy",
+    "Polkadot": "Privacy"
   }
 }
