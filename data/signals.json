@@ -1,6 +1,31 @@
 {
   "signals": [
     {
+      "id": "crossmint-fiat-privacy-rings-2026-11-17",
+      "title": "Crossmint funds Helius Privacy Rings straight from fiat, the deposit stays public",
+      "project": "Crossmint",
+      "source": "Crypto News",
+      "source_type": "news",
+      "url": "https://cryptonews.net/news/blockchain/33766503/",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 80,
+      "summary": "Crossmint launched direct fiat funding for encrypted Solana balances on Nov 17: eligible buyers outside the US can buy USDC or EURC with a card, Apple Pay or Google Pay, and the purchase lands straight in a Helius Privacy Rings encrypted balance, with no public wallet step first. The first fiat-funded USDC purchase completed on Nov 13. The honest limits come from Crossmint itself: the deposit stays public and auditable, recipient, token and amount all visible on chain, and only the balance and what comes after are encrypted. The recipient needs a registered Helius Private Wallet, or the order is refunded. A second version will fund purchases from Crossmint own private balance so the deposit is encrypted too, with no launch date announced. The launch follows Solflare Nov 15 Private Mode, which runs on the same Helius protocol.",
+      "angle": "The edge moved to the on-ramp. Fiat goes in, an encrypted balance comes out, but the deposit itself is public: who, what, how much. Crossmint own words: the deposit stays public and auditable. That is the edge problem in one product, privacy starts after the money arrives, not before. Pair it with the Solflare Private Mode signal for a post on where Solana privacy actually begins.",
+      "tags": [
+        "crossmint",
+        "helius",
+        "privacy rings",
+        "solana",
+        "onramp",
+        "usdc",
+        "eurc"
+      ],
+      "published_at": "2026-11-17",
+      "discovered_at": "2026-11-18",
+      "manual": true
+    },
+    {
       "id": "coinbase-chatgpt-plugin-approval-cards-2026-11-17",
       "title": "Coinbase puts trading inside ChatGPT, every order still needs your tap",
       "project": "Coinbase AgentKit",
