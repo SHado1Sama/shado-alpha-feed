@@ -106,7 +106,8 @@
     "Solflare",
     "Polkadot",
     "Coinstancy",
-    "Pi Network"
+    "Pi Network",
+    "Orbinum Network"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -281,6 +282,7 @@
     "Solflare": "Privacy",
     "Polkadot": "Privacy",
     "Coinstancy": "Agentic Wallet",
-    "Pi Network": "Agentic Wallet"
+    "Pi Network": "Agentic Wallet",
+    "Orbinum Network": "Privacy"
   }
 }
