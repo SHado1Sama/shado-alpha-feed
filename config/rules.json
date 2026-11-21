@@ -107,7 +107,9 @@
     "Polkadot",
     "Coinstancy",
     "Pi Network",
-    "Orbinum Network"
+    "Orbinum Network",
+    "Fluidkey",
+    "OpenRouter"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -283,6 +285,8 @@
     "Polkadot": "Privacy",
     "Coinstancy": "Agentic Wallet",
     "Pi Network": "Agentic Wallet",
-    "Orbinum Network": "Privacy"
+    "Orbinum Network": "Privacy",
+    "Fluidkey": "Privacy",
+    "OpenRouter": "Privacy"
   }
 }

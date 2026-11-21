@@ -1,6 +1,23 @@
 {
   "opportunities": [
     {
+      "id": "higgsfield-talent-contest-2026",
+      "title": "Higgsfield Talent Contest, $1,000,000 for AI films, closes Nov 26",
+      "type": "Campaign",
+      "project": "Higgsfield",
+      "deadline": "2026-11-26T19:00:00Z",
+      "effort": "High",
+      "fit_score": 30,
+      "reward_text": "1st $200,000, 2nd $150,000, 3rd $100,000, 2 Audience Choice $50,000 each, 15 category awards $30,000 each. $1,000,000 total cash, 20 awards. Contest, only winners are paid",
+      "reward_usd_est": 30000,
+      "source": "Higgsfield official contest page, checked 2026-11-21, entries open, closes Nov 26 7:00 PM UTC (page structured data lists 5:00 PM UTC, treat 5:00 PM as the safe cutoff)",
+      "summary": "Higgsfield is paying $1,000,000 in cash for original AI films: 20 awards, $200,000 for first place, $150,000 for second, $100,000 for third, two $50,000 Audience Choice awards and fifteen $30,000 category awards. Make an original 3 to 7 minute film on any theme, entirely inside a dedicated contest project on higgsfield.ai between Nov 12 and Nov 26, submit it with a public YouTube link, and winners are announced Dec 3. Entry is free and no paid plan is required to enter, compete or win, but every generation inside the project costs credits, so a free account's credit balance limits how much footage you can make. Honest fit: your video craft is the fit, but this is a full short film in 5 days, not a quick bounty, and only 20 of all entries worldwide are paid, so this is a long shot, enter only if a film idea is already burning.",
+      "requirements": "18 or older. Higgsfield account in your own name, free or paid. Create an original 3 to 7 minute film on any theme inside a dedicated Talent Contest project on higgsfield.ai, Nov 12 to Nov 26, 2026. AI images and video must be generated inside the project; music, voices, dialogue and lip-sync must be AI-generated. Submit with a public YouTube video link viewable without login until winners are announced. Entry is free, no paid plan required, but generations cost credits. Winners announced Dec 3.",
+      "published_at": "2026-11-12",
+      "url": "https://higgsfield.ai/contests/talent-contest",
+      "manual": true
+    },
+    {
       "id": "superteam-anna-ai-messenger-thread-bounty",
       "title": "Anna AI Messenger X thread bounty, $250 USDC for introducing the AI-native messenger",
       "type": "Bounty",
@@ -103,23 +120,6 @@
       "manual": true
     },
     {
-      "id": "astrocade-100k-creator-competition",
-      "title": "Astrocade $100K Creator Competition, top 5 creators share $100,000 for playable content",
-      "type": "Campaign",
-      "project": "Astrocade",
-      "deadline": "2026-11-21T07:59:00Z",
-      "effort": "High",
-      "fit_score": 35,
-      "reward_text": "1st $50,000, 2nd $20,000, 3rd $15,000, 4th and 5th $7,500 each. $100,000 total. Only 25 creators selected, only top 5 are paid",
-      "reward_usd_est": 50000,
-      "source": "Astrocade official blog, published 2026-11-05, updated 2026-11-16, checked 2026-11-21, still open, applications close Nov 20 11:59 PM PT",
-      "summary": "Astrocade, an AI tool that turns a written idea into playable content, is choosing 25 creators to compete for $100,000. Selected creators spend three weeks, Nov 30 to Dec 20, making playable content on Astrocade and posting at least five videos a week about it on TikTok, Instagram, YouTube or X. Score combines plays of your games with views on your videos. Applications close Nov 20 at 11:59 PM PT and the 25 selected creators are announced Nov 25. No coding needed and applying is free. Honest fit: the prize is the biggest on the board, but only 25 creators get in, only 5 get paid, and the workload is 15 or more videos in three weeks, so this is a long shot that eats a month, not a quick bounty. Off the Privacy x AI crypto niche, but the format is making ideas playable and posting videos, which is your current format.",
-      "requirements": "18 or older, Astrocade account. Apply on the Astrocade competition page by Nov 20, 11:59 PM PT with your social handles and a pitch for what you would make. If selected, publish original playable content on Astrocade and post at least 5 videos a week, Nov 30 to Dec 20, on TikTok, Instagram, YouTube or X. Applying and competing are free.",
-      "published_at": "2026-11-05",
-      "url": "https://www.astrocade.com/blog/100k-creator-competition",
-      "manual": true
-    },
-    {
       "id": "superteam-burnie-ai-roast-bounty",
       "title": "Burnie AI Roast-a-Repo Bounty, $250 USDC for roasting GitHub repos on X",
       "type": "Bounty",
@@ -198,7 +198,7 @@
       "requirements": "One track only: a long-form article on Medium or Substack plus an X thread, or one original video published on X, TikTok, Instagram and YouTube, or one animated explainer. Sign up free on Raenest with code community, use #StablecoinsonRaenest and #RaenestBounty, tag @RaenestApp and your Superteam region, include your Raenest referral link and show genuine product use with a screenshot or a short note. No purchase, deposit or trade required to enter.",
       "reward_text": "1st $1,500, 2nd $1,400, 3rd $1,300, 4th $1,200, 5th $1,000; 20 additional eligible participants $330 each at random. $13,000 USDC total. Contest, only placed entries are paid",
       "reward_usd_est": 1500,
-      "source": "Superteam Earn listing, published 2026-11-12; Raenest official blog, checked 2026-11-20, still open, closes Dec 13",
+      "source": "Superteam Earn listing, published 2026-11-12; Raenest official blog, checked 2026-11-21, still open, closes Dec 13",
       "summary": "Raenest, a global financial platform for borderless money with crypto wallets, USDT and USDC deposits, Vaults paying up to 7% APY on eligible stablecoin balances and virtual and physical cards, is paying $13,000 USDC for content that shows its crypto and stablecoin features in real use. Nigeria is named as a target market alongside Brazil, Argentina and the Philippines, which is the strongest market fit on the board for a Nigeria-based creator. Three tracks: written, video or animation, one track per creator. Honest caveat: top 5 judging is 50% content quality and 50% verified referrals with referred users completing onboarding and a first transaction, so a 2,500 follower page should treat the 20 random $330 spots as the realistic lane. Entries opened Nov 16 and close Dec 13, 2026, winners announced by Dec 21, per Raenest's own blog; checked Nov 18 and still open.",
       "title": "Raenest Global Bounty, $13,000 USDC for writing, video or animation on stablecoin money",
       "type": "Bounty",
@@ -317,7 +317,7 @@
       "requirements": "One 60 to 120 second original video, one entry per participant. Post on X tagging @swapdotio and @Superteam, and on Medium linking swap.io. AI voiceovers allowed, on-camera presence preferred. Optional bonus: show a real paid call to the Swap.io Agent API with the Solscan link.",
       "reward_text": "1st $200, 2nd $125, 3rd $80, 4th $60, 5th $35; 6th to 10th get 40k XP for Season Zero. Contest, only placed entries are paid",
       "reward_usd_est": 200,
-      "source": "Superteam Earn listing, published 2026-11-06, checked 2026-11-20, still open, no deadline stated",
+      "source": "Superteam Earn listing, published 2026-11-06, checked 2026-11-21, still open, no deadline stated",
       "summary": "Swap.io, a Solana swap platform whose Agent API lets AI agents get swap quotes and pay per call in USDC through x402, is paying for a 60 to 120 second video pitching one concrete way an agent could use x402 with Swap.io. Post the video on X tagging @swapdotio and @Superteam, plus a Medium copy. No code needed, mockups and storyboards are welcome, and a working demo with a Solscan link earns up to 30 percent bonus. Judging weights idea and clarity at 45 percent, production quality 35 percent and X reach 20 percent. Contest, only placed entries are paid. No deadline is stated on the listing, and submissions were still open when checked on Nov 18.",
       "title": "Swap.io x402 video bounty, $200 for a 60 second pitch on agent payments",
       "type": "Bounty",
