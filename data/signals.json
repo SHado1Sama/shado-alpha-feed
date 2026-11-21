@@ -1,6 +1,128 @@
 {
   "signals": [
     {
+      "id": "dragos-canary-ai-prompts-2026-11-19",
+      "title": "Dragos planted 2 million secret tripwires in AI prompts, and the secrets leaked everywhere",
+      "project": "AI inference (Dragos)",
+      "source": "Dragos",
+      "source_type": "research",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "category": "Privacy",
+      "type": "Update",
+      "score": 88,
+      "summary": "Dragos research chief HD Moore seeded nearly 2 million unique secrets, canary credentials and URLs, into AI prompts sent to widely used inference services from July to November 2026, then watched where they surfaced. Three AI hosting providers were compromised and attackers reused about 200 stolen AWS keys; multiple inference marketplace resellers could read and retain customer prompts through standard logging; and providers ignored Zero Data Retention settings, with one Chinese AI lab fetching secret URLs from more than half the prompts sent to it, including about two thirds marked no data collection or ZDR. One seeded link surfaced in an internal company chat in China. The affected providers only learned of the breaches when Moore told them in November. Honest caveats: Dragos names no provider, so no single service is accused, and the study covers the inference supply chain, not the frontier labs' own chat apps.",
+      "angle": "The oversight post your governance frame needs, and the privacy test is brutal: a researcher hid 2 million secrets inside AI prompts, then watched them leak. Explain the canary in one line, a fake password that only one provider ever sees, so when it gets used you know exactly who leaked it, then the honest caveat, no provider is named, so this is a charge against the whole supply chain, not one company, and ask followers whether a Zero Data Retention promise means anything when the reseller in the middle keeps the logs anyway.",
+      "tags": [
+        "dragos",
+        "canary",
+        "ai prompts",
+        "zero data retention",
+        "inference",
+        "privacy",
+        "supply chain"
+      ],
+      "published_at": "2026-11-19",
+      "discovered_at": "2026-11-21",
+      "manual": true
+    },
+    {
+      "id": "prime-intellect-model-swap-advisory-2026-11-19",
+      "title": "Prime Intellect admits an attacker swapped its DeepSeek model for one that stopped refusing, for 53 hours",
+      "project": "Prime Intellect",
+      "source": "Prime Intellect",
+      "source_type": "blog",
+      "url": "https://primeintellect.one/security/advisories/deepseek-v4-1-flash-model-substitution",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 86,
+      "summary": "Prime Intellect published its first security advisory, PI-SA-2026-001, on Nov 19: from Nov 8 01:24 UTC to Nov 10 06:35 UTC an unauthorised party replaced the deployment behind its deepseek/deepseek-v4.1-flash endpoint with publicly available abliterated weights, a copy modified to remove refusal behaviour. The model name, chat template, tokenizer and serving configuration stayed the same, and capability benchmarks (GPQA Diamond, tau-bench) were unaffected, but refusals collapsed: JailbreakBench 98 of 100 to 1, StrongREJECT 304 of 313 to 2, HarmBench 198 of 240 to none. Prime Intellect says it found no evidence prompts or completions were recorded or left the cluster, no other models or clusters were affected, no keys or credentials were compromised, and affected customers were contacted. OpenRouter had notified users first. Honest caveats: the attacker and motive are unknown, the investigation is ongoing, and the advisory is the company's own account.",
+      "angle": "The control post your governance frame needs: the model behind a familiar name changed and nobody noticed, because the benchmarks stayed perfect while the safety vanished. Explain abliteration in one line, the same model with the part that says no switched off, then the honest caveat, no data was stolen as far as anyone can tell, and the attacker is unknown, and ask followers how you verify a model you cannot see, a checksum, a canary prompt, or trust.",
+      "tags": [
+        "prime intellect",
+        "deepseek",
+        "model swap",
+        "abliterated",
+        "security advisory",
+        "inference",
+        "safety"
+      ],
+      "published_at": "2026-11-19",
+      "discovered_at": "2026-11-21",
+      "manual": true
+    },
+    {
+      "id": "zcash-dev-fund-poll-50k-zec-2026-11-17",
+      "title": "Zcash votes on removing 50,000 ZEC from its grants treasury and cutting block times to 20 seconds",
+      "project": "Zcash",
+      "source": "Coinpaper (Zcash Foundation announcement)",
+      "source_type": "news",
+      "url": "https://coinpaper.com/38975/zcash-governance-vote-could-redirect-8-funding-stream-and-cut-block-times-to-20-seconds",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 84,
+      "summary": "Zcash opened a community governance poll on Nov 16 that runs to Nov 30, with the Zcash Foundation announcement giving Dec 1 02:59 UTC as the close. Coinholders and community panels vote on the future of the Dev Fund. The headline proposal, written by co-founders Sean Bowe and Zooko Wilcox with Jason McGee of Shielded Labs, would end Zcash Community Grants' 8% share of block rewards, pay it instead into a Future Dev and Legal Defense Fund lockbox until the third halving, and require the grants committee to remove 50,000 ZEC, about 55% of its 91,453 ZEC treasury, into the Network Sustainability Mechanism, where the coins return gradually as future block rewards. The poll also asks whether target block times should fall from 25 seconds to 20 seconds, weeks after NU7 cut them from 75. Three other options are on the ballot, including keeping the current arrangements. Honest caveats: the poll is advisory, not binding, and a result showing rough consensus would lead to a NU7.1 network upgrade to implement it; the lockbox has no spending rules yet, so a future proposal must decide how the money gets spent.",
+      "angle": "The privacy coin is voting on its own wallet: who gets the 8% of every block, and whether 50,000 ZEC leaves the grants treasury for good. Explain the trade in one line, the grants program that funded Zcash development could wind down and the money would sit in a locked fund with no spending rules yet, then the honest caveat, the vote advises, it does not decide, and ask followers whether a privacy coin should spend its treasury on grants, lock it away for legal defence, or hand it back to miners over time.",
+      "tags": [
+        "zcash",
+        "zec",
+        "dev fund",
+        "governance",
+        "zcg",
+        "nu7.1",
+        "poll"
+      ],
+      "published_at": "2026-11-17",
+      "discovered_at": "2026-11-21",
+      "manual": true
+    },
+    {
+      "id": "thinking-machines-inkling-2-mini-2026-11-20",
+      "title": "Thinking Machines releases Inkling 2 Mini, a 26B open-weights model that runs on a laptop",
+      "project": "Thinking Machines",
+      "source": "Thinking Machines",
+      "source_type": "blog",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "category": "AI",
+      "type": "Update",
+      "score": 78,
+      "summary": "Thinking Machines released Inkling 2 Mini on Nov 20, a looped transformer with 26.4 billion total parameters and 3.4 billion active per token, running its middle 12 layers three times for every token. The checkpoint is about 20GB and runs on a Mac with at least 32GB of memory or a single DGX Spark, with a 1 million token context window and text plus image input, under the Apache 2.0 license, with weights on Hugging Face and day-zero support in vLLM. The lab says it leads every open-weights model under 100 billion parameters on benchmarks including DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%), and costs about $0.59 per Artificial Analysis task against $3.53 for Qwen3.8-27B. Inkling 2 Small, the 594 billion parameter sibling, stays closed-weight for now pending safety testing, with full weights promised next week. Honest caveats: all benchmark claims are the lab's own, and the looping design is new, so independent results are still to come.",
+      "angle": "The open model that fits on a laptop just got sharper: a 26 billion parameter model that re-reads its own middle layers three times per token, and the lab says it beats everything its size at coding. Explain looping in one line, the model does more thinking with the same weights instead of adding more weights, then the honest caveat, the scores are the lab's own and the design is brand new, and ask followers whether the future of AI agents is a giant model in a data centre or a small one on your own machine.",
+      "tags": [
+        "thinking machines",
+        "inkling 2 mini",
+        "open weights",
+        "looped transformer",
+        "local ai",
+        "coding agents"
+      ],
+      "published_at": "2026-11-20",
+      "discovered_at": "2026-11-21",
+      "manual": true
+    },
+    {
+      "id": "bittensor-runtime-493-yuma-cap-2026-11-20",
+      "title": "Bittensor ships runtime 493, its third runtime in five days, making the Yuma emission cap sudo-configurable",
+      "project": "Bittensor",
+      "source": "Bittensor Daily (subnt.dev)",
+      "source_type": "release",
+      "url": "https://www.subnt.dev/upgrades",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 70,
+      "summary": "Bittensor runtime 493 went live on Nov 20 at block 9,549,497, one day after runtime 492 and four days after 491, the third runtime in five days and the 43rd in 127 days, an average of one every three days. The headline change makes the Yuma timelocked emission cap sudo-configurable, with 37 chain files changed across 42 commits. Spec 494 is already merged and waiting, covering a refund of unused burn payment weight. Honest caveats: this is a small configuration change, not a feature launch, and the pace itself is the story, three runtimes in five days after the coldkey swap and Gamma work of the previous two.",
+      "angle": "The follow-up to the runtime 492 post: one day later, another runtime, and the chain now changes about once every three days. Explain the change in one line, the cap on timed emissions can now be adjusted by the sudo key instead of a code release, then the honest caveat, a small config change, not a launch, and ask followers whether a chain that ships this fast is iterating or just patching in public.",
+      "tags": [
+        "bittensor",
+        "runtime 493",
+        "yuma",
+        "subtensor",
+        "emissions"
+      ],
+      "published_at": "2026-11-20",
+      "discovered_at": "2026-11-21",
+      "manual": true
+    },
+    {
       "id": "nillion-l2-retirement-2026-11-16",
       "title": "Nillion retires its legacy L2 on Dec 1, holders must bridge NIL and ETH by Nov 27",
       "project": "Nillion",
@@ -489,55 +611,6 @@
       "url": "https://crypto.news/monument-bank-midnight-tokenized-deposits/"
     },
     {
-      "angle": "The private wallet just got more doors: explain it in one line, you can now arrive at zk.money from Base or Arbitrum instead of only Ethereum, and the privacy starts once you are inside, then the honest caveat, a door is not a crowd, no usage numbers yet, and ask followers which chain they would arrive from if the destination hides the amount.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-19",
-      "id": "aztec-across-zk-money-crosschain-2026-11-13",
-      "manual": true,
-      "project": "Aztec",
-      "published_at": "2026-11-13",
-      "score": 76,
-      "source": "CoinMarketCap (Aztec)",
-      "source_type": "news",
-      "summary": "Aztec announced on Nov 13 that users can bridge into zk.money, its private payments wallet on the Tierra network, from Base, Arbitrum, HyperEVM and other EVM chains using Across Protocol, keeping activity private once inside. Users can also withdraw to an EVM network of their choice. The integration lowers the on-ramp friction for private payments: deposits from Ethereum were the visible step, and now the route in runs from several chains. Honest caveats: the announcement is a capability, not usage, no adoption figures were published, and zk.money is still early software with per-transaction and daily deposit caps from its September relaunch.",
-      "tags": [
-        "aztec",
-        "zk.money",
-        "across",
-        "cross-chain",
-        "privacy",
-        "base",
-        "arbitrum"
-      ],
-      "title": "Aztec opens private zk.money access from Base, Arbitrum and HyperEVM through Across",
-      "type": "Project Watch",
-      "url": "https://coinmarketcap.com/cmc-ai/aztec/latest-updates/"
-    },
-    {
-      "angle": "The agent payments rail has a hole the audit calls cash-like: one payment, replayed a thousand times, opened the door 248 times. Explain the fix in one line, tie each payment to the exact request it pays for and mark it spent before the door opens, then the honest caveat, no theft reported, fix status unknown, and ask followers whether a payments rail for machines needs stronger receipts than a payments rail for people.",
-      "category": "Agentic Wallet",
-      "discovered_at": "2026-11-19",
-      "id": "x402-payment-replay-audit-2026-11-13",
-      "manual": true,
-      "project": "x402",
-      "published_at": "2026-11-13",
-      "score": 80,
-      "source": "Boston Identity",
-      "source_type": "research",
-      "summary": "An academic audit of x402, the HTTP payment scheme for agent commerce, reported Nov 13, found that none of the three SDKs it read, including Coinbase's TypeScript reference, binds a payment to the resource it paid for or marks a payment as spent before granting access, so a payment proof works like cash in the holder's hands. On a live test endpoint the authors replayed one payment header 1,000 times at once and received up to 248 grants of access for a single settled payment, and behind a proxy cache with no cache header, all 1,000 unpaid requests got the paid response. The authors reported the issues to Coinbase through HackerOne, and the paper gives no fix status. As of Aug 31 the x402 Foundation's version 2 specification still relied on the on-chain nonce to prevent replay. Honest caveat: this is one audit of SDK code and a test endpoint, not a report of theft in production, and the fix status is unknown.",
-      "tags": [
-        "x402",
-        "agent payments",
-        "replay",
-        "security",
-        "coinbase",
-        "audit"
-      ],
-      "title": "Academic audit finds x402 payments can be replayed, one payment bought 248 grants of access",
-      "type": "Update",
-      "url": "https://insights.bostonidentity.com/columns/2026-11-13-agent-payments-work-like-cash-until-each-proof-names-one-request-and"
-    },
-    {
       "id": "zama-confidential-yield-plume-nuva-yuzu-2026-11-18",
       "title": "Zama takes confidential yield beyond Morpho, five new vaults across Plume, NUVA and Yuzu",
       "project": "Zama",
@@ -1024,30 +1097,6 @@
       "manual": true
     },
     {
-      "id": "bittensor-lium-2-7m-gpu-rentals-2026-11-13",
-      "title": "Bittensor subnet Lium reports $2.7M in GPU rentals from 2,394 paying customers in 31 days",
-      "project": "Bittensor",
-      "source": "Ranzware",
-      "source_type": "news",
-      "url": "https://ranzware.com/bittensor-subnets-hit-346m-annualized-revenue-from-real-customers",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 80,
-      "summary": "Lium, Bittensor subnet 51, recorded $2.70 million in GPU rental spending from 2,394 billed customers over the 31 days from Oct 10 to Nov 9, up 87 percent on the previous month, with rentals up 62 percent to 29,300 and existing customers spending 46 percent more. The last seven days of spending annualizes to about $34.6 million, and subnet revenue across Bittensor is estimated near $70 million a year. Lium rents NVIDIA GPUs, including B300, H200 and RTX 5090 cards, billed by the second, and 77.7 percent of rentals start through the command line, SDK or API rather than the web app, which the analyst behind the figures reads as developers and agents wiring it into code. Honest caveats: the annualized figure is a projection from one week, not a yearly total, and providers also earn subnet emissions on top of rental fees, which subsidizes prices, so the test is whether customers stay as emissions shrink.",
-      "angle": "The first Bittensor story about money from customers, not from emissions: one subnet took $2.7 million in real GPU rentals in a month. Explain the shift in one line, subnets used to be paid in token emissions for work nobody bought, and now 2,394 customers pay dollars for GPUs by the second, then the caveat that matters, the annualized number is a one-week pace stretched to a year, and ask followers whether a subnet that sells compute is a business or still a subsidy with customers attached.",
-      "tags": [
-        "bittensor",
-        "lium",
-        "subnet 51",
-        "gpu",
-        "revenue",
-        "tao"
-      ],
-      "published_at": "2026-11-13",
-      "discovered_at": "2026-11-16",
-      "manual": true
-    },
-    {
       "id": "cypherpunk-q3-zec-mining-treasury-2026-11-16",
       "title": "Cypherpunk mined $9.9M of ZEC in 44 days and now holds 2 percent of the supply",
       "project": "Zcash",
@@ -1114,31 +1163,6 @@
         "zero-knowledge"
       ],
       "published_at": "2026-11-16",
-      "discovered_at": "2026-11-16",
-      "manual": true
-    },
-    {
-      "id": "beam-chainlink-cre-receipts-2026-11-13",
-      "title": "Bittensor subnet Beam puts data delivery receipts on chain with Chainlink, first receipt covers 100 GB",
-      "project": "Beam (Bittensor SN105)",
-      "source": "Shizzy Unchained (Bittensor Daily News)",
-      "source_type": "news",
-      "url": "https://shizzyunchained.com/subnet-news/2026-11-15",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 76,
-      "summary": "Beam, Bittensor subnet 105, announced a Chainlink Runtime Environment integration on Nov 13, and Chainlink independently listed Beam among its new integrations the same day. Transfer reports are now recorded as Chainlink-attested receipts on Base mainnet, with the first covering 100 GB, so an application can verify on chain that a dataset arrived before it starts a training job or advances a document workflow. The honest limits: a receipt proves the delivery was reported, not that the file contents are correct, and smart contracts initiating transfers are the next planned stage, not live yet.",
-      "angle": "The plumbing post for the decentralised AI lane: moving data is one step, proving it arrived is the step that lets software act on it. Explain a delivery receipt in one line, a signed note on chain that says the file landed, then the honest caveat, it proves the report, not the contents, and ask followers what they would automate first if every dataset delivery came with its own receipt.",
-      "tags": [
-        "bittensor",
-        "beam",
-        "subnet 105",
-        "chainlink",
-        "cre",
-        "data transfer",
-        "receipts"
-      ],
-      "published_at": "2026-11-13",
       "discovered_at": "2026-11-16",
       "manual": true
     },
@@ -1212,53 +1236,6 @@
       "manual": true
     },
     {
-      "id": "flop-labs-testnet-airdrop-nov-24-2026-11-13",
-      "title": "Arthur Hayes sets Nov 24 for the Flop Labs testnet and FLOP airdrop",
-      "project": "Flop Labs",
-      "source": "KuCoin News",
-      "source_type": "news",
-      "url": "https://www.kucoin.com/news/flash/arthur-hayes-announces-flop-token-airdrop-and-testnet-launch-on-november-24",
-      "category": "AI",
-      "type": "Early Alpha",
-      "score": 78,
-      "summary": "Arthur Hayes announced on Nov 13 that Flop Labs will open its public testnet and start its FLOP airdrop on Nov 24, 2026. Flop is an AI-native layer 1 where agents spend FLOP on inference and memory, miners earn it by supplying GPU compute under proof of useful inference, and a draft paper sets genesis supply at 4.4 billion FLOP, with roughly a quarter earmarked for testnet participants and ecosystem incentives. The testnet runs about 90 days with no whitelist and no cap on miners, and the top 1,000 validators by testnet performance join the mainnet set. Honest caveats: the date is tentative, it has already slipped twice, no FLOP token exists yet, eligibility rules and final distribution are unpublished, and there is no full whitepaper. Any current sale or mint offer is fraud.",
-      "angle": "The man who called the AI data center bubble is now building the chain he says eats the leftovers: FLOP is food for your AI agent. Explain the pitch in one line, agents pay for compute with FLOP, miners earn it with GPUs, then the honest caveats in the same breath, tentative date, twice slipped, no token, no whitepaper, and ask followers whether a testnet that pays in a token that does not exist yet is an opportunity or a waiting room.",
-      "tags": [
-        "flop labs",
-        "arthur hayes",
-        "testnet",
-        "airdrop",
-        "ai agents"
-      ],
-      "published_at": "2026-11-13",
-      "discovered_at": "2026-11-15",
-      "manual": true
-    },
-    {
-      "id": "solana-confidential-compute-2026-11-13",
-      "title": "Solana launches Confidential Compute, private AI with hardware proof published on chain",
-      "project": "Solana Confidential Compute (Nito)",
-      "source": "Solana Foundation",
-      "source_type": "blog",
-      "url": "https://solana.ai/blog/nito-solana-confidential-compute",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 86,
-      "summary": "The Solana Foundation and Nito launched Solana Confidential Compute on Nov 13, 2026, an open-source SDK and on-chain verification program for private AI. Apps run models inside trusted execution environments, and the hardware attestation is verified and recorded on Solana, so anyone can check that an answer came from a verified machine without seeing the prompt or the data. The beta runs on Solana devnet with Intel TDX and AMD SEV-SNP attestations, NVIDIA GPU attestation still in development, and no audit yet, so it is for development use only and mainnet follows the audit. Nito's own private AI chat is the first product built on it, and the same record could back an AI judge for prediction markets or trading agents that only act on verified model output. It lands three days after Helius switched on Solana Privacy Rings on mainnet.",
-      "angle": "Private AI is moving from a promise to a receipt: Solana now lets you prove the hardware that ran your model, on chain, without revealing what you asked it. Explain the two halves in one line, the model runs locked inside a trusted enclave, and the chain holds the proof it was the real machine, then the honest caveat, devnet only, unaudited, no mainnet date, and ask followers whether they would trust an AI answer more if they could check the machine that produced it.",
-      "tags": [
-        "solana",
-        "confidential compute",
-        "nito",
-        "private ai",
-        "tee",
-        "attestation"
-      ],
-      "published_at": "2026-11-13",
-      "discovered_at": "2026-11-14",
-      "manual": true
-    },
-    {
       "id": "binance-withdrawals-87-networks-2026-11-14",
       "title": "Binance reopens withdrawals on 87 networks and aims for full recovery by Nov 22",
       "project": "Binance",
@@ -1277,29 +1254,6 @@
         "recovery"
       ],
       "published_at": "2026-11-14",
-      "discovered_at": "2026-11-14",
-      "manual": true
-    },
-    {
-      "id": "sentinel-agents-multi-agent-security-2026-11-13",
-      "title": "Sentinel Agents paper proposes a security guard for AI agent teams, a small local model caught 84 percent of attacks",
-      "project": "Multi-agent AI (research)",
-      "source": "arXiv",
-      "source_type": "research",
-      "url": "https://arxiv.org/abs/2509.14956",
-      "category": "AI",
-      "type": "Update",
-      "score": 76,
-      "summary": "A paper by Diego Gosmar and Deborah A. Dahl, revised Nov 5, 2026, proposes Sentinel Agents, a dedicated security layer that watches what agents in a multi-agent system say to each other and reports to a Coordinator Agent that can quarantine a misbehaving agent. One bad or adversarial message can spread from one agent to many, so the Sentinel combines rules, behavioural checks and LLM inspection of the conversation itself. Tested on 1,000 synthetic messages, a small locally run Gemma 4 12B model caught 83.8 percent of attacks at an 11.4 percent false-positive rate, far better than rules alone at F1 0.38, and the paper gives practical guidance on calibrating the detectors and combining them.",
-      "angle": "The governance companion to the agent boom: when agents talk to each other, one poisoned message can hijack the whole team, and this paper hires a guard for the conversation itself. Explain it in one line, a watcher agent reads everything the team says and can quarantine the one that goes rogue, then the honest scale, synthetic tests, not production, and a small local model did the watching, which is the point, oversight does not need a frontier model, and ask followers who should guard the guards.",
-      "tags": [
-        "ai agents",
-        "multi-agent",
-        "security",
-        "governance",
-        "research"
-      ],
-      "published_at": "2026-11-13",
       "discovered_at": "2026-11-14",
       "manual": true
     },
@@ -1323,56 +1277,6 @@
       ],
       "published_at": "2026-11-14",
       "discovered_at": "2026-11-14",
-      "manual": true
-    },
-    {
-      "id": "santiment-privacy-dev-activity-2026-11-13",
-      "title": "Santiment ranks Dash, Chainlink and HOPR the busiest privacy builders, Zama, Zcash and Aztec in the top 10",
-      "project": "Privacy (sector)",
-      "source": "Crypto Briefing",
-      "source_type": "research",
-      "url": "https://cryptobriefing.com/santiment-privacy-projects-development-activity-dash/",
-      "category": "Privacy",
-      "type": "Update",
-      "score": 82,
-      "summary": "Santiment's latest 30-day GitHub ranking of privacy projects, published Nov 13, 2026, puts Dash first, Chainlink second and HOPR third, with Zama, NYM, Zcash, Monero, Dusk, Aztec and Anyone rounding out the top 10. The ranking counts notable commits and pull requests and filters out forks and low-value activity. The category itself has widened: it now covers infrastructure that adds privacy features, like oracles and anonymity tools, not just privacy coins. Santiment is explicit that development activity does not move prices on a schedule, it is a long-term health signal, not a buy signal.",
-      "angle": "The privacy leaderboard, ranked by shipping, not by price: Dash and HOPR climbing says the old coins and the infrastructure plays are both still building. Explain the method in one line, it counts real commits, not forks, then the honest caveat, busy GitHubs do not mean the token goes up, and ask followers which kind of privacy project they would back, a coin that hides transactions or infrastructure that hides data for everyone else.",
-      "tags": [
-        "santiment",
-        "privacy",
-        "dash",
-        "chainlink",
-        "hopr",
-        "zama",
-        "zcash",
-        "aztec",
-        "development activity"
-      ],
-      "published_at": "2026-11-13",
-      "discovered_at": "2026-11-14",
-      "manual": true
-    },
-    {
-      "id": "binance-alpha-ravedao-airdrop-2026-11-13",
-      "title": "Binance Alpha opens RaveDAO airdrop claims today, 270 RAVE for 256 Alpha Points",
-      "project": "Binance Alpha",
-      "source": "Binance Square",
-      "source_type": "news",
-      "url": "https://www.binance.com/en/square/post/11-13-2026-binance-alpha-airdrop-claims-set-to-open-at-11-00-utc-for-users-with-256-points-387743675244410",
-      "category": "Launches & Airdrops",
-      "type": "News",
-      "score": 78,
-      "summary": "Binance Wallet announced that Alpha airdrop claims open today at 11:00 UTC for users holding at least 256 Binance Alpha Points, first come first served until the pool is fully claimed or the event ends. Market coverage identifies the token as RaveDAO's RAVE, with 270 RAVE per eligible user in this second RaveDAO airdrop, though Binance's own post does not name the token and says further details will follow.",
-      "angle": "A heads-up post for anyone holding Alpha Points: the pool goes to whoever claims first, so check your points before the pool drains. Be honest that Binance itself has not named the token yet, the RAVE detail comes from market coverage, and Alpha airdrops are first come first served, not guaranteed.",
-      "tags": [
-        "binance alpha",
-        "ravedao",
-        "rave",
-        "airdrop",
-        "alpha points"
-      ],
-      "published_at": "2026-11-13",
-      "discovered_at": "2026-11-13",
       "manual": true
     },
     {
