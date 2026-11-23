@@ -137,23 +137,6 @@
       "manual": true
     },
     {
-      "id": "superteam-burnie-ai-roast-bounty",
-      "title": "Burnie AI Roast-a-Repo Bounty, $250 USDC for roasting GitHub repos on X",
-      "type": "Bounty",
-      "project": "Burnie AI (via Superteam Earn)",
-      "deadline": "",
-      "effort": "Low",
-      "fit_score": 55,
-      "reward_text": "1st $125, 2nd $75, 3rd $50. $250 USDC total. Contest, only placed entries are paid",
-      "reward_usd_est": 125,
-      "source": "Superteam Earn listing, checked 2026-11-23, still open, listing republished Nov 23",
-      "summary": "Burnie AI, a GitHub repo roasting bot, is paying $250 USDC for X posts that roast a developer's GitHub repo: tag @Burnieio with the repo link, tag the developer being roasted, follow Burnie and join its Telegram. Winners are judged on the number of valid roast tweets, the quality and following of the developers roasted, and engagement. A pre-launch airdrop sign-up on burnie.io is offered alongside, and the listing says you earn tokens only when your own repos get roasted. Honest fit: this is dev-humour content, not the Privacy x AI niche, and the top prize is small, but the format is one X post and you already live on GitHub, so the cost is a joke, not a build.",
-      "requirements": "Roast a GitHub repo on X tagging @Burnieio with the repo link and tag the developer roasted. Follow @Burnieio and join the Burnie Telegram community. No purchase or deposit required. Optional: sign up on burnie.io for the pre-launch airdrop.",
-      "published_at": "2026-11-18",
-      "url": "https://superteam.fun/earn/listing/tweet-and-roast-a-github-repo-earn-airdrops-2",
-      "manual": true
-    },
-    {
       "id": "stalkchain-creator-program",
       "title": "StalkChain Creator Program, flat fee per video agreed before you start, no follower minimum",
       "type": "Creator Platform",
@@ -185,23 +168,6 @@
       "requirements": "Make content about Ronin games and apps. Apply through the form on the official creators page. No follower minimum stated. Content must be original.",
       "published_at": "2026-11-16",
       "url": "https://creators.roninchain.com/",
-      "manual": true
-    },
-    {
-      "id": "weex-content-creator-challenge-round-2",
-      "title": "WEEX Content Creator Challenge Round 2, up to 90 USDT per article from a 3,000 USDT pool",
-      "type": "Campaign",
-      "project": "WEEX",
-      "deadline": "2026-11-23T15:59:00Z",
-      "effort": "Medium",
-      "fit_score": 50,
-      "reward_text": "Qualified articles share 2,100 USDT equally, capped at 30 USDT each; up to 15 outstanding articles get up to 60 USDT extra each. Up to 90 USDT per article. 3,000 USDT total. Contest, only approved articles are paid",
-      "reward_usd_est": 90,
-      "source": "WEEX official Help Center, checked 2026-11-23, event period Nov 12 to Nov 23 11:59 PM UTC+8, still open, closes today",
-      "summary": "WEEX, a crypto exchange, is running Round 2 of its Content Creator Challenge: write an original article about a WEEX event, trading tips or a trade review, publish it on Medium, Substack, WordPress, Blogger or a personal blog, and submit the link with your WEEX UID before Nov 23. Qualified articles share 2,100 USDT equally, capped at 30 USDT each, and up to 15 outstanding articles earn up to 60 USDT more. No fee to enter and no trade is required, you can write an in-depth analysis of an event's rules from official materials without participating, but you must not fabricate trades or profits. Rewards land in a WEEX account, so you need one. Off the Privacy x AI niche and the per-article pay is small, but the format is pure writing, your strongest format, and likes, shares and trading volume do not affect judging.",
-      "requirements": "Write an original article of at least 200 words in English about a WEEX event, trading tips or a trade review, with at least one screenshot or original chart and at least one text hyperlink to an official WEEX page. Publish on Medium, Substack, WordPress, Blogger or a personal blog, publicly accessible. Submit the article URL and WEEX UID through the form on the Help Center page before Nov 23, 2026, 11:59 PM UTC+8. No fee, no trade required. Rewards credited to your WEEX account.",
-      "published_at": "2026-11-09",
-      "url": "https://www.weex.com/help/articles/pxf3wnrpgzhfdhtoni9izuq1",
       "manual": true
     },
     {
@@ -324,23 +290,6 @@
       "url": "https://www.binance.com/en/support/announcement/detail/d9c84b68e9ab4ef29bee0cc53dfdabd2"
     },
     {
-      "deadline": "",
-      "effort": "Medium",
-      "fit_score": 80,
-      "id": "superteam-swapio-x402-video-bounty",
-      "manual": true,
-      "project": "Swap.io (via Superteam Earn)",
-      "published_at": "2026-11-06",
-      "requirements": "One 60 to 120 second original video, one entry per participant. Post on X tagging @swapdotio and @Superteam, and on Medium linking swap.io. AI voiceovers allowed, on-camera presence preferred. Optional bonus: show a real paid call to the Swap.io Agent API with the Solscan link.",
-      "reward_text": "1st $200, 2nd $125, 3rd $80, 4th $60, 5th $35; 6th to 10th get 40k XP for Season Zero. Contest, only placed entries are paid",
-      "reward_usd_est": 200,
-      "source": "Superteam Earn listing, published 2026-11-06, checked 2026-11-23, still open, no deadline stated on the listing",
-      "summary": "Swap.io, a Solana swap platform whose Agent API lets AI agents get swap quotes and pay per call in USDC through x402, is paying for a 60 to 120 second video pitching one concrete way an agent could use x402 with Swap.io. Post the video on X tagging @swapdotio and @Superteam, plus a Medium copy. No code needed, mockups and storyboards are welcome, and a working demo with a Solscan link earns up to 30 percent bonus. Judging weights idea and clarity at 45 percent, production quality 35 percent and X reach 20 percent. Contest, only placed entries are paid. No deadline is stated on the listing, and submissions were still open when checked on Nov 18.",
-      "title": "Swap.io x402 video bounty, $200 for a 60 second pitch on agent payments",
-      "type": "Bounty",
-      "url": "https://earn.superteam.fun/listing/make-a-video-about-our-x402-feature"
-    },
-    {
       "deadline": "2026-12-26T23:59:00+05:30",
       "effort": "Low",
       "fit_score": 60,
@@ -406,6 +355,23 @@
       "requirements": "Make a video with HeyGen Video 1.0 through HeyGen MCP (at least 70% of the footage), post on X with #HeyGenVideoContest in the first line, tag @HeyGenMCP and follow it, then submit the post link in the form on the contest page. Up to 3 entries per person. No paid HeyGen plan needed, free allowance covers up to 3 entries. Payout is via PayPal: confirm Nigeria is eligible in the official rules, PayPal receiving is restricted in Nigeria.",
       "published_at": "2026-11-10",
       "url": "https://www-redesign.heygen.com/blog/video-contest",
+      "manual": true
+    },
+    {
+      "id": "binance-agent-id-community-promo-campaign",
+      "title": "Binance Agent ID community promo campaign, share of $2,000 USDC for X posts about hackathon projects, closes Dec 9",
+      "type": "Campaign",
+      "project": "Binance Agentic Wallet",
+      "deadline": "2026-12-09",
+      "effort": "Low",
+      "fit_score": 25,
+      "reward_text": "Share of 2,000 USDC across 20 winners, about 100 USDC each, for original X posts about participating hackathon projects. Contest, only 20 winners are paid",
+      "reward_usd_est": 100,
+      "source": "Binance Square hackathon announcement, checked 2026-11-23, community campaign open, submissions close Dec 9 08:00 UTC",
+      "summary": "Binance Wallet and BNB Chain are running the Agent ID Hackathon, and alongside the $58,000 project awards there is a $2,000 community promotion campaign: 20 winners share the pool for original X posts about participating projects. Post about an Agent ID hackathon entry, no fee, deposit or purchase to enter. Honest fit: the reward is small, about 100 USDC per winner, and you need to follow the hackathon to find projects worth posting about, but it is a real Binance-paid post opportunity in the agentic wallet niche you already cover, and the posts double as board content.",
+      "requirements": "Post original X content about a participating Agent ID Hackathon project. No fee, deposit or purchase to enter. Winners picked on quality of the post. Submissions close Dec 9, 2026 08:00 UTC.",
+      "published_at": "2026-11-18",
+      "url": "https://www.binance.com/en-JP/square/post/11-18-2026-binance-wallet-and-bnb-chain-to-host-agent-id-hackathon-with-60-000-usdc-in-rewards-389517706162185",
       "manual": true
     }
   ]
