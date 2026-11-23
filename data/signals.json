@@ -1,6 +1,126 @@
 {
   "signals": [
     {
+      "angle": "The subnet that sells inference is buying its own token back with everything it earns, and it says the pause is over. Explain it in one line, every dollar the miners earn goes to buying and burning the subnet's token, then the honest caveat, no numbers were shared, so nobody knows how big the burn actually is, and ask followers whether a buy-burn is a business model or a marketing line.",
+      "category": "AI",
+      "discovered_at": "2026-11-23",
+      "id": "bittensor-chutes-buy-burn-resumes-2026-11-23",
+      "manual": true,
+      "project": "Bittensor (SN64 Chutes)",
+      "published_at": "2026-11-23",
+      "score": 60,
+      "source": "Bittensor Daily",
+      "source_type": "news",
+      "summary": "Chutes (subnet 64) confirmed on Nov 23 that its alpha buy-burn program, paused since August, will resume immediately with the Gamma release, covering 100% of revenue from miners. Community members in the subnet channel pressed the team for revenue and profitability detail after months of pause; the team said its direction, laid out in an October post and at Exploit, has not changed. The same edition notes Chutes provided OpenRouter with end-to-end encrypted TEE inference, described as likely the first such case, though OpenRouter kept a warning message on the platform. Honest caveats: no revenue figures were given, so the size of the resumed buy-burn is unknown; and the TEE inference claim is a community member's statement, not an OpenRouter announcement.",
+      "tags": [
+        "bittensor",
+        "chutes",
+        "sn64",
+        "buy-burn",
+        "gamma",
+        "tee"
+      ],
+      "title": "Chutes restarts its alpha buy-burn at 100% of miner revenue with the Gamma release",
+      "type": "Project Watch",
+      "url": "https://www.1t1b.ai/2026-11-23/"
+    },
+    {
+      "angle": "The governance post your frame needs, from inside the network's own chat: the rule that kills weak subnets may be killing the wrong ones. Explain it in one line, a subnet that games emissions survives, a subnet that earns real revenue gets deregistered, then the honest caveat, this is one member's case, not a vote, and nobody from the team answered, and ask followers whether a chain should deregister by price, by revenue, or not at all.",
+      "category": "AI",
+      "discovered_at": "2026-11-23",
+      "id": "bittensor-rao-dereg-critique-2026-11-23",
+      "manual": true,
+      "project": "Bittensor",
+      "published_at": "2026-11-23",
+      "score": 64,
+      "source": "Bittensor Daily",
+      "source_type": "news",
+      "summary": "A member of Bittensor's #Rao channel laid out a structural critique of the deregistration mechanism on Nov 23, arguing that price-based deregistration lets gamed, immunity-period subnets outlast revenue-generating ones. The argument: it is easier to register and game a subnet to extract TAO than to build a genuine product, new subnets get an immunity period plus extra early emissions, and burning miner incentives can keep a gamed subnet's price high, while genuine projects like Vidaio at 0.0038 and Bitsec at 0.0027 sit near the deregistration price. NIOME, one of the few subnets generating real revenue, was named at 0.0021, next in line to be deregistered. No team or moderator voice responded in the channel. Honest caveats: this is one member's argument, not a governance proposal or an official response; and the deregistration rule already changed once, from age-based to price-based, after the Nov 17 debate.",
+      "tags": [
+        "bittensor",
+        "deregistration",
+        "rao",
+        "niome",
+        "governance",
+        "emissions"
+      ],
+      "title": "Bittensor members say the dereg rule protects gamed subnets and threatens the ones earning real revenue",
+      "type": "Project Watch",
+      "url": "https://www.1t1b.ai/2026-11-23/"
+    },
+    {
+      "angle": "The privacy protocol is building its quantum lock before the quantum computer arrives, but the lock is on a testnet and the front door is still the old one. Explain it in one line, the notes can be encrypted against a future quantum computer, the spending still cannot, then the honest caveat, a prototype on Sepolia is not protection on mainnet, and ask followers whether a privacy chain should rebuild for quantum now or wait until the threat is real.",
+      "category": "Privacy",
+      "discovered_at": "2026-11-23",
+      "id": "railgun-zknox-pq-note-encryption-2026-11-22",
+      "manual": true,
+      "project": "Railgun",
+      "published_at": "2026-11-22",
+      "score": 62,
+      "source": "The Defiant",
+      "source_type": "news",
+      "summary": "ZKNOX built a wallet proof of concept that tests new post-quantum note encryption for Railgun on the Sepolia testnet, highlighted by the Railgun community account on Nov 22. The demo shows notes encrypted with quantum-resistant cryptography, but it does not make Railgun's spending system quantum-resistant: the live protocol still relies on today's cryptography, and the prototype only covers note encryption, not spending. The work lands as Ethereum maps its own post-quantum roadmap, with Vitalik Buterin stressing quantum readiness and privacy in the latest roadmap. Honest caveats: this is a testnet prototype, not a shipped upgrade; no mainnet date or deployment plan was announced; and the event's listing as a post-quantum launch overstates what exists today.",
+      "tags": [
+        "railgun",
+        "post-quantum",
+        "zknox",
+        "sepolia",
+        "note encryption",
+        "prototype"
+      ],
+      "title": "Railgun tests post-quantum note encryption on Sepolia, a prototype, not live protection yet",
+      "type": "Project Watch",
+      "url": "https://fxpanic.com/news/33354432/RAILGUN-Community-Account-Touts-Post-Quantum-Prototype"
+    },
+    {
+      "angle": "The oversight post from inside the AI network, part two: the scoreboard says the miners are fast, the stopwatch disagrees. Explain it in one line, the telemetry says 325, the wall clock says 220, and the gap decides who gets paid, then the honest caveat, one analysis is not proof of gaming, and the team says the work is real, and ask followers who checks the scoreboard when the subnet grades its own homework.",
+      "category": "AI",
+      "discovered_at": "2026-11-23",
+      "id": "bittensor-sn105-beam-speed-mismatch-2026-11-22",
+      "manual": true,
+      "project": "Bittensor (SN105 Beam)",
+      "published_at": "2026-11-22",
+      "score": 66,
+      "source": "Bittensor Daily",
+      "source_type": "news",
+      "summary": "A community member downloaded roughly 456 paid room transfers and 117 standard transfers from Beam's telemetry API over about 24 hours and ran two independent tests, finding recorded per-miner speeds of around 325 Mbps on average, over 400 Mbps for several miners, against roughly 220 Mbps measured end to end in wall-clock time for the same transfers. The analysis also noted the top PRISM tier bar moved sharply after a relatively small amount of paid room-transfer spend. The Beam team said the room transfers are legitimate paid client work billed at a stated rate, that PRISM rewards verified work, and that payer identities will not be published. Miners discussed capping PRISM impact per route to prevent rank-buying through repeated paid transfers. Honest caveats: the mismatch is one community analysis, not an independent audit; the team disputes the interpretation, not the transfers themselves; and runtime 493's move of Gamma spending to customer hotkeys also touches Beam's Azure integration.",
+      "tags": [
+        "bittensor",
+        "beam",
+        "sn105",
+        "prism",
+        "telemetry",
+        "subnet"
+      ],
+      "title": "Bittensor subnet Beam's scoreboard says 325 Mbps, the stopwatch says 220",
+      "type": "Project Watch",
+      "url": "https://www.1t1b.ai/2026-11-22/"
+    },
+    {
+      "angle": "The private AI platform just added Google's newest frontier model, and the pitch is the same as ever: the same model, none of the tracking. Explain it in one line, you get Gemini 4 Neon with a million-token memory and no account history attached, then the honest caveat, anonymous is not encrypted, this tier hides who you are, not what you send, and ask followers whether a private wrapper around a closed model is real privacy or just a better promise.",
+      "category": "AI",
+      "discovered_at": "2026-11-23",
+      "id": "venice-gemini-4-neon-2026-11-22",
+      "manual": true,
+      "project": "Venice AI",
+      "published_at": "2026-11-22",
+      "score": 62,
+      "source": "Venice AI",
+      "source_type": "news",
+      "summary": "Venice AI added Gemini 4 Neon, Google DeepMind's mid-range frontier model released Nov 18, to its platform, with the model live on Venice around Nov 22. On Venice it runs under the anonymized privacy tier: prompts are not stored, profiled or used for training, and nothing ties a conversation to a personal account history, with tool use, vision, reasoning and web search intact and a 1 million token context window. Venice bills it per token at $3.75 per million input tokens and $18.75 per million output tokens. Honest caveats: the model is closed and proprietary, so it cannot be self-hosted, audited or fine-tuned; on Venice it runs under the anonymized tier only, with no TEE isolation or end-to-end encryption for this model; and Nov 18 is Google's release date, the Venice availability is the Nov 22 event.",
+      "tags": [
+        "venice",
+        "gemini 4 neon",
+        "google",
+        "anonymized",
+        "private ai",
+        "frontier model"
+      ],
+      "title": "Venice puts Google's Gemini 4 Neon behind its anonymous tier, no account history attached",
+      "type": "Project Watch",
+      "url": "https://venice.ai/models/gemini-4-neon"
+    },
+    {
       "id": "chainflip-vault-drain-2026-11-21",
       "title": "Chainflip vaults drained of about $12M in a validly signed withdrawal, network halted",
       "project": "Chainflip",
@@ -1314,55 +1434,6 @@
       "url": "https://shizzyunchained.com/subnet-news/2026-11-17"
     },
     {
-      "angle": "A privacy protocol built for banks just opened its doors to everyone, and the honest tension is the story: your payments are hidden from the public and your competitors, but an auditor can read every one of them, by design. Explain the trade in one line, Enygma hides who paid whom and how much from everyone except the holder of the auditor key, then the question, is privacy with a built-in auditor still privacy, or is it the version banks and regulators can finally live with, and ask followers which side of that line they would stand on.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-17",
-      "id": "rayls-enygma-public-testnet-2026-11-15",
-      "manual": true,
-      "project": "Rayls",
-      "published_at": "2026-11-15",
-      "score": 84,
-      "source": "Rayls",
-      "source_type": "blog",
-      "summary": "Rayls opened the public testnet pilot of Enygma Public, a privacy protocol for EVM chains that hides who paid whom and how much, encrypting amounts and recipients with AES-256-GCM under keys agreed through ML-KEM, the NIST post-quantum standard, and keeping an auditor in the loop by design. In this testnet deployment the Rayls Foundation holds the auditor keys and can read every payment. Payments sit in one shared shielded pool, a relayer submits each one so the sender address is not in the transaction, and gas is paid in shielded $RLS. Passkey wallets replace seed phrases, and invite links solve the first-gas problem by delivering private test tokens to a new account. It runs on the Rayls Public Chain Testnet with test tokens only, so nothing sent there has real value. The honest limits, from Rayls itself: the zero-knowledge proofs and signatures are not post-quantum, so the design is quantum-private, not quantum-secure, and the anonymity set is the crowd of notes in the pool, which is thin while the pilot is new. Shielded swaps, delivery versus payment and sealed-bid auctions are promised in the coming weeks. The post carries no printed date of its own; first coverage appeared Nov 15.",
-      "tags": [
-        "rayls",
-        "enygma",
-        "private payments",
-        "post-quantum",
-        "ml-kem",
-        "auditor",
-        "testnet"
-      ],
-      "title": "Rayls opens a public testnet for Enygma, private payments where the auditor can still read everything",
-      "type": "Project Watch",
-      "url": "https://www.rayls.com/blog/rayls-enygma-public-testnet-pilot"
-    },
-    {
-      "angle": "Private balances just reached an everyday Solana wallet, and the honest framing is the hook: it hides how much you hold and how much you pay, not who you are. Explain the split in one line, the amounts go dark, the addresses stay lit, then the question, is hiding the amount enough when the counterparty is still public, and ask followers whether they would move their balance into Private Mode before the audit results are out.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-17",
-      "id": "solflare-private-mode-2026-11-15",
-      "manual": true,
-      "project": "Solflare",
-      "published_at": "2026-11-15",
-      "score": 82,
-      "source": "Solflare",
-      "source_type": "blog",
-      "summary": "Solflare launched Private Mode on Nov 15, a state its Solana wallet can be in where the amount you hold and the amounts you pay are no longer public. It is powered by Helius Privacy Rings, which went live on Solana mainnet on Nov 10. Private Mode encrypts balances and payment amounts between users who both have it set up, runs from the same Solana address with no second wallet to set up, and stays fully self-custodial. The honest limits: sender and recipient addresses stay visible, deposits and withdrawals into Private Mode are public, and swaps, staking and other apps still use the public balance, so funds must leave Private Mode to use them. Solflare says Helius independent security audits of the protocol are underway, with results to be published once available.",
-      "tags": [
-        "solflare",
-        "solana",
-        "private mode",
-        "helius",
-        "privacy rings",
-        "balances"
-      ],
-      "title": "Solflare adds Private Mode to its Solana wallet, balances and payment amounts go encrypted",
-      "type": "Project Watch",
-      "url": "https://www.solflare.com/blog/introducing-private-mode/"
-    },
-    {
       "id": "wbtc-confidential-defi-zama-2026-11-16",
       "title": "WBTC goes confidential with Zama FHE, your vault balance stays encrypted",
       "project": "Zama",
@@ -1459,30 +1530,6 @@
       "manual": true
     },
     {
-      "id": "bittensor-ms-computer-sn24-host-run-2026-11-15",
-      "title": "Bittensor subnet ms.computer launches free hosting and AI-agent sandboxes",
-      "project": "Bittensor",
-      "source": "Shizzy Unchained (Bittensor Daily News)",
-      "source_type": "news",
-      "url": "https://shizzyunchained.com/subnet-news/2026-11-16",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 76,
-      "summary": "ms.computer announced the launch of subnet 24 on Nov 15, offering HOST, free hosting for websites or apps, and RUN, a sandbox where an AI agent runs on its own. A third feature, CONNECT, an inference network, is marked coming soon. Mining is now open to anyone after a period with trusted miners, and miners are paid for the real work of running sandboxes. Honest caveats: the announcement invites users to a waitlist, so the launch is not proof of unrestricted access, and the team has not published usage or paid-demand figures.",
-      "angle": "A subnet that rents out the two things an agent needs most: somewhere to live and somewhere to run. Explain it in one line, HOST puts your app on the internet, RUN gives your agent its own locked room to work in, then the honest caveat, waitlist first, no usage numbers yet, and ask followers whether a decentralised host can beat a cloud provider on the one thing that matters, trust.",
-      "tags": [
-        "bittensor",
-        "ms.computer",
-        "subnet 24",
-        "hosting",
-        "ai agents",
-        "sandbox"
-      ],
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-17",
-      "manual": true
-    },
-    {
       "id": "binance-agent-id-200k-2026-11-16",
       "title": "Binance Agent ID claims pass 200,000 in under four weeks",
       "project": "Binance Agentic Wallet",
@@ -1550,52 +1597,6 @@
       ],
       "published_at": "2026-11-16",
       "discovered_at": "2026-11-16",
-      "manual": true
-    },
-    {
-      "id": "x402-passes-200m-payments-2026-11-15",
-      "title": "x402 passes 200 million settled payments, about $43M moved so far",
-      "project": "x402",
-      "source": "Agent Economy",
-      "source_type": "research",
-      "url": "https://agenteconomy.to/x402",
-      "category": "Agentic Wallet",
-      "type": "Update",
-      "score": 80,
-      "summary": "Agent Economy's live dataset, updated Nov 15 from public on-chain activity, counts 200,680,559 cumulative x402 payments settled and $42,999,352 in USD volume across 12 chains and 18 facilitators, with 486,706 payments on Nov 14 alone. Base carries the largest share at 90.9 million transactions. That is up from 198.3 million on Nov 9, about 2.3 million payments in six days. x402 revives HTTP 402 so an agent or app pays for an API call or a piece of content in stablecoins inside the request itself, with no account or sign-up. The page is careful with the number: settlement events include tests and infrastructure traffic, so the count shows the payment path being exercised, not audited end-user commerce.",
-      "angle": "The follow-up to the 198 million post from Nov 9: the rail crossed 200 million in under a week, about 2.3 million new payments. Keep the honest read in the post, volume is $43M total and most payments are cents, and the count is activity, not revenue, then ask followers what they would charge per request if every API call could carry its own payment.",
-      "tags": [
-        "x402",
-        "agent payments",
-        "coinbase",
-        "base",
-        "stablecoins"
-      ],
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-15",
-      "manual": true
-    },
-    {
-      "id": "dogeos-mainnet-nears-2026-11-15",
-      "title": "DogeOS says its Dogecoin app layer is nearly ready, audits done, no launch date yet",
-      "project": "DogeOS",
-      "source": "The Block (via ad-hoc-news)",
-      "source_type": "news",
-      "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dogeos-mainnet-nears-as-dogecoin-price-holds-at-usd-0-06/70516125",
-      "category": "Protocol Updates",
-      "type": "Update",
-      "score": 74,
-      "summary": "DogeOS founder Jordan Jefferson told The Block on Nov 11 that version one of the Dogecoin application layer and its audits are complete, and described the mainnet launch as very, very close, with no specific date. DogeOS is a zero-knowledge rollup designed to settle toward the Dogecoin chain and bring DeFi, games and other apps to DOGE, using DOGE itself for fees rather than a new token, with more than 100 builders working on projects. The honest caveat: until a proposed OP_CHECKZKP upgrade lets the base chain verify zero-knowledge proofs, the layer relies on its own permissioned validators, so early users trust the operator set, not the chain.",
-      "angle": "The memecoin gets a serious question: what if DOGE could run apps without changing what DOGE is. Explain the design in one line, apps live on a ZK rollup, DOGE pays the fees, the base chain stays a payments chain, then the caveat worth naming, permissioned validators until the chain itself can check the proofs, and ask followers whether a memecoin needs apps at all.",
-      "tags": [
-        "dogeos",
-        "dogecoin",
-        "zk rollup",
-        "mainnet",
-        "doge"
-      ],
-      "published_at": "2026-11-15",
-      "discovered_at": "2026-11-15",
       "manual": true
     },
     {
