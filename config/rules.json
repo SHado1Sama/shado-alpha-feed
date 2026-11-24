@@ -109,7 +109,10 @@
     "Pi Network",
     "Orbinum Network",
     "Fluidkey",
-    "OpenRouter"
+    "OpenRouter",
+    "Sui",
+    "Pieverse",
+    "Nous Research"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -287,6 +290,9 @@
     "Pi Network": "Agentic Wallet",
     "Orbinum Network": "Privacy",
     "Fluidkey": "Privacy",
-    "OpenRouter": "Privacy"
+    "OpenRouter": "Privacy",
+    "Sui": "Agentic Wallet",
+    "Pieverse": "Privacy",
+    "Nous Research": "AI"
   }
 }
