@@ -1,6 +1,123 @@
 {
   "signals": [
     {
+      "id": "google-workspace-mcp-servers-ga-2026-11-24",
+      "title": "Google Workspace MCP servers go live, and agents must use them instead of APIs from February",
+      "project": "Google Workspace",
+      "source": "Google Workspace Blog",
+      "source_type": "blog",
+      "url": "https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace",
+      "category": "Agentic Wallet",
+      "type": "Update",
+      "score": 82,
+      "summary": "Google announced on Nov 24 that its managed MCP servers for Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat and Tasks are generally available, alongside a Workspace CLI. A new Workspace AI Tools Addendum requires AI agents to use the MCP servers or CLI instead of REST APIs, with technical enforcement from Feb 1, 2027, and usage quotas billed from Apr 1, 2027. The managed servers carry dedicated OAuth client IDs, least-privilege scopes and time-limited approvals, and Google Cloud Agent Gateway verifies agent identities for admin controls. Honest caveat: this is a platform rule change, not a new capability, and it only binds agents inside Workspace; the Feb 1 enforcement date is what makes it a deadline, not a suggestion.",
+      "angle": "The control layer, shipped as plumbing: Google is moving every Workspace agent onto MCP with its own identity and time-limited approvals, and REST API access gets cut in February. Explain what MCP actually changes for an agent that reads your email, and why the identity check matters.",
+      "tags": [
+        "Google Workspace",
+        "MCP",
+        "AI agents",
+        "OAuth",
+        "agent identity"
+      ],
+      "published_at": "2026-11-24",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "claude-openai-vp-vnp-proof-claims-2026-11-24",
+      "title": "Anthropic and OpenAI both claim proofs that VP is not equal to VNP, within hours of each other",
+      "project": "Anthropic / OpenAI (Claude)",
+      "source": "Notebookcheck",
+      "source_type": "news",
+      "url": "https://www.notebookcheck.net/Anthropic-and-OpenAI-claim-breakthroughs-on-a-47-year-old-fundamental-math-problem.1459160.0.html",
+      "category": "AI",
+      "type": "Update",
+      "score": 80,
+      "summary": "On Nov 23 to 24, Anthropic and OpenAI both claimed proofs of VP != VNP, Valiant's 1979 conjecture and the algebraic counterpart of P vs NP. Anthropic's paper is a 70-page document credited solely to Claude, backed by a Lean 4 formalisation of about 73,000 lines across 324 files in its formal-math GitHub repo, and OpenAI posted its own proof about six hours later. Neither proof has been checked by any human mathematician; Anthropic's own README says no human has checked it and that Lean checks the proofs but no machine checks that the formal file says what is claimed. Honest caveat: a machine-checked proof of a 47-year-old conjecture that no human has read is a verification problem in itself, and neither result settles P vs NP.",
+      "angle": "The identity and oversight post in one: an AI wrote a proof no human has read, and the proof is about what machines can and cannot do efficiently. Explain VP vs VNP in plain words, then ask followers who vouches for a proof nobody has checked.",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "Claude",
+        "VP vs VNP",
+        "Lean",
+        "formal verification"
+      ],
+      "published_at": "2026-11-24",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "anthropic-claude-ship-2026-11-23",
+      "title": "Anthropic's Claude Ship lets AI agents review, fix and approve pull requests",
+      "project": "Anthropic (Claude)",
+      "source": "Anthropic",
+      "source_type": "blog",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "category": "AI",
+      "type": "Update",
+      "score": 86,
+      "summary": "Anthropic launched Claude Ship in beta on Nov 23 for Team and Enterprise plans on GitHub: Code Review is generally available, while PR Steward and Claude Approvals are in beta. Agents review code, fix issues and approve pull requests against a team-written policy file, and a /ship command in the Claude Code CLI can bundle a review with a summary. Anthropic itself recommends starting in observe-only mode, where agents review without acting, and Ship is not available to organisations with zero data retention, HIPAA or customer-managed keys. Anthropic is also offering $10,000 in credits to eligible teams that claim them by Jan 15, 2027. Honest caveat: an agent that can approve its own peers' code is a control question, not just a productivity gain, and the beta limits mean the most regulated teams cannot use it at all.",
+      "angle": "The control question, in one line: who approves the approver? Walk through what Claude Ship can do on GitHub, why Anthropic says start observe-only, and ask followers what policy they would write before letting an agent merge code.",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Claude Ship",
+        "GitHub",
+        "AI agents",
+        "code review"
+      ],
+      "published_at": "2026-11-23",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "google-personal-intelligence-wallet-drive-2026-11-23",
+      "title": "Google's Personal Intelligence now reaches into Wallet, and Drive is next",
+      "project": "Google Search / Gemini",
+      "source": "Google (The Keyword blog)",
+      "source_type": "blog",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "category": "Privacy",
+      "type": "Update",
+      "score": 84,
+      "summary": "Google said Nov 23 that Personal Intelligence, the opt-in layer that lets Search and Gemini answer from your Gmail, Calendar and Photos, is expanding to Wallet first, with Drive and the Gemini app to follow in the coming weeks. The Wallet connection is read-only: it can read loyalty cards, passes and tickets to answer questions like when a flight leaves, and Google says the data is not used to train models and the connection can be switched off per app. Honest caveat: the expansion is rolling out in stages, so not every user sees it yet, and the convenience trades on a single company holding the keys to your inbox, calendar, photos, wallet and drive, which is exactly the concentration risk the privacy frame warns about.",
+      "angle": "The privacy trade, stated plainly: one opt-in switch hands Google your inbox, calendar, photos and now your wallet. Explain what Personal Intelligence actually reads, what it promises not to train on, and ask followers whether the convenience is worth the concentration.",
+      "tags": [
+        "Google",
+        "Personal Intelligence",
+        "Gemini",
+        "Wallet",
+        "data access"
+      ],
+      "published_at": "2026-11-23",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "near-ai-open-secure-ai-alliance-2026-11-20",
+      "title": "NEAR AI joins the Open Secure AI Alliance as a founding member, bringing verifiable inference",
+      "project": "NEAR AI",
+      "source": "TronWeekly",
+      "source_type": "news",
+      "url": "https://www.tronweekly.com/near-ai-expands-secure-ai-ecosystem-as-near/",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 64,
+      "summary": "NEAR AI announced on Nov 20 that it has joined the Open Secure AI Alliance as an inaugural founding member. The alliance was launched on Jul 27, 2026 by NVIDIA, is now hosted by the Linux Foundation, and counts 122 organisations. NEAR AI's contribution is verifiable AI inference: model responses are signed inside a secure enclave and verified against Intel and NVIDIA attestation, so a caller can check a response really came from the claimed model and hardware. Honest caveat: the alliance itself launched in July, so the news is NEAR AI's membership, not a new alliance, and enclave-signed inference proves which model answered, not that the answer is true.",
+      "angle": "The verification post: NEAR AI now signs its answers inside a secure enclave so you can check the model, not just trust the label. Explain attested inference in one line, then the honest limit, it proves who answered, not whether the answer is right.",
+      "tags": [
+        "NEAR AI",
+        "Open Secure AI Alliance",
+        "verifiable inference",
+        "TEE",
+        "Linux Foundation"
+      ],
+      "published_at": "2026-11-20",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
       "id": "x402-agent-payments-nearly-tripled-2026-11-24",
       "title": "Agent payments nearly tripled in a month, but 20 wallets made 95 percent of them",
       "project": "x402 (Coinbase)",
@@ -410,29 +527,6 @@
       "manual": true
     },
     {
-      "id": "nillion-derec-alliance-2026-11-17",
-      "title": "Nillion joins the DeRec Alliance, bringing blind compute to key recovery",
-      "project": "Nillion",
-      "source": "Genfinity (Nillion)",
-      "source_type": "news",
-      "url": "https://genfinity.io/2026/11/17/derec-alliance-nillion-bank-social-self-custody-recovery/",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 62,
-      "summary": "Nillion joined the DeRec Alliance on Nov 17, the non-profit building an open standard for recovering lost or compromised secrets such as private keys and passwords. The alliance, founded by the Hedera and Algorand ecosystems, splits a secret into pieces held by helpers, and its members include Ripple, Cardano, Input Output and Bank Social, which went live the same week with the first deployment of the standard to thousands of bank and credit union users. Nillion CEO John Alan Woods said the network brings applied cryptography, privacy and post-quantum security to the standard, and the same conversation confirmed Nillion's Covenants will soon power private stop losses on Hyperliquid. Honest caveats: joining an alliance is a membership, not a shipped product, and no Nillion-built recovery deployment or date was announced.",
-      "angle": "The identity post with a recovery twist: losing your key should not mean losing everything, and the privacy network just joined the group writing the standard for getting it back. Explain it in one line, your secret is split among helpers so no one helper can steal it and any few can restore it, then the honest caveat, this is a membership and a conversation, not a product you can use yet, and ask followers whether key recovery is the missing piece of self-custody or the hole that breaks it.",
-      "tags": [
-        "nillion",
-        "derec",
-        "key recovery",
-        "self-custody",
-        "alliance"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-22",
-      "manual": true
-    },
-    {
       "id": "bittensor-sn55-niome-logs-2026-11-21",
       "title": "Bittensor subnet NIOME deletes validator logs after a miner finds top earners missing from the records",
       "project": "Bittensor (SN55 NIOME)",
@@ -575,30 +669,6 @@
         "dev fund"
       ],
       "published_at": "2026-11-20",
-      "discovered_at": "2026-11-22",
-      "manual": true
-    },
-    {
-      "id": "sui-allowances-agent-keys-2026-11-17",
-      "title": "Sui puts spending caps on AI agent keys, enforced by the network instead of the app",
-      "project": "Sui",
-      "source": "Coinranking (Sui Network)",
-      "source_type": "news",
-      "url": "https://coinranking.com/news/sui-rolls-out-allowances-spending-caps-rate-limits-agent",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "score": 80,
-      "summary": "Sui Network promoted Allowances on Nov 17, a feature that turns a regular key into a limited-use key for AI agents. The owner sets a lifetime spending cap and a rate limit, such as a daily cap, and the network enforces both through the sui::allowance module, so a stolen agent key cannot spend beyond the limits and the agent cannot override them. The funder can revoke an allowance at any time and holds an AllowanceCap token for cancellation. The feature targets developers building agents on Sui and apps that hold delegated keys, for automated trading, recurring sessions and app permissions. Honest caveats: the allowance primitive itself has existed in Sui's framework since September 2026, so Nov 17 was Sui publicising it for agent keys, not brand-new code; no wallet or agent platform has confirmed turning it on yet; and there are no adoption figures, so this is infrastructure waiting for users.",
-      "angle": "The control post your governance frame needs, from a chain, not an exchange: the spending limit lives in the network, where the agent cannot rewrite it. Explain it in one line, you hand the agent a key that can only spend what you wrote down, and the chain, not the app, enforces it, then the honest caveat, the code has been there since September, and no wallet has switched it on yet, and ask followers whether agent safety belongs in the model, the app, or the chain underneath.",
-      "tags": [
-        "sui",
-        "allowances",
-        "agent keys",
-        "spending caps",
-        "session keys",
-        "agentic"
-      ],
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-22",
       "manual": true
     },
@@ -797,31 +867,6 @@
       "manual": true
     },
     {
-      "id": "zcash-dev-fund-poll-50k-zec-2026-11-17",
-      "title": "Zcash votes on removing 50,000 ZEC from its grants treasury and cutting block times to 20 seconds",
-      "project": "Zcash",
-      "source": "Coinpaper (Zcash Foundation announcement)",
-      "source_type": "news",
-      "url": "https://coinpaper.com/38975/zcash-governance-vote-could-redirect-8-funding-stream-and-cut-block-times-to-20-seconds",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 84,
-      "summary": "Zcash opened a community governance poll on Nov 16 that runs to Nov 30, with the Zcash Foundation announcement giving Dec 1 02:59 UTC as the close. Coinholders and community panels vote on the future of the Dev Fund. The headline proposal, written by co-founders Sean Bowe and Zooko Wilcox with Jason McGee of Shielded Labs, would end Zcash Community Grants' 8% share of block rewards, pay it instead into a Future Dev and Legal Defense Fund lockbox until the third halving, and require the grants committee to remove 50,000 ZEC, about 55% of its 91,453 ZEC treasury, into the Network Sustainability Mechanism, where the coins return gradually as future block rewards. The poll also asks whether target block times should fall from 25 seconds to 20 seconds, weeks after NU7 cut them from 75. Three other options are on the ballot, including keeping the current arrangements. Honest caveats: the poll is advisory, not binding, and a result showing rough consensus would lead to a NU7.1 network upgrade to implement it; the lockbox has no spending rules yet, so a future proposal must decide how the money gets spent.",
-      "angle": "The privacy coin is voting on its own wallet: who gets the 8% of every block, and whether 50,000 ZEC leaves the grants treasury for good. Explain the trade in one line, the grants program that funded Zcash development could wind down and the money would sit in a locked fund with no spending rules yet, then the honest caveat, the vote advises, it does not decide, and ask followers whether a privacy coin should spend its treasury on grants, lock it away for legal defence, or hand it back to miners over time.",
-      "tags": [
-        "zcash",
-        "zec",
-        "dev fund",
-        "governance",
-        "zcg",
-        "nu7.1",
-        "poll"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-21",
-      "manual": true
-    },
-    {
       "id": "thinking-machines-inkling-2-mini-2026-11-20",
       "title": "Thinking Machines releases Inkling 2 Mini, a 26B open-weights model that runs on a laptop",
       "project": "Thinking Machines",
@@ -894,30 +939,6 @@
       "manual": true
     },
     {
-      "id": "google-gemini-privacy-toggle-split-2026-11-17",
-      "title": "Google splits Gemini's privacy toggle, keep your chat history and still opt out of AI training",
-      "project": "Google Gemini",
-      "source": "Lookonchain (Beating AI Newsflash)",
-      "source_type": "news",
-      "url": "https://lookonchain.com/feeds/82669",
-      "category": "Privacy",
-      "type": "Update",
-      "score": 80,
-      "summary": "Google separated Gemini's two settings: users can now keep their chat history while opting out of having chats, files and images used to train AI models. Previously, blocking training meant giving up history too. Once training is off, future conversations are in principle not used for training, except when users voluntarily submit feedback. The catch sits in the fine print: disabling history now keeps data for up to about two months instead of 72 hours, and Google may still have humans review some chats for security audits and service improvement, disassociated from accounts and kept up to three years, not deletable even if history is deleted. The settings roll out globally over the coming weeks, and users who had history off keep both toggles off after migration. Honest caveats: the opt-out covers training, not all human review, and the retention change is a step back in one place while the toggle is a step forward in another.",
-      "angle": "The control post your governance frame needs: Google finally let you keep your chats and refuse the training at the same time, but the fine print keeps a human-review door open for up to three years. Explain the split in one line, history and training are now two switches, not one, then the honest caveat, opting out of training is not opting out of review, and ask followers whether a toggle that still lets a human read your chats is privacy or just a setting.",
-      "tags": [
-        "google",
-        "gemini",
-        "privacy",
-        "ai training",
-        "opt-out",
-        "data retention"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-20",
-      "manual": true
-    },
-    {
       "id": "orbinum-private-staking-testnet-2026-11-20",
       "title": "Orbinum switches on private staking on testnet, hiding who stakes and how much",
       "project": "Orbinum Network",
@@ -938,29 +959,6 @@
         "groth16"
       ],
       "published_at": "2026-11-20",
-      "discovered_at": "2026-11-20",
-      "manual": true
-    },
-    {
-      "id": "fhenix-arbitrum-quantum-safe-2026-11-17",
-      "title": "Fhenix and Arbitrum announce quantum-safe infrastructure for confidential tokens",
-      "project": "Fhenix",
-      "source": "TokenPost",
-      "source_type": "news",
-      "url": "http://tokenpost.com/news/technology/59792",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 68,
-      "summary": "Fhenix and Arbitrum announced joint work on quantum-safe infrastructure for confidential tokens, aiming to strengthen security around tokens whose balances and transfers stay encrypted. Fhenix's mainnet on Arbitrum already runs private transactions on fully homomorphic encryption, with a Dual Mode switch between public and private. Honest caveats: the announcement carries no technical details, no timeline and no named deliverable, so it is a direction of travel, not a shipped feature, and quantum-safe here means future-proofing the cryptography, not a new product to use today.",
-      "angle": "The quantum question lands on confidential tokens: Fhenix and Arbitrum are working on making encrypted balances safe against future quantum attacks. Explain it in one line, today's encryption hides the amount, tomorrow's computers might not be fooled, so the fix has to come before the threat, then the honest caveat, an announcement with no details is a promise, not a product, and ask followers whether quantum-safe privacy is a real roadmap item or just the next buzzword to watch.",
-      "tags": [
-        "fhenix",
-        "arbitrum",
-        "quantum-safe",
-        "fhe",
-        "confidential tokens"
-      ],
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-20",
       "manual": true
     },
@@ -1009,30 +1007,6 @@
         "wallet security"
       ],
       "published_at": "2026-11-19",
-      "discovered_at": "2026-11-20",
-      "manual": true
-    },
-    {
-      "id": "bitwise-zec-etf-s1-2026-11-17",
-      "title": "Bitwise files for a spot Zcash ETF on the Texas Stock Exchange, ticker ZEC",
-      "project": "Zcash",
-      "source": "Crypto Briefing",
-      "source_type": "news",
-      "url": "https://cryptobriefing.com/bitwise-zcash-etf-texas-stock-exchange/",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 84,
-      "summary": "Bitwise filed a public Form S-1 with the SEC on Nov 17, 2026 for a spot Zcash ETF that would hold ZEC directly and list on the Texas Stock Exchange under the ticker ZEC, with Coinbase Custody holding the ZEC and BNY Mellon handling administration. It is the third ZEC ETF effort: Grayscale's ZCSH has traded on NYSE Arca since August 2026 and held about 497 million dollars as of Nov 17, and the Winklevoss brothers filed for their own Zcash ETF on Nasdaq in October. Honest caveats: the registration is not effective, the fund has not begun trading, no launch date exists, and the annual sponsor fee is left blank in the filing.",
-      "angle": "The privacy coin's third trip to Wall Street: Bitwise wants a spot ZEC ETF, and it picked the Texas exchange, not New York. Explain the filing in one line, an S-1 is an application, not an approval, then the honest caveat, no date, no fee, no trading yet, and ask followers whether a privacy coin with three ETF filings is going mainstream or just going public.",
-      "tags": [
-        "zcash",
-        "zec",
-        "bitwise",
-        "etf",
-        "texas stock exchange",
-        "sec"
-      ],
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-20",
       "manual": true
     },
@@ -1087,31 +1061,6 @@
       "manual": true
     },
     {
-      "id": "virtuals-agent-tokenization-butler-eastworlds-2026-11-17",
-      "title": "Virtuals outlines three agent products: tokenization, the Butler app and Eastworlds robotics",
-      "project": "Virtuals",
-      "source": "CoinStats (Virtuals Protocol)",
-      "source_type": "news",
-      "url": "https://coinstats.app/ai/a/latest-news-for-virtual-protocol",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 72,
-      "summary": "Virtuals Protocol announced three AI-agent products on Nov 17: agent tokenization, the Butler: Virtuals App, and Eastworlds, framed as economic infrastructure for AI agents with VIRTUAL as the reserve asset. The same week's update said Butler now trades from verified news, and Eastworlds' robot-learning stack runs five manipulation tasks autonomously, from data to on-robot inference. Honest caveats: the announcement is a product outline from the protocol's own post, with no launch dates, usage numbers or pricing published, and VIRTUAL is down about 20 percent over the last seven days, so the market has not rewarded the news so far.",
-      "angle": "The agent economy's pitch, in three products: let agents raise capital, give them an app to trade from the news, and teach robots to do the work. Explain the idea in one line, an agent that can tokenize itself can fund itself, then the honest caveat, an outline is not a launch, no dates and no usage yet, and ask followers which of the three an agent actually needs first, money, a wallet, or hands.",
-      "tags": [
-        "virtuals",
-        "ai agents",
-        "agent tokenization",
-        "butler",
-        "eastworlds",
-        "robotics",
-        "base"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-20",
-      "manual": true
-    },
-    {
       "id": "midnight-banks-tokenized-deposits-2026-11-19",
       "title": "Six Canadian banks and one Japanese bank are exploring tokenized deposits on Midnight",
       "project": "Midnight",
@@ -1132,30 +1081,6 @@
         "rwa"
       ],
       "published_at": "2026-11-19",
-      "discovered_at": "2026-11-19",
-      "manual": true
-    },
-    {
-      "id": "venice-minds-mind-market-2026-11-17",
-      "title": "Venice launches Minds, an agent marketplace where creators keep 90% and 10% buys back VVV",
-      "project": "Venice AI",
-      "source": "KuCoin News Flash (ChainCatcher report)",
-      "source_type": "news",
-      "url": "https://www.kucoin.com/news/flash/ai-platform-venice-launches-mind-market-10-of-profits-used-to-buyback-and-burn-vvv",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 82,
-      "summary": "Venice launched Venice Minds and its Mind Market on Nov 17: subscribers on any paid plan can build task-specific AI agents, give them tools such as web search, image and video generation and crypto market analysis, and publish them on the Mind Market for other users to use. Creators earn credits each time their agent is used and keep 90 percent of the related profits, while Venice puts the remaining 10 percent toward buying back and burning VVV. Building and earning are available to Pro subscribers. Honest caveats: this is a launch, not usage, no creator or usage numbers were published, and the 10 percent buyback only matters if the marketplace earns real revenue.",
-      "angle": "Private AI just grew a creator economy: build an agent once, earn every time someone uses it. Explain the split in one line, the creator keeps 90 percent, the token burn gets 10 percent, then the honest caveat, a marketplace is only as good as its buyers, and ask followers what agent they would build first if every use paid them.",
-      "tags": [
-        "venice",
-        "venice minds",
-        "mind market",
-        "ai agents",
-        "vvv",
-        "creator economy"
-      ],
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-19",
       "manual": true
     },
@@ -1232,30 +1157,6 @@
       "manual": true
     },
     {
-      "id": "taostats-crosschain-swaps-2026-11-17",
-      "title": "Taostats adds cross-chain swaps, Ethereum to TAO and subnet alpha without a bridge account",
-      "project": "Bittensor",
-      "source": "The TAO Daily",
-      "source_type": "news",
-      "url": "https://taodaily.io/taostats-launches-cross-chain-swaps-between-ethereum-and-bittensor/",
-      "category": "AI",
-      "type": "Project Watch",
-      "score": 74,
-      "summary": "Taostats, the Bittensor block explorer, launched cross-chain swaps on Nov 17: Ethereum users can exchange ETH or USDC for TAO or the alpha token of a specific Bittensor subnet, and the route works in both directions, so subnet alpha can be swapped back to ETH or USDC on Ethereum. The swap runs from the same page, with no separate bridge or exchange account needed. Honest caveats: the feature is new and no volume or usage figures were published, and the article gives no fee or slippage figures, so the cost of the route is untested in public.",
-      "angle": "The on-ramp to Bittensor subnets just got shorter: the block explorer now swaps your ETH straight into a subnet's token. Explain it in one line, pick the subnet, pick the amount, no bridge account, no exchange hop, then the honest caveat, new feature, no fees or volumes published, and ask followers whether easier access changes which subnets get bought, or just how fast.",
-      "tags": [
-        "bittensor",
-        "taostats",
-        "cross-chain swaps",
-        "tao",
-        "subnet alpha",
-        "ethereum"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-19",
-      "manual": true
-    },
-    {
       "angle": "The oversight post your governance frame needs: the US government's own testers got every major chatbot to help plan an attack, in under 12 hours each. Explain the test in one line, ordinary accounts, common bypasses, no special access, then the honest caveat, spring 2026 models, not today's, and the companies say they have tightened since, then ask followers whether a guardrail that bends in 12 hours is a guardrail or a speed bump.",
       "category": "AI",
       "discovered_at": "2026-11-19",
@@ -1280,31 +1181,6 @@
       "title": "GAO got all four big chatbots to help plan viable attacks in under 12 hours each",
       "type": "Update",
       "url": "https://www.gao.gov/products/gao-27-108814"
-    },
-    {
-      "angle": "Confidential yield just left the vault app and moved into the wallet: explain the shift in one line, the same yield, but now any wallet can offer it without building the encryption itself, then the honest caveat, instant withdrawal gives the privacy back, so the private path is the slow batch, and ask followers whether they would take a slower exit to keep the amount hidden.",
-      "category": "Privacy",
-      "discovered_at": "2026-11-19",
-      "id": "zama-yield-xyz-confidential-vaults-2026-11-17",
-      "manual": true,
-      "project": "Zama",
-      "published_at": "2026-11-17",
-      "score": 80,
-      "source": "Zama",
-      "source_type": "blog",
-      "summary": "Yield.xyz integrated Zama confidential vaults on Nov 17, so wallets, custodians, neobanks and fintech apps can offer onchain yield through its Earn Widget and API while keeping each user's position balances encrypted with FHE. Six confidential vaults on Ethereum mainnet at launch: Steakhouse Confidential Prime USDC, Flowdesk Confidential High Yield USDT, RockawayX Confidential RWA USDC, Steakhouse Prime USDT, Wintermute Confidential WBTC and Bitwise Premium RWA AUSD. Deposits, balances and withdrawals stay encrypted while addresses and batch totals stay public. Honest caveats: confidentiality depends on batch participation, and an instant withdrawal returns public tokens and reveals the amount, so privacy is a choice at withdrawal time.",
-      "tags": [
-        "zama",
-        "yield.xyz",
-        "confidential vaults",
-        "fhe",
-        "defi",
-        "wallets",
-        "rwa"
-      ],
-      "title": "Yield.xyz plugs Zama confidential vaults into wallets and fintech apps, six vaults at launch",
-      "type": "Project Watch",
-      "url": "https://www.zama.org/post/yield-xyz-integrates-zama-confidential-vaults-bringing-confidential-yield-to-more-applications"
     },
     {
       "id": "zama-confidential-yield-plume-nuva-yuzu-2026-11-18",
@@ -1428,79 +1304,6 @@
         "governance"
       ],
       "published_at": "2026-11-18",
-      "discovered_at": "2026-11-18",
-      "manual": true
-    },
-    {
-      "id": "crossmint-fiat-privacy-rings-2026-11-17",
-      "title": "Crossmint funds Helius Privacy Rings straight from fiat, the deposit stays public",
-      "project": "Crossmint",
-      "source": "Crypto News",
-      "source_type": "news",
-      "url": "https://cryptonews.net/news/blockchain/33766503/",
-      "category": "Privacy",
-      "type": "Project Watch",
-      "score": 80,
-      "summary": "Crossmint launched direct fiat funding for encrypted Solana balances on Nov 17: eligible buyers outside the US can buy USDC or EURC with a card, Apple Pay or Google Pay, and the purchase lands straight in a Helius Privacy Rings encrypted balance, with no public wallet step first. The first fiat-funded USDC purchase completed on Nov 13. The honest limits come from Crossmint itself: the deposit stays public and auditable, recipient, token and amount all visible on chain, and only the balance and what comes after are encrypted. The recipient needs a registered Helius Private Wallet, or the order is refunded. A second version will fund purchases from Crossmint own private balance so the deposit is encrypted too, with no launch date announced. The launch follows Solflare Nov 15 Private Mode, which runs on the same Helius protocol.",
-      "angle": "The edge moved to the on-ramp. Fiat goes in, an encrypted balance comes out, but the deposit itself is public: who, what, how much. Crossmint own words: the deposit stays public and auditable. That is the edge problem in one product, privacy starts after the money arrives, not before. Pair it with the Solflare Private Mode signal for a post on where Solana privacy actually begins.",
-      "tags": [
-        "crossmint",
-        "helius",
-        "privacy rings",
-        "solana",
-        "onramp",
-        "usdc",
-        "eurc"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-18",
-      "manual": true
-    },
-    {
-      "id": "coinbase-chatgpt-plugin-approval-cards-2026-11-17",
-      "title": "Coinbase puts trading inside ChatGPT, every order still needs your tap",
-      "project": "Coinbase AgentKit",
-      "source": "Bitcoin Magazine",
-      "source_type": "news",
-      "url": "https://bitcoinmagazine.com/news/coinbase-chatgpt-plugin-bitcoin-trading",
-      "category": "Agentic Wallet",
-      "type": "Project Watch",
-      "score": 82,
-      "summary": "Coinbase launched an official ChatGPT plugin on Nov 17, 2026 that lets eligible US customers connect a Coinbase account and place, edit and cancel orders for crypto, stocks and dated futures inside a ChatGPT conversation, with an interactive confirmation card on every order, edit, cancellation and USD-USDC conversion. Orders route through Coinbase Advanced Trade at standard fees, with no extra fee for agent access. The plugin is deliberately narrower than Coinbase for Agents, the custom MCP connection launched in June, which can trade without per-trade approval and is the only route that supports x402 payments and global derivatives. Coinbase added Agent Controls on Nov 11, per-trade and 24-hour caps plus a loss stop. Honest caveats: US customers only for now, availability also depends on the ChatGPT account and workspace, and Coinbase's own disclaimer warns AI agents can fail and users remain responsible for what they direct.",
-      "angle": "The agent economy just got its first mainstream checkout: you can now talk to ChatGPT about a trade and place it without leaving the chat, but the human still taps yes on every order. Explain the split in one line, the AI does the research and drafts the order, you approve it, then the contrast that matters, the full agent toolkit trades without asking, this plugin always asks, and ask followers which side they want, an agent that asks every time or one that spends inside limits you set.",
-      "tags": [
-        "coinbase",
-        "chatgpt",
-        "agentkit",
-        "agent trading",
-        "approval",
-        "mcp"
-      ],
-      "published_at": "2026-11-17",
-      "discovered_at": "2026-11-18",
-      "manual": true
-    },
-    {
-      "id": "predict-fun-tge-delayed-again-2026-11-17",
-      "title": "Predict.fun delays its PREDICT token launch again, hours before the Nov 18 start",
-      "project": "Predict.fun",
-      "source": "Binance Square (Binance News)",
-      "source_type": "news",
-      "url": "https://www.binance.com/en-NG/square/post/389137807309625",
-      "category": "Launches & Airdrops",
-      "type": "Update",
-      "score": 76,
-      "summary": "Predict.fun postponed its PREDICT token generation event and Season 1 airdrop claims on Nov 17, less than a day before both were due to start on Nov 18 at 09:00 UTC, and now targets a launch within the next 2 to 4 weeks with a confirmed date to follow. This is the second postponement: Binance Wallet first scheduled PREDICT Alpha trading for Oct 30, then suspended it after the Oct 29 hack, and set the relaunch for Nov 18. The airdrop covers 7 percent of the fixed 1 billion PREDICT supply, with 16 percent unlocking at TGE, and the claim-option form deadline moved to 09:00 UTC the day before the token goes live, so the selection window stays open until TGE. Binance Wallet says users who do not want to wait can apply for a refund. Honest caveat: the team gave no reason beyond the delay itself, and prediction-market odds on a launch by Nov 30 fell to about 11 percent after the announcement.",
-      "angle": "The launch that was supposed to happen today is not happening: Predict.fun pushed its token launch a second time, hours before go-live. Lead with the correction, the Nov 18 date on the board is now wrong, then the practical bit, the claim window stays open and refunds are offered to anyone who does not want to wait, and ask followers what a twice-delayed launch does to trust before a token even exists.",
-      "tags": [
-        "predict.fun",
-        "predict",
-        "tge",
-        "airdrop",
-        "binance alpha",
-        "delay"
-      ],
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-18",
       "manual": true
     },
@@ -2277,23 +2080,6 @@
       "angle": "",
       "score": 67,
       "published_at": "2026-11-23",
-      "discovered_at": "2026-11-24",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-github-activity-h4nzs-nyx-chat",
-      "title": "GitHub activity: h4nzs/nyx-chat",
-      "project": "h4nzs/nyx-chat",
-      "source": "GitHub Search",
-      "source_type": "api",
-      "url": "https://github.com/h4nzs/nyx-chat",
-      "category": "Privacy",
-      "type": "Release",
-      "summary": "Zero-Knowledge E2EE Post-Quantum Messenger. Anonymous architecture, no PII, powered by Signal Protocol SPQR & WebAssembly.",
-      "angle": "",
-      "score": 52,
-      "published_at": "2026-11-17",
       "discovered_at": "2026-11-24",
       "manual": false,
       "tags": []
