@@ -1,6 +1,98 @@
 {
   "signals": [
     {
+      "id": "bittensor-runtime-495-governance-commitment-2026-11-25",
+      "title": "Bittensor ships runtime 495 and, after a day of backlash, commits to formal governance for sudo-level changes",
+      "project": "Bittensor",
+      "source": "Bittensor Daily",
+      "source_type": "newsletter",
+      "url": "https://www.1t1b.ai/2026-11-25/",
+      "category": "AI",
+      "type": "Project Watch",
+      "score": 74,
+      "summary": "Runtime spec 495 went live on Nov 24, moving from spec 494 at block 9,578,574. It adds per-mechanism commitments, raises Null-consensus mechanisms from 8 to 16 with the UID budget independent of mechanism count and a per-row weight cap, stops Gamma emission deposits from opening paused mechanisms, and sizes root claims per validator's own fund, with funds on up to 256 subnets. The bigger story is governance: after a full day of community backlash over the Nov 23 subnet cap rise from 128 to 160 and the emission gate move from rank 32 to 48, the team committed to formalising sudo-level changes through GitHub merges tied to the chain, with a dedicated Discord discussion channel. Honest caveat: on-chain enforcement of any delay has not been confirmed, so the commitment is a process promise, not a code guarantee yet.",
+      "angle": "A chain that changes its own economics by sudo just promised to stop doing it that way: explain what runtime 495 actually changes, what the Nov 23 cap rise did, and why the governance promise is the real test.",
+      "tags": [
+        "Bittensor",
+        "TAO",
+        "governance",
+        "runtime",
+        "subnet"
+      ],
+      "published_at": "2026-11-25",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "binance-bstocks-ibitb-tokenized-securities-2026-11-25",
+      "title": "Binance lists five bStocks tokenized securities, including BlackRock's Bitcoin ETF, on spot",
+      "project": "Binance",
+      "source": "Binance Square",
+      "source_type": "exchange",
+      "url": "https://www.binance.com/en/square/post/391930721358246",
+      "category": "Listings & Markets",
+      "type": "Update",
+      "score": 64,
+      "summary": "Binance opened spot trading on Nov 25 at 12:00 UTC for five bStocks tokenized securities, ARTYB, FRHCB, IBITB, IGVB and SOXXB, including a tokenized BlackRock Bitcoin ETF, with withdrawals from 13:00 UTC. The tokens run on BNB Smart Chain, were added as margin collateral with borrowing not supported, and a zero maker-fee promotion runs to Dec 31, 2026. Honest caveat: bStocks are tokenized securities, not the underlying shares themselves, and they are not offered to US persons, so holders should check the issuer terms before treating them as equivalent to the share.",
+      "angle": "Tokenized stocks hit the biggest exchange, and the Bitcoin ETF is the headline: explain what a bStock is, why Binance listed the IBIT token, and what the holder actually owns.",
+      "tags": [
+        "Binance",
+        "bStocks",
+        "tokenized securities",
+        "IBIT",
+        "listing"
+      ],
+      "published_at": "2026-11-25",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "triforge-free-mint-agent-id-2026-11-25",
+      "title": "TRIFORGE opens a free Agent ID mint, 3,333 Forge Keys each claiming 25,000,000 TRIFORGE",
+      "project": "TRIFORGE",
+      "source": "TRIFORGE",
+      "source_type": "project",
+      "url": "https://triforge.fun/",
+      "category": "NFTs",
+      "type": "Update",
+      "score": 55,
+      "summary": "TRIFORGE opened its free Agent ID mint on Nov 25 at 02:01 UTC, gas only, with 3,333 Forge Keys. Each key claims 25,000,000 TRIFORGE once claims open at launch, and the mint closes Dec 2, 2026. The contract was verified on chain against its Sourcify-published source, and agentboard.ai reported 365 keys minted by 12:22 UTC on Nov 25, so the free lane was moving fast. Honest caveats: the token is unpriced with a 1 trillion total supply, a 6,666-share presale at 0.003 BNB runs alongside the free lane, there is a 2 percent trading tax, claimed tokens are tradable only 7 days after the pool opens, and the project is brand new with no audit mentioned, so this is a free gas-only flag, not a recommendation.",
+      "angle": "A free Agent ID mint with a big claim number attached: explain what the Forge Key actually claims, why the 25 million number means little before a pool exists, and the checks to run before spending gas.",
+      "tags": [
+        "TRIFORGE",
+        "Agent ID",
+        "free mint",
+        "Forge Key",
+        "BNB Chain"
+      ],
+      "published_at": "2026-11-25",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
+      "id": "gemini-shielded-zcash-deposits-2026-11-24",
+      "title": "Gemini now takes shielded Zcash deposits, the first major exchange with shielded deposits and withdrawals",
+      "project": "Zcash",
+      "source": "Gemini Blog",
+      "source_type": "blog",
+      "url": "https://www.gemini.com/blog/shielded-zcash-deposits-are-now-available-on-gemini",
+      "category": "Privacy",
+      "type": "Project Watch",
+      "score": 84,
+      "summary": "Gemini announced on Nov 24 that customers can now deposit ZEC to a shielded Unified Address. Combined with shielded withdrawals via Ironwood, which Gemini rolled out in summer 2026, Gemini says it is the first major exchange to support shielded Zcash in both directions. Shielded transfers hide the sender, recipient and amount on the public chain. Honest caveat, from Gemini's own blog: shielded transfers protect details on the public chain but do not guarantee anonymity from Gemini itself, which still sees the deposit.",
+      "angle": "The on-ramp and the off-ramp are both shielded now: explain what a shielded deposit actually hides, what it does not hide from the exchange, and why a major exchange shipping this in both directions matters for private payments.",
+      "tags": [
+        "Zcash",
+        "Gemini",
+        "shielded",
+        "privacy",
+        "exchange"
+      ],
+      "published_at": "2026-11-24",
+      "discovered_at": "2026-11-25",
+      "manual": true
+    },
+    {
       "id": "google-workspace-mcp-servers-ga-2026-11-24",
       "title": "Google Workspace MCP servers go live, and agents must use them instead of APIs from February",
       "project": "Google Workspace",

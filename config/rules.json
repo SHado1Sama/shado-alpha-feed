@@ -112,7 +112,8 @@
     "OpenRouter",
     "Sui",
     "Pieverse",
-    "Nous Research"
+    "Nous Research",
+    "TRIFORGE"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -293,6 +294,7 @@
     "OpenRouter": "Privacy",
     "Sui": "Agentic Wallet",
     "Pieverse": "Privacy",
-    "Nous Research": "AI"
+    "Nous Research": "AI",
+    "TRIFORGE": "Agentic Wallet"
   }
 }
