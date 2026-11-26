@@ -1,6 +1,23 @@
 {
   "opportunities": [
     {
+      "id": "bifu-ai-video-contest-season-1",
+      "title": "BiFu AI Video Contest Season 1, $18,888 grand prize for an AI video on BiFu Wealth, to Dec 9",
+      "type": "Campaign",
+      "project": "BiFu",
+      "deadline": "2026-12-09",
+      "effort": "Medium",
+      "fit_score": 45,
+      "reward_text": "Grand Prize $18,888 x1, Center Stage $1,888 x10, Team Lineup $200 x50, Rising Star $100 x100. 161 cash prizes, $500,000 pool across 8 seasons. Contest, only entries reaching the score threshold are paid",
+      "reward_usd_est": 18888,
+      "source": "BiFu official blog, contest guide published 2026-11-25, checked 2026-11-26, Season 1 open Nov 20 to Dec 9, 2026",
+      "summary": "BiFu, a multi-asset trading platform covering crypto, forex, real-world assets, commodities and prediction markets, is paying for AI videos in Season 1 of its AI Video Contest, Nov 20 to Dec 9, 2026. Make an AI-generated video of at least 20 seconds centred on a BiFu Wealth product, Flexible Earn, Stellar, Monthly Income or 30-Day Fixed-Term Wealth, post it publicly on X or another social account with the required hashtags, complete the official registration form and comment under the official announcement post. Prizes are gated by score: 98 points for the $18,888 Grand Prize, 95 for the $1,888 Center Stage awards, 85 for $200 and 70 for $100, with 60 percent official judging and 40 percent online performance. A participation draw offers 30 prizes of 50 USDT in trial credits, not cash. Honest fit: AI video is your current format and the 20 second minimum is light, but the theme is a trading platform's wealth products, off the Privacy x AI niche, 40 percent of the score is online performance, which works against a 2,500 follower page, and the grand prize needs a near-perfect 98.",
+      "requirements": "Make an original AI-generated video of at least 20 seconds centred on a BiFu Wealth product. Post it publicly on X, Douyin or Xiaohongshu with the required hashtags. Complete the official registration form with the video links and contact details, and comment under the official announcement post. No fee to enter. Referrals earn $5 USDT each.",
+      "published_at": "2026-11-25",
+      "url": "https://www.bifu.co/blog/how-to-claim-your-bifu-ai-video-contest-prize-grand-prize-18888",
+      "manual": true
+    },
+    {
       "id": "superteam-swapio-x402-video-bounty",
       "title": "Swap.io x402 video bounty, $500 USDC for a 60 to 120 second video pitching one agent use case",
       "type": "Bounty",
@@ -112,10 +129,10 @@
       "fit_score": 35,
       "reward_text": "1st $125, 2nd $75, 3rd $50. $250 USDC total. Contest, only placed entries are paid",
       "reward_usd_est": 125,
-      "source": "Superteam Earn listing, published 2026-11-24, checked 2026-11-26, submissions open, second round after the first closed with winners announced",
+      "source": "Superteam Earn listing, published 2026-11-26, checked 2026-11-26, submissions open, second round after the first closed with winners announced",
       "summary": "Burnie AI re-listed its Roast-a-Repo bounty on Superteam Earn on Nov 24, a second round after the first closed with winners announced. Roast a developer's GitHub repo on X by tagging @Burnieio with the repo link and the roastee, follow Burnie and join its Telegram, and the best roasts win $125, $75 or $50 USDC. Signing up on burnie.io also qualifies you for a pre-launch airdrop. Honest fit: the task is pure X posting and the effort is tiny, but the reward is small, the judging rewards the number and quality of roasts and the follower counts of the developers roasted, and a repo-roasting bot sits well outside the Privacy x AI core, so treat it as a quick side entry, not a headline earner.",
       "requirements": "Roast a GitHub repo on X: tag @Burnieio, share the repo link and tag the roastee. Follow Burnie on X and join the Telegram community. Sign up on burnie.io for the pre-launch airdrop. No fee, deposit or purchase to enter.",
-      "published_at": "2026-11-24",
+      "published_at": "2026-11-26",
       "url": "https://superteam.fun/earn/listing/tweet-and-roast-a-github-repo-earn-airdrops-2",
       "manual": true
     },
@@ -146,7 +163,7 @@
       "fit_score": 30,
       "reward_text": "Top prizes $200,000, $150,000 and $100,000, 2 Audience Choice $50,000 each, 15 category awards $30,000 each. $1,000,000 total cash, 20 awards. Contest, only winners are paid",
       "reward_usd_est": 30000,
-      "source": "Higgsfield official contest page, checked 2026-11-26, entries open, closes Nov 26 5:00 PM UTC",
+      "source": "Higgsfield official contest page, checked 2026-11-26 evening via live read, entries open, closes Nov 26 5:00 PM UTC",
       "summary": "Higgsfield is paying $1,000,000 in cash for original AI films: 20 awards, top prizes of $200,000, $150,000 and $100,000, two $50,000 Audience Choice awards and fifteen $30,000 category awards. Make an original 3 to 7 minute film on any theme, entirely inside a dedicated contest project on higgsfield.ai between Nov 12 and Nov 26 5:00 PM UTC, submit it with a public YouTube link, and winners are announced Dec 3. Entry is free and no paid plan is required to enter, compete or win, but every generation inside the project costs credits, so a free account's credit balance limits how much footage you can make. Honest fit: your video craft is the fit, but this is a full short film in 5 days, not a quick bounty, and only 20 of all entries worldwide are paid, so this is a long shot, enter only if a film idea is already burning.",
       "requirements": "18 or older. Higgsfield account in your own name, free or paid. Create an original 3 to 7 minute film on any theme inside a dedicated Talent Contest project on higgsfield.ai, Nov 12 to Nov 26, 2026. AI images and video must be generated inside the project; music, voices, dialogue and lip-sync must be AI-generated. Submit with a public YouTube video link viewable without login until winners are announced. Entry is free, no paid plan required, but generations cost credits. Winners announced Dec 3.",
       "published_at": "2026-11-12",
