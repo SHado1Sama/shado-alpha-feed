@@ -114,7 +114,8 @@
     "Pieverse",
     "Nous Research",
     "TRIFORGE",
-    "Phala"
+    "Phala",
+    "SolidPool"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -297,6 +298,7 @@
     "Pieverse": "Privacy",
     "Nous Research": "AI",
     "TRIFORGE": "Agentic Wallet",
-    "Phala": "Privacy"
+    "Phala": "Privacy",
+    "SolidPool": "Privacy"
   }
 }
