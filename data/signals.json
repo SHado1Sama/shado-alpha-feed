@@ -1723,6 +1723,23 @@
       "tags": []
     },
     {
+      "id": "auto-could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+      "title": "Could AI Break Bitcoin? Not Yet, Research Firm K33 Says",
+      "project": "",
+      "source": "Decrypt",
+      "source_type": "news",
+      "url": "https://decrypt.co/384218/could-ai-break-bitcoin-not-yet-research-firm-k33-says",
+      "category": "AI",
+      "type": "News",
+      "summary": "A draft AI-assisted proof of the Riemann Hypothesis renewed worries about the math securing Bitcoin, but K33 says no cryptographic compromise has been demonstrated.",
+      "angle": "",
+      "score": 53,
+      "published_at": "2026-11-27",
+      "discovered_at": "2026-11-27",
+      "manual": false,
+      "tags": []
+    },
+    {
       "id": "auto-ai-powered-gta-6-pc-ports-now-have-multiplayer-as-modders-un",
       "title": "AI-Powered GTA 6 PC Ports Now Have Multiplayer as Modders Unlock 30 and 60 FPS",
       "project": "",
@@ -1969,7 +1986,7 @@
       "url": "https://www.coingecko.com/en/coins/portal-2",
       "category": "Web3",
       "type": "News",
-      "summary": "Portal is in CoinGecko's top trending searches in the last 24 hours, rank #512.",
+      "summary": "Portal is in CoinGecko's top trending searches in the last 24 hours, rank #504.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-27",
@@ -1986,7 +2003,7 @@
       "url": "https://www.coingecko.com/en/coins/pumpchan",
       "category": "Web3",
       "type": "News",
-      "summary": "PumpChan is in CoinGecko's top trending searches in the last 24 hours, rank #876.",
+      "summary": "PumpChan is in CoinGecko's top trending searches in the last 24 hours, rank #869.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-27",
@@ -2003,7 +2020,7 @@
       "url": "https://www.coingecko.com/en/coins/zylo-ecosystem",
       "category": "Web3",
       "type": "News",
-      "summary": "Zylo Ecosystem is in CoinGecko's top trending searches in the last 24 hours, rank #723.",
+      "summary": "Zylo Ecosystem is in CoinGecko's top trending searches in the last 24 hours, rank #719.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-27",
@@ -2012,17 +2029,34 @@
       "tags": []
     },
     {
-      "id": "auto-trending-on-coingecko-zcash-zec",
-      "title": "Trending on CoinGecko: Zcash (ZEC)",
+      "id": "auto-trending-on-coingecko-bitcoin-btc",
+      "title": "Trending on CoinGecko: Bitcoin (BTC)",
       "project": "",
       "source": "CoinGecko Trending",
       "source_type": "api",
-      "url": "https://www.coingecko.com/en/coins/zcash",
-      "category": "Privacy",
+      "url": "https://www.coingecko.com/en/coins/bitcoin",
+      "category": "Web3",
       "type": "News",
-      "summary": "Zcash is in CoinGecko's top trending searches in the last 24 hours, rank #11.",
+      "summary": "Bitcoin is in CoinGecko's top trending searches in the last 24 hours, rank #1.",
       "angle": "",
-      "score": 63,
+      "score": 40,
+      "published_at": "2026-11-27",
+      "discovered_at": "2026-11-27",
+      "manual": false,
+      "tags": []
+    },
+    {
+      "id": "auto-trending-on-coingecko-hyperliquid-hype",
+      "title": "Trending on CoinGecko: Hyperliquid (HYPE)",
+      "project": "",
+      "source": "CoinGecko Trending",
+      "source_type": "api",
+      "url": "https://www.coingecko.com/en/coins/hyperliquid",
+      "category": "Web3",
+      "type": "News",
+      "summary": "Hyperliquid is in CoinGecko's top trending searches in the last 24 hours, rank #10.",
+      "angle": "",
+      "score": 40,
       "published_at": "2026-11-27",
       "discovered_at": "2026-11-27",
       "manual": false,
@@ -2038,23 +2072,6 @@
       "category": "Web3",
       "type": "News",
       "summary": "Monero is in CoinGecko's top trending searches in the last 24 hours, rank #14.",
-      "angle": "",
-      "score": 40,
-      "published_at": "2026-11-27",
-      "discovered_at": "2026-11-27",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-trending-on-coingecko-pearl-pearl",
-      "title": "Trending on CoinGecko: Pearl (PEARL)",
-      "project": "",
-      "source": "CoinGecko Trending",
-      "source_type": "api",
-      "url": "https://www.coingecko.com/en/coins/pearl-2",
-      "category": "Web3",
-      "type": "News",
-      "summary": "Pearl is in CoinGecko's top trending searches in the last 24 hours, rank #84.",
       "angle": "",
       "score": 40,
       "published_at": "2026-11-27",
@@ -2114,6 +2131,23 @@
       "tags": []
     },
     {
+      "id": "auto-trending-nft-collection-pudgy-penguins",
+      "title": "Trending NFT collection: Pudgy Penguins",
+      "project": "",
+      "source": "CoinGecko Trending",
+      "source_type": "api",
+      "url": "https://www.coingecko.com/en/nft",
+      "category": "NFTs",
+      "type": "News",
+      "summary": "Pudgy Penguins is trending among NFT collections on CoinGecko.",
+      "angle": "",
+      "score": 46,
+      "published_at": "2026-11-27",
+      "discovered_at": "2026-11-27",
+      "manual": false,
+      "tags": []
+    },
+    {
       "id": "auto-trending-nft-collection-bored-ape-yacht-club",
       "title": "Trending NFT collection: Bored Ape Yacht Club",
       "project": "",
@@ -2123,23 +2157,6 @@
       "category": "NFTs",
       "type": "News",
       "summary": "Bored Ape Yacht Club is trending among NFT collections on CoinGecko.",
-      "angle": "",
-      "score": 46,
-      "published_at": "2026-11-27",
-      "discovered_at": "2026-11-27",
-      "manual": false,
-      "tags": []
-    },
-    {
-      "id": "auto-trending-nft-collection-mutant-ape-yacht-club",
-      "title": "Trending NFT collection: Mutant Ape Yacht Club",
-      "project": "",
-      "source": "CoinGecko Trending",
-      "source_type": "api",
-      "url": "https://www.coingecko.com/en/nft",
-      "category": "NFTs",
-      "type": "News",
-      "summary": "Mutant Ape Yacht Club is trending among NFT collections on CoinGecko.",
       "angle": "",
       "score": 46,
       "published_at": "2026-11-27",
@@ -2324,23 +2341,23 @@
       ]
     },
     {
-      "id": "auto-aztec-release-bb-boost-v6-1-0-boost-1",
-      "title": "Aztec release: bb-boost v6.1.0-boost.1",
+      "id": "auto-aztec-dev-activity-chicmoz",
+      "title": "Aztec dev activity: chicmoz",
       "project": "Aztec",
       "source": "GitHub Project Watch",
       "source_type": "github",
-      "url": "https://github.com/AztecProtocol/bb-boost/releases/tag/v6.1.0-boost.1",
+      "url": "https://github.com/AztecProtocol/chicmoz",
       "category": "Privacy",
       "type": "Project Watch",
-      "summary": "v6.1.0-boost.1. bb and bb-avm (amd64 linux, glibc 2.35+) built from eb054124f0c70937d5db3401fad980a09f640d8f.",
+      "summary": "Aztecscan - the Aztec block explorer.",
       "angle": "",
-      "score": 78,
+      "score": 70,
       "published_at": "2026-11-27",
       "discovered_at": "2026-11-27",
       "manual": false,
       "tags": [
         "aztec",
-        "release"
+        "development"
       ]
     },
     {
@@ -2404,26 +2421,6 @@
       ]
     },
     {
-      "id": "auto-prime-intellect-release-prime-rl-v0-11-0",
-      "title": "Prime Intellect release: prime-rl v0.11.0",
-      "project": "Prime Intellect",
-      "source": "GitHub Project Watch",
-      "source_type": "github",
-      "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.11.0",
-      "category": "AI",
-      "type": "Project Watch",
-      "summary": "v0.11.0. _**285 commits** from **25 contributors** (6 new) since [v0.10.0](https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.10.0)._\n\n> [!IMPORTANT]\n> This release has breaking changes. Read [Breaking Changes](#breaking-changes) before upgrading.\n\n## Top Features\n\n* **[IcePop score centering](#2-rl-algorithms-and-off-policy-control)**: `trainer.loss.score_centering ",
-      "angle": "",
-      "score": 78,
-      "published_at": "2026-11-22",
-      "discovered_at": "2026-11-27",
-      "manual": false,
-      "tags": [
-        "prime intellect",
-        "release"
-      ]
-    },
-    {
       "id": "auto-near-ai-release-nearai-red-sandbox-attestation-policy",
       "title": "NEAR AI release: nearai-red-sandbox attestation-policy",
       "project": "NEAR AI",
@@ -2441,6 +2438,46 @@
       "tags": [
         "near ai",
         "release"
+      ]
+    },
+    {
+      "id": "auto-coinbase-agentkit-dev-activity-agentkit",
+      "title": "Coinbase AgentKit dev activity: agentkit",
+      "project": "Coinbase AgentKit",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/coinbase/agentkit",
+      "category": "Agentic Wallet",
+      "type": "Project Watch",
+      "summary": "Every AI Agent deserves a wallet.",
+      "angle": "",
+      "score": 70,
+      "published_at": "2026-11-25",
+      "discovered_at": "2026-11-27",
+      "manual": false,
+      "tags": [
+        "coinbase agentkit",
+        "development"
+      ]
+    },
+    {
+      "id": "auto-crossmint-dev-activity-crossmint-sdk",
+      "title": "Crossmint dev activity: crossmint-sdk",
+      "project": "Crossmint",
+      "source": "GitHub Project Watch",
+      "source_type": "github",
+      "url": "https://github.com/Crossmint/crossmint-sdk",
+      "category": "Agentic Wallet",
+      "type": "Project Watch",
+      "summary": "Crossmint SDK for client and server integrations",
+      "angle": "",
+      "score": 70,
+      "published_at": "2026-11-27",
+      "discovered_at": "2026-11-27",
+      "manual": false,
+      "tags": [
+        "crossmint",
+        "development"
       ]
     }
   ]
