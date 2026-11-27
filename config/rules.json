@@ -113,7 +113,8 @@
     "Sui",
     "Pieverse",
     "Nous Research",
-    "TRIFORGE"
+    "TRIFORGE",
+    "Phala"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -295,6 +296,7 @@
     "Sui": "Agentic Wallet",
     "Pieverse": "Privacy",
     "Nous Research": "AI",
-    "TRIFORGE": "Agentic Wallet"
+    "TRIFORGE": "Agentic Wallet",
+    "Phala": "Privacy"
   }
 }
