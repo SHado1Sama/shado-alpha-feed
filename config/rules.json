@@ -115,7 +115,10 @@
     "Nous Research",
     "TRIFORGE",
     "Phala",
-    "SolidPool"
+    "SolidPool",
+    "TrueLayer",
+    "Hugging Face",
+    "Google DeepMind"
   ],
   "project_watchlists": {
     "Privacy": [
@@ -299,6 +302,9 @@
     "Nous Research": "AI",
     "TRIFORGE": "Agentic Wallet",
     "Phala": "Privacy",
-    "SolidPool": "Privacy"
+    "SolidPool": "Privacy",
+    "TrueLayer": "Agentic Wallet",
+    "Hugging Face": "AI",
+    "Google DeepMind": "AI"
   }
 }
